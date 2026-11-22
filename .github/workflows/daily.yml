@@ -77,6 +77,14 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           JUDGE_MODEL: google/gemini-2.5-flash-lite
         run: python -u scripts/daily_update.py
+      - name: Decision forecast
+        # refreshes oil/Fed/USDCAD and the MPR projection tables, codes new documents
+        # for forward guidance, re-runs the backtest and writes site/decision_forecast.json;
+        # a failure leaves yesterday's forecast in place
+        continue-on-error: true
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python -u scripts/decision_forecast.py --refresh
       - name: Commit updated state and data
         # a rejected commit (e.g. corpus.jsonl outgrowing GitHub's file limit) is
         # a state problem, not a reason to stop publishing the site
@@ -85,6 +93,7 @@ jobs:
           git config user.name "boclock-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/processed/corpus.jsonl data/processed/tournament_log.jsonl site/data.json site/macro.json
+          git add data/processed/guidance_codes.json data/processed/forecast_inputs.json site/decision_forecast.json || true
           git add -u data/processed      # stages a consumed backfill request's removal
           git commit -m "daily update $(date -u +%F)" || echo "no changes to commit"
           # main may have moved during the run (e.g. a code push); rebase onto it
