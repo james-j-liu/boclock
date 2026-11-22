@@ -78,6 +78,7 @@
   <button data-tab="rankings">Rankings</button>
   <button data-tab="speaker">Speaker Detail</button>
   <button data-tab="data">Data</button>
+  <button data-tab="datampr">Data vs MPR</button>
   <button data-tab="forecast">Decision forecast</button>
   <button data-tab="methodology">Methodology</button>
   <div style="margin-left:auto;display:flex;align-items:center;gap:16px;padding:6px 12px;">
@@ -156,6 +157,22 @@
       <span id="dt-info"></span>
     </div>
     <div id="dt-wrap"><table id="dt-table"></table></div>
+  </section>
+
+  <section id="datampr" class="hidden">
+    <div class="controls" style="display:flex;gap:18px;flex-wrap:wrap;color:var(--mut);font-size:13px;margin-bottom:10px">
+      <label>From <select id="dm-from"><option value="2017-01">2017</option><option value="2019-01">2019</option>
+        <option value="2021-01" selected>2021</option><option value="2023-01">2023</option><option value="2025-01">2025</option></select></label>
+      <label>Reports shown <select id="dm-n"><option>4</option><option selected>8</option><option>16</option><option value="99">all</option></select></label>
+      <label><input type="checkbox" id="dm-core" checked> CPI-trim and CPI-median</label>
+    </div>
+    <div class="fc-grid">
+      <div class="card"><h3>Latest CPI release vs the Bank's projection</h3><div id="dm-latest"></div></div>
+      <div class="card"><h3>CPI inflation: outturns and each MPR's quarterly projections</h3><div id="dm-plot" style="height:430px"></div>
+        <p class="note">Monthly CPI (y/y) and its quarterly averages, with each Monetary Policy Report's projection for the quarters of its year as dotted lines (older reports bluer, newer redder). Core measures are shown for context; the MPR table does not project them. Source: Statistics Canada via the Bank of Canada's Valet API; MPR summary tables.</p></div>
+      <div class="card"><h3>Surprise at each CPI release (outturn minus the latest Report's projection for that quarter)</h3><div id="dm-bars" style="height:300px"></div></div>
+      <div class="card"><h3>How each quarter's projection evolved</h3><div class="scroll" id="dm-q"></div></div>
+    </div>
   </section>
 
   <section id="forecast" class="hidden">
@@ -793,17 +810,61 @@ function renderForecast(){
   root.innerHTML=h;
 }
 
+// ---------------- Data vs MPR tab ----------------
+let DM=null;
+const qMid=q=>{const y=q.slice(0,4), n=+q.slice(5); return y+"-"+String(3*n-1).padStart(2,"0")+"-15";};
+const pD=p=>new Date(Date.UTC(+p.slice(0,4),+p.slice(5,7)-1,1)).toLocaleDateString("en-GB",{month:"short",year:"numeric",timeZone:"UTC"});
+const rLab=d=>new Date(d+"T00:00:00Z").toLocaleDateString("en-GB",{month:"short",year:"numeric",timeZone:"UTC"})+" MPR";
+function renderDataMpr(){
+  if(!DM){ fetch("data_vs_mpr.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})
+     .then(j=>{DM=j;renderDataMpr();}).catch(e=>{document.getElementById("dm-latest").innerHTML='<div class="note">No data yet ('+esc2(e)+'). It is written by the daily run.</div>';}); return; }
+  const from=document.getElementById("dm-from").value, nrep=+document.getElementById("dm-n").value, core=document.getElementById("dm-core").checked;
+  const r=DM.releases[DM.releases.length-1];
+  let h='<table class="t"><thead><tr><th class="l">CPI (y/y)</th><th>Released</th><th>Outturn</th><th>Projected for the quarter</th><th>Difference</th><th>Surprise (z)</th><th class="l">Projection from</th></tr></thead><tbody>';
+  if(r) h+='<tr><td class="l">'+pD(r.period)+'</td><td>'+fD(r.released)+'</td><td>'+r.actual.toFixed(1)+'%</td><td>'+r.expected.toFixed(1)+'%</td><td class="'+(r.diff>0?"pos":"neg")+'">'+(r.diff>0?"+":"")+r.diff.toFixed(1)+'pp</td><td class="'+(r.z>0?"pos":"neg")+'">'+(r.z>0?"+":"")+r.z.toFixed(2)+'</td><td class="l note">'+rLab(r.mpr)+'</td></tr>';
+  const t=DM.trim[DM.trim.length-1], m=DM.median[DM.median.length-1];
+  h+='</tbody></table><p class="note">Core: CPI-trim '+(t?t[1].toFixed(1)+'% ('+pD(t[0])+')':'—')+', CPI-median '+(m?m[1].toFixed(1)+'%':'—')+'. '+
+     (DM.upcoming.length?'Still to come in the '+rLab(DM.latest_mpr)+': '+DM.upcoming.map(u=>u.quarter+' '+u.proj.toFixed(1)+'%').join(", ")+'.':'')+
+     ' Positive z = inflation above what the Bank projected; one unit = 0.3pp.</p>';
+  document.getElementById("dm-latest").innerHTML=h;
+  const L={paper_bgcolor:"rgba(0,0,0,0)",plot_bgcolor:"rgba(0,0,0,0)",font:{color:"#8b949e",family:"JetBrains Mono, monospace",size:11},
+    margin:{l:50,r:10,t:10,b:40},xaxis:{gridcolor:"#21262d"},yaxis:{gridcolor:"#21262d",title:"% y/y",zeroline:false},legend:{orientation:"h",y:-0.15},hovermode:"x unified"};
+  const cpi=DM.cpi.filter(([p])=>p>=from);
+  const tr=[{x:cpi.map(o=>o[0]+"-01"),y:cpi.map(o=>o[1]),name:"CPI",mode:"lines",line:{color:"#e6edf3",width:2}},
+    {x:DM.quarterly.filter(([q])=>q>=from.slice(0,4)).map(o=>qMid(o[0])),y:DM.quarterly.filter(([q])=>q>=from.slice(0,4)).map(o=>o[1]),name:"Quarterly average",mode:"markers",marker:{color:"#e6edf3",size:8,symbol:"circle-open"}}];
+  if(core){ for(const [k,col] of [["trim","#7ec699"],["median","#c9a0dc"]]){ const d=DM[k].filter(([p])=>p>=from);
+    tr.push({x:d.map(o=>o[0]+"-01"),y:d.map(o=>o[1]),name:"CPI-"+k,mode:"lines",line:{color:col,width:1.2}}); } }
+  const reps=DM.reports.filter(r=>r.date>=from).slice(-nrep);
+  reps.forEach((rp,i)=>{ const a=reps.length>1?i/(reps.length-1):1;
+    const col="rgba("+Math.round(68+156*a)+","+Math.round(119-26*a)+","+Math.round(170-102*a)+",0.95)";
+    tr.push({x:rp.points.map(q=>qMid(q[0])),y:rp.points.map(q=>q[1]),name:rLab(rp.date),mode:"lines+markers",line:{color:col,dash:"dot",width:1.6},marker:{size:6,symbol:"diamond"}}); });
+  if(window.Plotly) Plotly.react("dm-plot",tr,L,{displayModeBar:false,responsive:true});
+  const rel=DM.releases.filter(r=>r.period>=from);
+  if(window.Plotly) Plotly.react("dm-bars",[{x:rel.map(r=>r.period+"-01"),y:rel.map(r=>r.diff),type:"bar",marker:{color:rel.map(r=>r.diff>0?"#e05d44":"#4477aa")},
+     hovertext:rel.map(r=>pD(r.period)+": "+r.actual.toFixed(1)+"% vs "+r.expected.toFixed(1)+"% projected ("+rLab(r.mpr)+")"),hoverinfo:"text"}],
+     {...L,yaxis:{gridcolor:"#21262d",title:"pp",zeroline:true,zerolinecolor:"#8b949e"},showlegend:false,hovermode:"closest"},{displayModeBar:false,responsive:true});
+  const qs=DM.quarters.filter(q=>q.quarter>=from.slice(0,4)).slice().reverse();
+  let qh='<table class="t"><thead><tr><th class="l">Quarter</th><th>Outturn (avg)</th><th class="l">Projections, oldest → newest Report</th><th>First projection</th><th>Outturn minus first projection</th></tr></thead><tbody>';
+  for(const q of qs){
+    const ref=q.projections.length?q.projections[0]:null;
+    const err=q.outturn!=null&&ref?q.outturn-ref.proj:null;
+    qh+='<tr><td class="l">'+q.quarter+'</td><td>'+(q.outturn!=null?q.outturn.toFixed(1)+'%':'<span class="note">not yet</span>')+'</td><td class="l">'+q.projections.map(p=>'<span title="'+rLab(p.mpr)+'">'+p.proj.toFixed(1)+'%</span>').join(" → ")+'</td><td>'+(ref?ref.proj.toFixed(1)+'% <span class="note">('+rLab(ref.mpr)+')</span>':'<span class="note">—</span>')+'</td><td class="'+(err==null?"":err>0?"pos":"neg")+'">'+(err==null?'':(err>0?"+":"")+err.toFixed(1)+'pp')+'</td></tr>'; }
+  document.getElementById("dm-q").innerHTML=qh+'</tbody></table><p class="note">Each Report\'s table covers the quarters of its year that are under way or just ahead, and later Reports restate quarters as data arrive, so the error is measured against the first projection made for each quarter. The April–October 2025 Reports gave scenarios rather than a base-case table during the tariff uncertainty, so they contribute no projections.</p>';
+}
+["dm-from","dm-n","dm-core"].forEach(id=>document.getElementById(id).onchange=renderDataMpr);
+
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
   document.querySelectorAll("nav button").forEach(x=>x.classList.remove("active"));
   b.classList.add("active");
   const tab=b.dataset.tab;
-  for(const s of ["timeline","rankings","speaker","data","forecast","methodology"])
+  for(const s of ["timeline","rankings","speaker","data","datampr","forecast","methodology"])
     document.getElementById(s).classList.toggle("hidden",s!==tab);
   if(tab==="timeline")renderTimeline();
   if(tab==="rankings")renderRankings();
   if(tab==="speaker")renderSpeaker();
   if(tab==="data")renderData();
   if(tab==="forecast")renderForecast();
+  if(tab==="datampr")renderDataMpr();
 });
 document.getElementById("dt-set").onchange=renderData;
 document.getElementById("dt-copy").onclick=()=>navigator.clipboard.writeText(dtText("\t")).then(()=>{

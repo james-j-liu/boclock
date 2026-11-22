@@ -93,7 +93,7 @@ jobs:
           git config user.name "boclock-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/processed/corpus.jsonl data/processed/tournament_log.jsonl site/data.json site/macro.json
-          git add data/processed/guidance_codes.json data/processed/forecast_inputs.json site/decision_forecast.json || true
+          git add data/processed/guidance_codes.json data/processed/forecast_inputs.json site/decision_forecast.json site/data_vs_mpr.json || true
           git add -u data/processed      # stages a consumed backfill request's removal
           git commit -m "daily update $(date -u +%F)" || echo "no changes to commit"
           # main may have moved during the run (e.g. a code push); rebase onto it

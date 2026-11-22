@@ -133,6 +133,8 @@ def main():
                      "calls": calls},
     }
     (ROOT / "site/decision_forecast.json").write_text(json.dumps(out, indent=1), encoding="utf-8")
+    from boclock.forecast.data_vs_mpr import build as build_dvm
+    (ROOT / "site/data_vs_mpr.json").write_text(json.dumps(build_dvm(ctx)), encoding="utf-8")
     print(f"next announcement {nxt} (as of {asof}): " +
           ", ".join(f"{LABELS[k]} {v:.0%}" for k, v in sorted(probs.items()) if v >= 0.005))
 
