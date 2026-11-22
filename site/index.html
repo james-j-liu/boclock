@@ -763,7 +763,7 @@ const bpL=b=>{b=+b; return b===0?"Hold":(b>0?"Hike ":"Cut ")+Math.abs(b)+"bp";};
 const pc=(x,d=0)=>x==null?"—":(100*x).toFixed(d)+"%";
 const oCol=b=>{b=+b; return b>0?(b>=50?"#b8432f":"#e05d44"):(b<0?(b<=-50?"#2f5d8a":"#4477aa"):"#6e7681");};
 const fD=d=>{ if(!d) return "—"; return new Date(d+"T00:00:00Z").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric",timeZone:"UTC"}); };
-const FL={council_level:"Council's own words (level)",council_gap:"Council's words vs last decision",member_level:"Members' speeches",
+const FL={first_move:"First move of a cycle",run_len:"Run length",paused_after_move:"Paused after a move",council_level:"Council's own words (level)",council_gap:"Council's words vs last decision",member_level:"Members' speeches",
   surprise:"CPI vs MPR + core",oil:"Oil (WTI)",fed:"Fed",fx:"Canadian dollar",pace:"Cycle pace",moved_last:"Moved last time",mpr_x_pace:"MPR-announcement pace"};
 const TYPE={mp_announce:"rate announcement",mp_statement:"press-conference statement",mp_account:"summary of deliberations",speech:"speech",testimony:"evidence to Parliament",interview:"interview"};
 function renderForecast(){
@@ -777,7 +777,7 @@ function renderForecast(){
   for(const [b,p] of PR){ if(p<0.005) continue;
     h+='<div style="width:'+(100*p)+'%;background:'+oCol(b)+'" title="'+esc2(bpL(b))+' '+pc(p,1)+'">'+(p>0.07?esc2(bpL(b))+' '+pc(p):"")+'</div>'; }
   h+='</div><table class="t" style="margin-top:8px"><thead><tr>'+PR.map(([b])=>'<th>'+esc2(bpL(b))+'</th>').join("")+'<th>Expected</th></tr></thead><tbody><tr>'+
-     PR.map(([,p])=>'<td>'+pc(p,1)+'</td>').join("")+'<td>'+(f.expected_bp>0?"+":"")+f.expected_bp.toFixed(1)+'bp</td></tr></tbody></table>';
+     PR.map(([b,p])=>'<td>'+pc(p,1)+(f.ranges&&f.ranges[b]&&p>=0.05?'<br><span class="note" style="font-size:10.5px" title="80% range from refitting the model on resampled histories">'+pc(f.ranges[b][0])+'–'+pc(f.ranges[b][1])+'</span>':'')+'</td>').join("")+'<td>'+(f.expected_bp>0?"+":"")+f.expected_bp.toFixed(1)+'bp</td></tr></tbody></table>';
   const c=Object.entries(f.contributions).filter(([k,v])=>Math.abs(v)>=0.03).sort((a,b)=>Math.abs(b[1])-Math.abs(a[1]));
   h+='<p><b>What drives it</b> (log-odds of a tighter decision than last time): '+c.map(([k,v])=>'<span class="'+(v>0?"pos":"neg")+'">'+esc2(FL[k]||k)+' '+(v>0?"+":"")+v.toFixed(2)+'</span>').join(", ")+'</p></div>';
   // words
@@ -797,9 +797,25 @@ function renderForecast(){
      '<tr><td class="l">USD/CAD (up = weaker loonie)</td><td>'+(i.usdcad_pct>0?"+":"")+(+i.usdcad_pct||0).toFixed(1)+'%</td></tr>'+
      '<tr><td class="l">Fed funds target</td><td>'+(i.fed_bp||0)+'bp</td></tr></tbody></table>'+
      '<p class="note">This is '+(i.mpr_meeting?"":"not ")+'an MPR announcement. Sources: Statistics Canada via the Bank\'s Valet API; MPR projection tables; FRED and Yahoo Finance for markets.</p></div>';
+  if(f.ranges) h=h.replace('<p><b>What drives it</b>','<p class="note">Small figures under each probability: 80% range from refitting the model on 300 resampled histories — uncertainty in the model\'s estimates only, not news still to come.</p><p><b>What drives it</b>');
+  const IN=f.inertia;
+  if(IN){ h+='<div class="card"><h3>How the Bank of Canada paces a cycle (since '+IN.since.slice(0,4)+')</h3><table class="t"><tbody>'+
+    '<tr><td class="l">Moves again at the next announcement after a move</td><td>'+pc(IN.after_move.p)+'</td><td class="note">n='+IN.after_move.n+'</td></tr>'+
+    '<tr><td class="l">Moves again right after the <b>first</b> move of a cycle</td><td>'+pc(IN.after_first_move.p)+'</td><td class="note">n='+IN.after_first_move.n+'</td></tr>'+
+    '<tr><td class="l">Resumes at the next announcement after a move then a pause</td><td>'+pc(IN.after_pause.p)+'</td><td class="note">n='+IN.after_pause.n+'</td></tr>'+
+    '<tr><td class="l">Average run of consecutive moves</td><td>'+IN.mean_run.toFixed(1)+'</td><td class="note">runs: '+IN.runs.join(", ")+'</td></tr></tbody></table>'+
+    '<p class="note">Unlike the Bank of England — which after a first move has moved again at the next meeting only about 1 time in 10, and tends to move at Report meetings — the Bank of Canada usually follows a first move straight away, keeps going, and once it pauses tends to stay paused. The model\'s starting point ("repeat the last decision") already carries this momentum; extra inertia inputs (first move, run length, pause after a move) were tested and add nothing significant.</p></div>'; }
+  const SL=f.selection;
+  if(SL&&SL.report){ const R=SL.report, ci=c=>'['+(c[0]>0?"+":"")+c[0].toFixed(3)+', '+(c[1]>0?"+":"")+c[1].toFixed(3)+']';
+    h+='<div class="card"><h3>How the inputs were chosen (significance-checked)</h3><p class="note">'+esc2(SL.method)+' Change = out-of-sample log loss per announcement (negative is better).</p><table class="t"><thead><tr><th class="l">Step</th><th>Log loss</th><th>Change</th><th>95% interval</th><th class="l">Result</th></tr></thead><tbody>';
+    h+='<tr><td class="l">Repeat the last decision</td><td>'+R.baseline_log_loss.toFixed(3)+'</td><td></td><td></td><td class="l note">baseline</td></tr>';
+    h+='<tr><td class="l"><b>Core</b> (Council\'s own words, pace)</td><td>'+R.core.log_loss.toFixed(3)+'</td><td>'+R.core.change.toFixed(3)+'</td><td>'+ci(R.core.ci95)+'</td><td class="l">'+(R.core.significant?'significantly better — kept':'not significant')+'</td></tr>';
+    for(const g of R.core.groups) h+='<tr><td class="l note">&nbsp;&nbsp;of which '+esc2(g.group)+'</td><td></td><td class="note">'+g.contribution.toFixed(3)+'</td><td class="note">'+ci(g.ci95)+'</td><td class="l note">'+(g.significant_alone?'significant on its own':'not significant on its own')+'</td></tr>';
+    for(const a of R.addons) h+='<tr><td class="l">+ '+esc2(a.group)+'</td><td>'+a.log_loss.toFixed(3)+'</td><td>'+a.change.toFixed(3)+'</td><td>'+ci(a.ci95)+'</td><td class="l">'+(a.kept?'kept':'<span class="note">dropped — not significant</span>')+'</td></tr>';
+    h+='</tbody></table></div>'; }
   // backtest
   const bt=f.backtest||{};
-  h+='<div class="card"><h3>Backtest — how good is this?</h3><p>Every announcement since '+esc2(bt.since)+' predicted by a model fitted on the other years only. Rows add one group of inputs at a time; the forecast uses <b>'+esc2(bt.chosen)+'</b> (lowest out-of-sample log loss).</p>';
+  h+='<div class="card"><h3>Backtest — how good is this?</h3><p>Every announcement since '+esc2(bt.since)+' predicted by a model fitted on the other years only. The table compares the selected model with simply repeating the last decision; how its inputs were chosen is set out above.</p>';
   h+='<div class="scroll"><table class="t"><thead><tr><th class="l">Model</th><th>Log loss</th><th>Decisions called</th><th>Avg P(actual)</th><th>Moves called</th><th>Last 5 years: called</th><th>P(actual)</th></tr></thead><tbody>';
   for(const r of (bt.ladder||[])) h+='<tr'+(r.model===bt.chosen?' style="background:#1f2a1f"':'')+'><td class="l">'+esc2(r.model)+'</td><td>'+r.log_loss.toFixed(3)+'</td><td>'+pc(r.hit)+' of '+r.n+'</td><td>'+pc(r.p_actual)+'</td><td>'+pc(r.move_hit)+' of '+r.n_moves+'</td><td>'+pc(r.recent.hit)+' of '+r.recent.n+'</td><td>'+pc(r.recent.p_actual)+'</td></tr>';
   h+='</tbody></table></div>';
