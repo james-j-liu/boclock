@@ -39,6 +39,7 @@ FEATURE_GROUPS = {
     "council": ["council_level", "council_gap"],
     "members": ["member_level"],
     "pace": ["pace", "moved_last", "mpr_x_pace"],
+    "inertia": ["first_move", "run_len", "paused_after_move"],
     "data": ["surprise"],
     "oil": ["oil"],
     "fed": ["fed"],
@@ -200,7 +201,8 @@ def pace(ctx, date):
     is_mpr = lambda d: any(abs((dt.date.fromisoformat(d) - dt.date.fromisoformat(x)).days) <= 2
                            for x in ctx.mpr_dates)
     if not moves:
-        return {"pace": 0.0, "moved_last": 0.0, "mpr_x_pace": 0.0, "mpr": float(is_mpr(date))}
+        return {"pace": 0.0, "moved_last": 0.0, "mpr_x_pace": 0.0, "mpr": float(is_mpr(date)),
+                "first_move": 0.0, "run_len": 0.0, "paused_after_move": 0.0}
     cdir = moves[-1][1]
     start = moves[-1][0]
     for d, s in reversed(moves):
@@ -212,8 +214,21 @@ def pace(ctx, date):
     same = [(d, u) for d, u in past if d >= start and is_mpr(d) == this]
     moved = sum(1 for _, u in same if np.sign(u) == cdir)
     pc = (moved + 0.5) / (len(same) + 1.0) if active else 0.0
+    # inertia: the Bank of Canada tends to follow a cycle's first move straight away, and a
+    # pause after a run tends to last
+    run = 0
+    for _, u in reversed(past):
+        if u and np.sign(u) == cdir:
+            run += 1
+        else:
+            break
+    n_cycle_moves = sum(1 for d, u in past if d >= start and np.sign(u) == cdir)
+    first = float(cdir) if (run == 1 and n_cycle_moves == 1) else 0.0
+    paused = float(cdir) if (len(past) >= 2 and past[-1][1] == 0 and np.sign(past[-2][1]) == cdir) else 0.0
     return {"pace": float(cdir * pc), "moved_last": float(np.sign(past[-1][1])),
-            "mpr_x_pace": float(cdir * pc * (1 if this else -1)) if active else 0.0, "mpr": float(this)}
+            "mpr_x_pace": float(cdir * pc * (1 if this else -1)) if active else 0.0, "mpr": float(this),
+            "first_move": first if active else 0.0, "run_len": float(cdir * min(run, 5)) if active else 0.0,
+            "paused_after_move": paused if active else 0.0}
 
 
 def features(ctx, prev_date, prev_dec, date):
@@ -230,7 +245,8 @@ def features(ctx, prev_date, prev_dec, date):
             "surprise": surp, "oil": float(np.clip(oil / 10, -4, 4)),
             "fed": _mkt(mk.get("fed", {}), prev_date, date, pct=False) * 4,
             "fx": float(np.clip(_mkt(mk.get("usdcad", {}), prev_date, date) / 2, -4, 4)),
-            **{k: pc[k] for k in ("pace", "moved_last", "mpr_x_pace")},
+            **{k: pc[k] for k in ("pace", "moved_last", "mpr_x_pace", "first_move", "run_len",
+                                  "paused_after_move")},
             "prev_decision": prev_dec,
             "_mpr": pc["mpr"], "_detail": det, "_core_chg": round(core_chg, 2),
             "_oil_pct": round(oil, 1), "_fx_pct": round(_mkt(mk.get("usdcad", {}), prev_date, date), 1),

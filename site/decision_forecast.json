@@ -1,5 +1,172 @@
 {
- "generated": "2026-11-22 20:23 UTC",
+ "ranges": {
+  "-25": [
+   0.0,
+   0.08
+  ],
+  "0": [
+   0.33,
+   0.506
+  ],
+  "25": [
+   0.44,
+   0.601
+  ],
+  "50": [
+   0.013,
+   0.03
+  ]
+ },
+ "inertia": {
+  "since": "2001-01-01",
+  "after_move": {
+   "p": 0.69,
+   "n": 71
+  },
+  "after_first_move": {
+   "p": 0.833,
+   "n": 12
+  },
+  "after_pause": {
+   "p": 0.045,
+   "n": 22
+  },
+  "mean_run": 3.13,
+  "runs": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   3,
+   3,
+   3,
+   3,
+   4,
+   5,
+   7,
+   7,
+   8,
+   10
+  ]
+ },
+ "selection": {
+  "features": [
+   "council_level",
+   "council_gap",
+   "pace",
+   "moved_last",
+   "mpr_x_pace",
+   "fed"
+  ],
+  "since": "2001-01-01",
+  "log_loss": 0.8131,
+  "report": {
+   "baseline_log_loss": 0.9312,
+   "core": {
+    "log_loss": 0.8556,
+    "change": -0.0756,
+    "ci95": [
+     -0.1355,
+     -0.0115
+    ],
+    "significant": true,
+    "groups": [
+     {
+      "group": "Council's own words",
+      "contribution": -0.0267,
+      "ci95": [
+       -0.0556,
+       0.0001
+      ],
+      "significant_alone": false
+     },
+     {
+      "group": "pace",
+      "contribution": 0.0007,
+      "ci95": [
+       -0.019,
+       0.0213
+      ],
+      "significant_alone": false
+     }
+    ]
+   },
+   "addons": [
+    {
+     "group": "inertia (first move, run length, pause)",
+     "log_loss": 0.8554,
+     "change": -0.0002,
+     "ci95": [
+      -0.0251,
+      0.0282
+     ],
+     "kept": false
+    },
+    {
+     "group": "members' speeches",
+     "log_loss": 0.8575,
+     "change": 0.0019,
+     "ci95": [
+      -0.0001,
+      0.0041
+     ],
+     "kept": false
+    },
+    {
+     "group": "CPI vs MPR",
+     "log_loss": 0.8608,
+     "change": 0.0052,
+     "ci95": [
+      -0.0106,
+      0.0218
+     ],
+     "kept": false
+    },
+    {
+     "group": "oil",
+     "log_loss": 0.847,
+     "change": -0.0086,
+     "ci95": [
+      -0.0263,
+      0.0089
+     ],
+     "kept": false
+    },
+    {
+     "group": "Fed",
+     "log_loss": 0.8131,
+     "change": -0.0425,
+     "ci95": [
+      -0.0729,
+      -0.015
+     ],
+     "kept": true
+    },
+    {
+     "group": "Canadian dollar",
+     "log_loss": 0.8045,
+     "change": -0.0086,
+     "ci95": [
+      -0.0282,
+      0.0104
+     ],
+     "kept": false
+    }
+   ]
+  },
+  "selected": "2026-11-22",
+  "method": "core structure kept as a bundle if significantly better than 'repeat the last decision'; each other input group kept only if it significantly lowers log loss on its own. Leave-one-year-out; paired bootstrap over announcements, 2000 draws, 95% interval."
+ },
+ "generated": "2026-11-22 22:07 UTC",
  "last": {
   "date": "2026-10-28",
   "decision_bp": 25,
@@ -8,21 +175,18 @@
  "next": "2026-12-09",
  "as_of": "2026-11-22",
  "probs": {
-  "-25": 0.0571,
-  "0": 0.5194,
-  "25": 0.4099,
-  "50": 0.0136
+  "-25": 0.0406,
+  "0": 0.4268,
+  "25": 0.5123,
+  "50": 0.0203
  },
- "expected_bp": 9.5,
+ "expected_bp": 12.8,
  "contributions": {
-  "council_level": 0.14,
-  "council_gap": -0.695,
-  "pace": -0.14,
-  "moved_last": -0.792,
-  "mpr_x_pace": -0.029,
-  "member_level": 0.124,
-  "surprise": -0.275,
-  "oil": -0.381,
+  "council_level": -0.152,
+  "council_gap": -0.699,
+  "pace": -0.057,
+  "moved_last": -0.801,
+  "mpr_x_pace": -0.085,
   "fed": 0.0
  },
  "features": {
@@ -32,6 +196,9 @@
   "pace": 0.5,
   "moved_last": 1.0,
   "mpr_x_pace": -0.5,
+  "first_move": 1.0,
+  "run_len": 1.0,
+  "paused_after_move": 0.0,
   "surprise": -1.25,
   "oil": -1.736,
   "fed": 0.0,
@@ -97,625 +264,1279 @@
    "pace",
    "moved_last",
    "mpr_x_pace",
-   "member_level",
-   "surprise",
-   "oil",
    "fed"
   ],
   "coefficients": {
-   "council_level": 0.252,
-   "council_gap": 1.568,
-   "pace": -0.28,
-   "moved_last": -0.792,
-   "mpr_x_pace": 0.058,
-   "member_level": 0.309,
-   "surprise": 0.22,
-   "oil": 0.219,
-   "fed": 0.485
+   "council_level": -0.274,
+   "council_gap": 1.578,
+   "pace": -0.114,
+   "moved_last": -0.801,
+   "mpr_x_pace": 0.17,
+   "fed": 0.755
   }
  },
  "backtest": {
-  "since": "2017-01-01",
+  "since": "2001-01-01",
   "recent_since": "2021-11-22",
   "ladder": [
    {
     "model": "last decision only",
-    "log_loss": 1.2331,
-    "brier": 0.5545,
-    "hit": 0.6486,
-    "p_actual": 0.4592,
-    "move_hit": 0.3929,
-    "n": 74,
-    "n_moves": 28,
+    "log_loss": 0.9312,
+    "brier": 0.4803,
+    "hit": 0.6995,
+    "p_actual": 0.5239,
+    "move_hit": 0.4583,
+    "n": 203,
+    "n_moves": 72,
     "recent": {
-     "log_loss": 1.0996,
-     "brier": 0.5915,
+     "log_loss": 1.0858,
+     "brier": 0.591,
      "hit": 0.6,
-     "p_actual": 0.443,
+     "p_actual": 0.4709,
      "move_hit": 0.4,
      "n": 40,
      "n_moves": 20
     }
    },
    {
-    "model": "+ Council's own words",
-    "log_loss": 1.04,
-    "brier": 0.4715,
-    "hit": 0.6757,
-    "p_actual": 0.5195,
-    "move_hit": 0.4643,
-    "n": 74,
-    "n_moves": 28,
+    "model": "selected model",
+    "log_loss": 0.8131,
+    "brier": 0.4249,
+    "hit": 0.7094,
+    "p_actual": 0.5673,
+    "move_hit": 0.4861,
+    "n": 203,
+    "n_moves": 72,
     "recent": {
-     "log_loss": 0.8833,
-     "brier": 0.4791,
-     "hit": 0.65,
-     "p_actual": 0.5151,
-     "move_hit": 0.5,
-     "n": 40,
-     "n_moves": 20
-    }
-   },
-   {
-    "model": "+ pace",
-    "log_loss": 1.0468,
-    "brier": 0.4686,
-    "hit": 0.6757,
-    "p_actual": 0.5242,
-    "move_hit": 0.4643,
-    "n": 74,
-    "n_moves": 28,
-    "recent": {
-     "log_loss": 0.899,
-     "brier": 0.4718,
-     "hit": 0.65,
-     "p_actual": 0.5206,
-     "move_hit": 0.5,
-     "n": 40,
-     "n_moves": 20
-    }
-   },
-   {
-    "model": "+ members' speeches",
-    "log_loss": 1.0269,
-    "brier": 0.461,
-    "hit": 0.6892,
-    "p_actual": 0.5293,
-    "move_hit": 0.4643,
-    "n": 74,
-    "n_moves": 28,
-    "recent": {
-     "log_loss": 0.8762,
-     "brier": 0.4657,
-     "hit": 0.675,
-     "p_actual": 0.5259,
-     "move_hit": 0.5,
-     "n": 40,
-     "n_moves": 20
-    }
-   },
-   {
-    "model": "+ CPI vs MPR",
-    "log_loss": 1.0297,
-    "brier": 0.4615,
-    "hit": 0.6892,
-    "p_actual": 0.5334,
-    "move_hit": 0.4643,
-    "n": 74,
-    "n_moves": 28,
-    "recent": {
-     "log_loss": 0.8481,
-     "brier": 0.4591,
-     "hit": 0.675,
-     "p_actual": 0.5317,
-     "move_hit": 0.5,
-     "n": 40,
-     "n_moves": 20
-    }
-   },
-   {
-    "model": "+ oil",
-    "log_loss": 1.0206,
-    "brier": 0.458,
-    "hit": 0.6757,
-    "p_actual": 0.5366,
-    "move_hit": 0.4643,
-    "n": 74,
-    "n_moves": 28,
-    "recent": {
-     "log_loss": 0.8627,
-     "brier": 0.4525,
-     "hit": 0.675,
-     "p_actual": 0.537,
-     "move_hit": 0.5,
-     "n": 40,
-     "n_moves": 20
-    }
-   },
-   {
-    "model": "+ Fed",
-    "log_loss": 0.9789,
-    "brier": 0.4516,
-    "hit": 0.6757,
-    "p_actual": 0.5429,
-    "move_hit": 0.4643,
-    "n": 74,
-    "n_moves": 28,
-    "recent": {
-     "log_loss": 0.8304,
-     "brier": 0.4613,
-     "hit": 0.65,
-     "p_actual": 0.5364,
-     "move_hit": 0.5,
-     "n": 40,
-     "n_moves": 20
-    }
-   },
-   {
-    "model": "+ Canadian dollar",
-    "log_loss": 0.9867,
-    "brier": 0.4486,
-    "hit": 0.6892,
-    "p_actual": 0.5483,
-    "move_hit": 0.4643,
-    "n": 74,
-    "n_moves": 28,
-    "recent": {
-     "log_loss": 0.8545,
-     "brier": 0.4571,
-     "hit": 0.7,
-     "p_actual": 0.5443,
-     "move_hit": 0.5,
+     "log_loss": 0.8892,
+     "brier": 0.5017,
+     "hit": 0.625,
+     "p_actual": 0.523,
+     "move_hit": 0.45,
      "n": 40,
      "n_moves": 20
     }
    }
   ],
-  "chosen": "+ Fed",
+  "chosen": "selected model",
   "calls": [
    {
-    "date": "2017-01-18",
+    "date": "2001-01-23",
+    "actual": -1,
+    "predicted": 0,
+    "p_actual": 0.096
+   },
+   {
+    "date": "2001-03-06",
+    "actual": -2,
+    "predicted": -1,
+    "p_actual": 0.02
+   },
+   {
+    "date": "2001-04-17",
+    "actual": -1,
+    "predicted": -2,
+    "p_actual": 0.406
+   },
+   {
+    "date": "2001-05-29",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.579
+   },
+   {
+    "date": "2001-07-17",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.576
+   },
+   {
+    "date": "2001-08-28",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.573
+   },
+   {
+    "date": "2001-09-17",
+    "actual": -2,
+    "predicted": -1,
+    "p_actual": 0.018
+   },
+   {
+    "date": "2001-10-23",
+    "actual": -3,
+    "predicted": -2,
+    "p_actual": 0.014
+   },
+   {
+    "date": "2001-11-27",
+    "actual": -2,
+    "predicted": -2,
+    "p_actual": 0.467
+   },
+   {
+    "date": "2002-01-15",
+    "actual": -1,
+    "predicted": -2,
+    "p_actual": 0.287
+   },
+   {
+    "date": "2002-03-05",
+    "actual": 0,
+    "predicted": -1,
+    "p_actual": 0.242
+   },
+   {
+    "date": "2002-04-16",
+    "actual": 1,
+    "predicted": 0,
+    "p_actual": 0.102
+   },
+   {
+    "date": "2002-06-04",
+    "actual": 1,
+    "predicted": 1,
+    "p_actual": 0.645
+   },
+   {
+    "date": "2002-07-16",
+    "actual": 1,
+    "predicted": 1,
+    "p_actual": 0.644
+   },
+   {
+    "date": "2002-09-04",
+    "actual": 0,
+    "predicted": 1,
+    "p_actual": 0.297
+   },
+   {
+    "date": "2002-10-16",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.762
+   },
+   {
+    "date": "2002-12-03",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.762
+   },
+   {
+    "date": "2003-01-21",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.769
+   },
+   {
+    "date": "2003-03-04",
+    "actual": 1,
+    "predicted": 0,
+    "p_actual": 0.087
+   },
+   {
+    "date": "2003-04-15",
+    "actual": 1,
+    "predicted": 1,
+    "p_actual": 0.643
+   },
+   {
+    "date": "2003-06-03",
+    "actual": 0,
+    "predicted": 1,
+    "p_actual": 0.301
+   },
+   {
+    "date": "2003-07-15",
+    "actual": -1,
+    "predicted": 0,
+    "p_actual": 0.115
+   },
+   {
+    "date": "2003-09-03",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.675
+   },
+   {
+    "date": "2003-10-15",
+    "actual": 0,
+    "predicted": -1,
+    "p_actual": 0.272
+   },
+   {
+    "date": "2003-12-02",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.769
+   },
+   {
+    "date": "2004-01-20",
+    "actual": -1,
+    "predicted": 0,
+    "p_actual": 0.11
+   },
+   {
+    "date": "2004-03-02",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.682
+   },
+   {
+    "date": "2004-04-13",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.682
+   },
+   {
+    "date": "2004-06-08",
+    "actual": 0,
+    "predicted": -1,
+    "p_actual": 0.254
+   },
+   {
+    "date": "2004-07-20",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.768
+   },
+   {
+    "date": "2004-09-08",
+    "actual": 1,
+    "predicted": 0,
+    "p_actual": 0.108
+   },
+   {
+    "date": "2004-10-19",
+    "actual": 1,
+    "predicted": 1,
+    "p_actual": 0.663
+   },
+   {
+    "date": "2004-12-07",
+    "actual": 0,
+    "predicted": 1,
+    "p_actual": 0.296
+   },
+   {
+    "date": "2005-01-25",
     "actual": 0,
     "predicted": 0,
     "p_actual": 0.758
    },
    {
-    "date": "2017-03-01",
+    "date": "2005-03-01",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.756
+    "p_actual": 0.752
    },
    {
-    "date": "2017-04-12",
+    "date": "2005-04-12",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.76
+    "p_actual": 0.758
    },
    {
-    "date": "2017-05-24",
+    "date": "2005-05-25",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.706
+    "p_actual": 0.754
    },
    {
-    "date": "2017-07-12",
+    "date": "2005-07-12",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.757
+   },
+   {
+    "date": "2005-09-07",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.058
+    "p_actual": 0.093
    },
    {
-    "date": "2017-09-06",
+    "date": "2005-10-18",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.587
+    "p_actual": 0.649
    },
    {
-    "date": "2017-10-25",
-    "actual": 0,
-    "predicted": 1,
-    "p_actual": 0.272
-   },
-   {
-    "date": "2017-12-06",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.759
-   },
-   {
-    "date": "2018-01-17",
+    "date": "2005-12-06",
     "actual": 1,
-    "predicted": 0,
-    "p_actual": 0.249
-   },
-   {
-    "date": "2018-03-07",
-    "actual": 0,
     "predicted": 1,
-    "p_actual": 0.244
+    "p_actual": 0.622
    },
    {
-    "date": "2018-04-18",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.688
-   },
-   {
-    "date": "2018-05-30",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.699
-   },
-   {
-    "date": "2018-07-11",
+    "date": "2006-01-24",
     "actual": 1,
-    "predicted": 0,
-    "p_actual": 0.317
-   },
-   {
-    "date": "2018-09-05",
-    "actual": 0,
     "predicted": 1,
-    "p_actual": 0.104
+    "p_actual": 0.655
    },
    {
-    "date": "2018-10-24",
+    "date": "2006-03-07",
     "actual": 1,
-    "predicted": 0,
-    "p_actual": 0.328
+    "predicted": 1,
+    "p_actual": 0.621
    },
    {
-    "date": "2018-12-05",
+    "date": "2006-04-25",
+    "actual": 1,
+    "predicted": 1,
+    "p_actual": 0.656
+   },
+   {
+    "date": "2006-05-24",
+    "actual": 1,
+    "predicted": 1,
+    "p_actual": 0.617
+   },
+   {
+    "date": "2006-07-11",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.167
+    "p_actual": 0.279
    },
    {
-    "date": "2019-01-09",
+    "date": "2006-09-06",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.692
+    "p_actual": 0.749
    },
    {
-    "date": "2019-03-06",
+    "date": "2006-10-17",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.682
+    "p_actual": 0.755
    },
    {
-    "date": "2019-04-24",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.723
-   },
-   {
-    "date": "2019-05-29",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.683
-   },
-   {
-    "date": "2019-07-10",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.722
-   },
-   {
-    "date": "2019-09-04",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.654
-   },
-   {
-    "date": "2019-10-30",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.651
-   },
-   {
-    "date": "2019-12-04",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.662
-   },
-   {
-    "date": "2020-01-22",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.744
-   },
-   {
-    "date": "2020-03-04",
-    "actual": -2,
-    "predicted": 0,
-    "p_actual": 0.0
-   },
-   {
-    "date": "2020-03-13",
-    "actual": -2,
-    "predicted": -2,
-    "p_actual": 0.733
-   },
-   {
-    "date": "2020-03-27",
-    "actual": -2,
-    "predicted": -2,
-    "p_actual": 0.738
-   },
-   {
-    "date": "2020-04-15",
-    "actual": 0,
-    "predicted": -1,
-    "p_actual": 0.216
-   },
-   {
-    "date": "2020-06-03",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.731
-   },
-   {
-    "date": "2020-09-09",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.74
-   },
-   {
-    "date": "2021-07-14",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.482
-   },
-   {
-    "date": "2021-09-08",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.743
-   },
-   {
-    "date": "2021-10-27",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.673
-   },
-   {
-    "date": "2021-12-08",
-    "actual": 0,
-    "predicted": 0,
-    "p_actual": 0.669
-   },
-   {
-    "date": "2022-01-26",
+    "date": "2006-12-05",
     "actual": 0,
     "predicted": 0,
     "p_actual": 0.75
    },
    {
-    "date": "2022-03-02",
+    "date": "2007-01-16",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.765
+   },
+   {
+    "date": "2007-03-06",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.762
+   },
+   {
+    "date": "2007-04-24",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.765
+   },
+   {
+    "date": "2007-05-29",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.763
+   },
+   {
+    "date": "2007-07-10",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.312
+    "p_actual": 0.103
    },
    {
-    "date": "2022-04-13",
-    "actual": 2,
+    "date": "2007-09-05",
+    "actual": 0,
     "predicted": 1,
-    "p_actual": 0.116
+    "p_actual": 0.288
    },
    {
-    "date": "2022-06-01",
-    "actual": 2,
-    "predicted": 2,
+    "date": "2007-10-16",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.765
+   },
+   {
+    "date": "2007-12-04",
+    "actual": -1,
+    "predicted": 0,
+    "p_actual": 0.127
+   },
+   {
+    "date": "2008-01-22",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.668
+   },
+   {
+    "date": "2008-03-04",
+    "actual": -2,
+    "predicted": -1,
+    "p_actual": 0.032
+   },
+   {
+    "date": "2008-04-22",
+    "actual": -2,
+    "predicted": -2,
+    "p_actual": 0.61
+   },
+   {
+    "date": "2008-06-10",
+    "actual": 0,
+    "predicted": -2,
+    "p_actual": 0.027
+   },
+   {
+    "date": "2008-07-15",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.77
+   },
+   {
+    "date": "2008-09-03",
+    "actual": 0,
+    "predicted": 0,
     "p_actual": 0.768
    },
    {
-    "date": "2022-07-13",
-    "actual": 4,
-    "predicted": 2,
-    "p_actual": 0.006
+    "date": "2008-10-21",
+    "actual": -3,
+    "predicted": 0,
+    "p_actual": 0.003
    },
    {
-    "date": "2022-09-07",
-    "actual": 3,
-    "predicted": 3,
-    "p_actual": 0.604
+    "date": "2008-12-09",
+    "actual": -3,
+    "predicted": -3,
+    "p_actual": 0.527
    },
    {
-    "date": "2022-10-26",
-    "actual": 2,
-    "predicted": 2,
-    "p_actual": 0.502
+    "date": "2009-01-20",
+    "actual": -2,
+    "predicted": -3,
+    "p_actual": 0.235
    },
    {
-    "date": "2022-12-07",
-    "actual": 2,
-    "predicted": 2,
-    "p_actual": 0.764
+    "date": "2009-03-03",
+    "actual": -2,
+    "predicted": -2,
+    "p_actual": 0.661
    },
    {
-    "date": "2023-01-25",
-    "actual": 1,
-    "predicted": 2,
-    "p_actual": 0.378
+    "date": "2009-04-21",
+    "actual": -1,
+    "predicted": -2,
+    "p_actual": 0.214
    },
    {
-    "date": "2023-03-08",
+    "date": "2009-06-04",
     "actual": 0,
-    "predicted": 1,
-    "p_actual": 0.448
+    "predicted": -1,
+    "p_actual": 0.251
    },
    {
-    "date": "2023-04-12",
+    "date": "2009-07-21",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.755
+   },
+   {
+    "date": "2009-09-10",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.759
+   },
+   {
+    "date": "2009-10-20",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.759
+   },
+   {
+    "date": "2009-12-08",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.759
+   },
+   {
+    "date": "2010-01-19",
     "actual": 0,
     "predicted": 0,
     "p_actual": 0.758
    },
    {
-    "date": "2023-06-07",
+    "date": "2010-03-02",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.761
+   },
+   {
+    "date": "2010-04-20",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.759
+   },
+   {
+    "date": "2010-06-01",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.088
+    "p_actual": 0.101
    },
    {
-    "date": "2023-07-12",
+    "date": "2010-07-20",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.616
+    "p_actual": 0.667
    },
    {
-    "date": "2023-09-06",
+    "date": "2010-09-08",
+    "actual": 1,
+    "predicted": 1,
+    "p_actual": 0.612
+   },
+   {
+    "date": "2010-10-19",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.237
+    "p_actual": 0.265
    },
    {
-    "date": "2023-10-25",
+    "date": "2010-12-07",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.664
+    "p_actual": 0.75
    },
    {
-    "date": "2023-12-06",
+    "date": "2011-01-18",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.726
+    "p_actual": 0.751
    },
    {
-    "date": "2024-01-24",
+    "date": "2011-03-01",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.733
+    "p_actual": 0.746
    },
    {
-    "date": "2024-03-06",
+    "date": "2011-04-12",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.731
+    "p_actual": 0.751
    },
    {
-    "date": "2024-04-10",
+    "date": "2011-05-31",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.714
+    "p_actual": 0.747
    },
    {
-    "date": "2024-06-05",
+    "date": "2011-07-19",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2011-09-07",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.748
+   },
+   {
+    "date": "2011-10-25",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2011-12-06",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2012-01-17",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2012-03-08",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2012-04-17",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2012-06-05",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2012-07-17",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2012-09-05",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2012-10-23",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2012-12-04",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2013-01-23",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2013-03-06",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2013-04-17",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2013-05-29",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2013-07-17",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2013-09-04",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2013-10-23",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2013-12-04",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2014-01-22",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2014-03-05",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2014-04-16",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2014-06-04",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2014-07-16",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2014-09-03",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2014-10-22",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2014-12-03",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2015-01-21",
     "actual": -1,
     "predicted": 0,
-    "p_actual": 0.27
+    "p_actual": 0.116
    },
    {
-    "date": "2024-07-24",
-    "actual": -1,
+    "date": "2015-03-04",
+    "actual": 0,
     "predicted": -1,
-    "p_actual": 0.633
+    "p_actual": 0.25
    },
    {
-    "date": "2024-09-04",
+    "date": "2015-04-15",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.768
+   },
+   {
+    "date": "2015-05-27",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.768
+   },
+   {
+    "date": "2015-07-15",
     "actual": -1,
-    "predicted": -1,
-    "p_actual": 0.713
+    "predicted": 0,
+    "p_actual": 0.113
    },
    {
-    "date": "2024-10-23",
+    "date": "2015-09-09",
+    "actual": 0,
+    "predicted": -1,
+    "p_actual": 0.232
+   },
+   {
+    "date": "2015-10-21",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.768
+   },
+   {
+    "date": "2015-12-02",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.768
+   },
+   {
+    "date": "2016-01-20",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.717
+   },
+   {
+    "date": "2016-03-09",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.744
+   },
+   {
+    "date": "2016-04-13",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.75
+   },
+   {
+    "date": "2016-05-25",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2016-07-13",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.75
+   },
+   {
+    "date": "2016-09-07",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.75
+   },
+   {
+    "date": "2016-10-19",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.75
+   },
+   {
+    "date": "2016-12-07",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.742
+   },
+   {
+    "date": "2017-01-18",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.725
+   },
+   {
+    "date": "2017-03-01",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.758
+   },
+   {
+    "date": "2017-04-12",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.727
+   },
+   {
+    "date": "2017-05-24",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.758
+   },
+   {
+    "date": "2017-07-12",
+    "actual": 1,
+    "predicted": 0,
+    "p_actual": 0.191
+   },
+   {
+    "date": "2017-09-06",
+    "actual": 1,
+    "predicted": 1,
+    "p_actual": 0.524
+   },
+   {
+    "date": "2017-10-25",
+    "actual": 0,
+    "predicted": 1,
+    "p_actual": 0.378
+   },
+   {
+    "date": "2017-12-06",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.756
+   },
+   {
+    "date": "2018-01-17",
+    "actual": 1,
+    "predicted": 0,
+    "p_actual": 0.184
+   },
+   {
+    "date": "2018-03-07",
+    "actual": 0,
+    "predicted": 1,
+    "p_actual": 0.353
+   },
+   {
+    "date": "2018-04-18",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.723
+   },
+   {
+    "date": "2018-05-30",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.75
+   },
+   {
+    "date": "2018-07-11",
+    "actual": 1,
+    "predicted": 0,
+    "p_actual": 0.328
+   },
+   {
+    "date": "2018-09-05",
+    "actual": 0,
+    "predicted": 1,
+    "p_actual": 0.286
+   },
+   {
+    "date": "2018-10-24",
+    "actual": 1,
+    "predicted": 0,
+    "p_actual": 0.331
+   },
+   {
+    "date": "2018-12-05",
+    "actual": 0,
+    "predicted": 1,
+    "p_actual": 0.282
+   },
+   {
+    "date": "2019-01-09",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.582
+   },
+   {
+    "date": "2019-03-06",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.737
+   },
+   {
+    "date": "2019-04-24",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.75
+   },
+   {
+    "date": "2019-05-29",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.748
+   },
+   {
+    "date": "2019-07-10",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.751
+   },
+   {
+    "date": "2019-09-04",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.677
+   },
+   {
+    "date": "2019-10-30",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.671
+   },
+   {
+    "date": "2019-12-04",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.684
+   },
+   {
+    "date": "2020-01-22",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.758
+   },
+   {
+    "date": "2020-03-04",
     "actual": -2,
-    "predicted": -1,
-    "p_actual": 0.199
+    "predicted": 0,
+    "p_actual": 0.004
    },
    {
-    "date": "2024-12-11",
+    "date": "2020-03-13",
     "actual": -2,
     "predicted": -2,
-    "p_actual": 0.599
+    "p_actual": 0.643
    },
    {
-    "date": "2025-01-29",
-    "actual": -1,
+    "date": "2020-03-27",
+    "actual": -2,
     "predicted": -2,
-    "p_actual": 0.237
+    "p_actual": 0.757
    },
    {
-    "date": "2025-03-12",
-    "actual": -1,
-    "predicted": -1,
-    "p_actual": 0.615
-   },
-   {
-    "date": "2025-04-16",
+    "date": "2020-04-15",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.342
+    "p_actual": 0.173
    },
    {
-    "date": "2025-06-04",
+    "date": "2020-06-03",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.76
+    "p_actual": 0.755
    },
    {
-    "date": "2025-07-30",
+    "date": "2020-09-09",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.756
+   },
+   {
+    "date": "2021-07-14",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.756
+   },
+   {
+    "date": "2021-09-08",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.756
+   },
+   {
+    "date": "2021-10-27",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.756
+   },
+   {
+    "date": "2021-12-08",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.756
+   },
+   {
+    "date": "2022-01-26",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.773
+   },
+   {
+    "date": "2022-03-02",
+    "actual": 1,
+    "predicted": 0,
+    "p_actual": 0.18
+   },
+   {
+    "date": "2022-04-13",
+    "actual": 2,
+    "predicted": 1,
+    "p_actual": 0.072
+   },
+   {
+    "date": "2022-06-01",
+    "actual": 2,
+    "predicted": 2,
+    "p_actual": 0.699
+   },
+   {
+    "date": "2022-07-13",
+    "actual": 4,
+    "predicted": 2,
+    "p_actual": 0.005
+   },
+   {
+    "date": "2022-09-07",
+    "actual": 3,
+    "predicted": 3,
+    "p_actual": 0.598
+   },
+   {
+    "date": "2022-10-26",
+    "actual": 2,
+    "predicted": 3,
+    "p_actual": 0.388
+   },
+   {
+    "date": "2022-12-07",
+    "actual": 2,
+    "predicted": 2,
+    "p_actual": 0.768
+   },
+   {
+    "date": "2023-01-25",
+    "actual": 1,
+    "predicted": 2,
+    "p_actual": 0.234
+   },
+   {
+    "date": "2023-03-08",
+    "actual": 0,
+    "predicted": 1,
+    "p_actual": 0.369
+   },
+   {
+    "date": "2023-04-12",
     "actual": 0,
     "predicted": 0,
     "p_actual": 0.635
    },
    {
+    "date": "2023-06-07",
+    "actual": 1,
+    "predicted": 0,
+    "p_actual": 0.244
+   },
+   {
+    "date": "2023-07-12",
+    "actual": 1,
+    "predicted": 1,
+    "p_actual": 0.633
+   },
+   {
+    "date": "2023-09-06",
+    "actual": 0,
+    "predicted": 1,
+    "p_actual": 0.241
+   },
+   {
+    "date": "2023-10-25",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.735
+   },
+   {
+    "date": "2023-12-06",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.764
+   },
+   {
+    "date": "2024-01-24",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.754
+   },
+   {
+    "date": "2024-03-06",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.762
+   },
+   {
+    "date": "2024-04-10",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.764
+   },
+   {
+    "date": "2024-06-05",
+    "actual": -1,
+    "predicted": 0,
+    "p_actual": 0.143
+   },
+   {
+    "date": "2024-07-24",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.591
+   },
+   {
+    "date": "2024-09-04",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.586
+   },
+   {
+    "date": "2024-10-23",
+    "actual": -2,
+    "predicted": -1,
+    "p_actual": 0.113
+   },
+   {
+    "date": "2024-12-11",
+    "actual": -2,
+    "predicted": -2,
+    "p_actual": 0.479
+   },
+   {
+    "date": "2025-01-29",
+    "actual": -1,
+    "predicted": -2,
+    "p_actual": 0.403
+   },
+   {
+    "date": "2025-03-12",
+    "actual": -1,
+    "predicted": -1,
+    "p_actual": 0.499
+   },
+   {
+    "date": "2025-04-16",
+    "actual": 0,
+    "predicted": -1,
+    "p_actual": 0.364
+   },
+   {
+    "date": "2025-06-04",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.763
+   },
+   {
+    "date": "2025-07-30",
+    "actual": 0,
+    "predicted": 0,
+    "p_actual": 0.711
+   },
+   {
     "date": "2025-09-17",
     "actual": -1,
     "predicted": 0,
-    "p_actual": 0.228
+    "p_actual": 0.155
    },
    {
     "date": "2025-10-29",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.739
+    "p_actual": 0.717
    },
    {
     "date": "2025-12-10",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.274
+    "p_actual": 0.341
    },
    {
     "date": "2026-01-28",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.67
+    "p_actual": 0.69
    },
    {
     "date": "2026-03-18",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.73
+    "p_actual": 0.757
    },
    {
     "date": "2026-04-29",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.738
+    "p_actual": 0.754
    },
    {
     "date": "2026-06-10",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.731
+    "p_actual": 0.757
    },
    {
     "date": "2026-07-15",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.732
+    "p_actual": 0.754
    },
    {
     "date": "2026-09-02",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.738
+    "p_actual": 0.757
    },
    {
     "date": "2026-10-28",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.29
+    "p_actual": 0.213
    }
   ]
  }

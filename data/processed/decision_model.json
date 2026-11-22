@@ -1,0 +1,108 @@
+{
+ "features": [
+  "council_level",
+  "council_gap",
+  "pace",
+  "moved_last",
+  "mpr_x_pace",
+  "fed"
+ ],
+ "since": "2001-01-01",
+ "log_loss": 0.8131,
+ "report": {
+  "baseline_log_loss": 0.9312,
+  "core": {
+   "log_loss": 0.8556,
+   "change": -0.0756,
+   "ci95": [
+    -0.1355,
+    -0.0115
+   ],
+   "significant": true,
+   "groups": [
+    {
+     "group": "Council's own words",
+     "contribution": -0.0267,
+     "ci95": [
+      -0.0556,
+      0.0001
+     ],
+     "significant_alone": false
+    },
+    {
+     "group": "pace",
+     "contribution": 0.0007,
+     "ci95": [
+      -0.019,
+      0.0213
+     ],
+     "significant_alone": false
+    }
+   ]
+  },
+  "addons": [
+   {
+    "group": "inertia (first move, run length, pause)",
+    "log_loss": 0.8554,
+    "change": -0.0002,
+    "ci95": [
+     -0.0251,
+     0.0282
+    ],
+    "kept": false
+   },
+   {
+    "group": "members' speeches",
+    "log_loss": 0.8575,
+    "change": 0.0019,
+    "ci95": [
+     -0.0001,
+     0.0041
+    ],
+    "kept": false
+   },
+   {
+    "group": "CPI vs MPR",
+    "log_loss": 0.8608,
+    "change": 0.0052,
+    "ci95": [
+     -0.0106,
+     0.0218
+    ],
+    "kept": false
+   },
+   {
+    "group": "oil",
+    "log_loss": 0.847,
+    "change": -0.0086,
+    "ci95": [
+     -0.0263,
+     0.0089
+    ],
+    "kept": false
+   },
+   {
+    "group": "Fed",
+    "log_loss": 0.8131,
+    "change": -0.0425,
+    "ci95": [
+     -0.0729,
+     -0.015
+    ],
+    "kept": true
+   },
+   {
+    "group": "Canadian dollar",
+    "log_loss": 0.8045,
+    "change": -0.0086,
+    "ci95": [
+     -0.0282,
+     0.0104
+    ],
+    "kept": false
+   }
+  ]
+ },
+ "selected": "2026-11-22",
+ "method": "core structure kept as a bundle if significantly better than 'repeat the last decision'; each other input group kept only if it significantly lowers log loss on its own. Leave-one-year-out; paired bootstrap over announcements, 2000 draws, 95% interval."
+}

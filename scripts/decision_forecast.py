@@ -64,6 +64,38 @@ def next_date(corpus, last):
     return (dt.date.fromisoformat(last) + dt.timedelta(days=42)).isoformat()
 
 
+def inertia_stats(ctx, since="2001-01-01"):
+    """How the Bank paces a cycle: does it move again straight after a move, after the
+    first move of a cycle, and after a pause?"""
+    dec = [(d, u) for d, u in ctx.decisions if d >= since]
+    follow, first, after_pause, runs = [], [], [], []
+    i = 0
+    while i < len(dec):
+        if dec[i][1]:
+            sgn, j = np.sign(dec[i][1]), i
+            while j + 1 < len(dec) and np.sign(dec[j + 1][1]) == sgn:
+                j += 1
+            runs.append(j - i + 1)
+            i = j + 1
+        else:
+            i += 1
+    for i, (d, u) in enumerate(dec[:-1]):
+        if not u:
+            continue
+        sgn = np.sign(u)
+        follow.append(np.sign(dec[i + 1][1]) == sgn)
+        recent = [v for dd, v in dec[:i] if (dt.date.fromisoformat(d) - dt.date.fromisoformat(dd)).days < 365
+                  and np.sign(v) == sgn]
+        if not recent:
+            first.append(np.sign(dec[i + 1][1]) == sgn)
+    for i in range(2, len(dec)):
+        if dec[i - 2][1] and not dec[i - 1][1]:
+            after_pause.append(np.sign(dec[i][1]) == np.sign(dec[i - 2][1]))
+    f = lambda x: {"p": round(float(np.mean(x)), 3), "n": len(x)}
+    return {"since": since, "after_move": f(follow), "after_first_move": f(first), "after_pause": f(after_pause),
+            "mean_run": round(float(np.mean(runs)), 2), "runs": sorted(runs)}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true")
@@ -84,21 +116,28 @@ def main():
         except Exception as e:  # noqa: BLE001
             print(f"[warn] guidance coding skipped: {e}")
     ctx = D.Context(corpus)
+    # inputs come from scripts/select_decision_model.py (significance-checked)
+    sel_path = ROOT / "data/processed/decision_model.json"
+    selection = json.loads(sel_path.read_text(encoding="utf-8")) if sel_path.exists() else None
+    if selection:
+        args.since = selection["since"]
     rows = D.panel(ctx, args.since)
+    LADDER_RUN = ([("last decision only", []), ("selected model", selection["features"])]
+                  if selection else LADDER)
     recent = (dt.date.today() - dt.timedelta(days=5 * 365 + 1)).isoformat()
     ridx = [i for i, r in enumerate(rows) if r["date"] >= recent]
     print(f"backtest: {len(rows)} announcements since {args.since} "
           f"({sum(r['decision'] != 0 for r in rows)} moves), leave-one-year-out")
     print(f"  {'model':24} {'logloss':>8} {'Brier':>7} {'called':>7} {'P(actual)':>9} {'moves called':>13}   last 5y: called  P(actual)")
     ladder, best = [], None
-    for name, feats in LADDER:
+    for name, feats in LADDER_RUN:
         P = cv(rows, feats)
         ev, er = evaluate(rows, P), evaluate([rows[i] for i in ridx], P[ridx])
         print(f"  {name:24} {ev['log_loss']:8.4f} {ev['brier']:7.4f} {ev['hit']:7.1%} {ev['p_actual']:9.1%} "
               f"{ev['move_hit']:13.1%}   {er['hit']:7.1%} {er['p_actual']:9.1%}")
         ladder.append({"model": name, **{k: (round(v, 4) if isinstance(v, float) else v) for k, v in ev.items()},
                        "recent": {k: (round(v, 4) if isinstance(v, float) else v) for k, v in er.items()}})
-        if best is None or ev["log_loss"] < best[1] - 1e-4:
+        if selection or best is None or ev["log_loss"] < best[1] - 1e-4:
             best = (name, ev["log_loss"], feats, P)
     chosen, Pc = best[2], best[3]
     print(f"chosen: {best[0]}")
@@ -116,8 +155,23 @@ def main():
     for d, q in zip(D.DELTAS, p):
         k = int(np.clip(last_u + d, -2, 2))
         probs[k] = probs.get(k, 0.0) + float(q)
+    # 80% ranges: refit on resampled histories (announcements), forecast again
+    rng = np.random.default_rng(0)
+    boot = {k: [] for k in probs}
+    for b in range(300):
+        sub = [rows[i] for i in rng.integers(0, len(rows), len(rows))]
+        pb = D.OrderedLogit(chosen, 2.0).fit(sub).predict([f])[0]
+        acc = {}
+        for d, q in zip(D.DELTAS, pb):
+            k = int(np.clip(last_u + d, -2, 2))
+            acc[k] = acc.get(k, 0.0) + float(q)
+        for k in boot:
+            boot[k].append(acc.get(k, 0.0))
+    ranges = {str(k * 25): [round(float(np.percentile(v, 10)), 3), round(float(np.percentile(v, 90)), 3)]
+              for k, v in boot.items()}
     rate = ctx.rate[-1][1]
     out = {
+        "ranges": ranges, "inertia": inertia_stats(ctx), "selection": selection,
         "generated": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
         "last": {"date": last_d, "decision_bp": last_u * 25, "rate": rate},
         "next": nxt, "as_of": asof,
