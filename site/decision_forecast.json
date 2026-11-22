@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22 20:19 UTC",
+ "generated": "2026-11-22 20:23 UTC",
  "last": {
   "date": "2026-10-28",
   "decision_bp": 25,
@@ -35,7 +35,7 @@
   "surprise": -1.25,
   "oil": -1.736,
   "fed": 0.0,
-  "fx": 1.091
+  "fx": 1.093
  },
  "inputs": {
   "cpi_detail": [
@@ -120,7 +120,7 @@
   "ladder": [
    {
     "model": "last decision only",
-    "log_loss": 1.2242,
+    "log_loss": 1.2331,
     "brier": 0.5545,
     "hit": 0.6486,
     "p_actual": 0.4592,
@@ -139,7 +139,7 @@
    },
    {
     "model": "+ Council's own words",
-    "log_loss": 1.0422,
+    "log_loss": 1.04,
     "brier": 0.4715,
     "hit": 0.6757,
     "p_actual": 0.5195,
@@ -158,8 +158,8 @@
    },
    {
     "model": "+ pace",
-    "log_loss": 1.0463,
-    "brier": 0.4687,
+    "log_loss": 1.0468,
+    "brier": 0.4686,
     "hit": 0.6757,
     "p_actual": 0.5242,
     "move_hit": 0.4643,
@@ -177,7 +177,7 @@
    },
    {
     "model": "+ members' speeches",
-    "log_loss": 1.027,
+    "log_loss": 1.0269,
     "brier": 0.461,
     "hit": 0.6892,
     "p_actual": 0.5293,
@@ -196,7 +196,7 @@
    },
    {
     "model": "+ CPI vs MPR",
-    "log_loss": 1.0201,
+    "log_loss": 1.0297,
     "brier": 0.4615,
     "hit": 0.6892,
     "p_actual": 0.5334,
@@ -215,7 +215,7 @@
    },
    {
     "model": "+ oil",
-    "log_loss": 1.0289,
+    "log_loss": 1.0206,
     "brier": 0.458,
     "hit": 0.6757,
     "p_actual": 0.5366,
@@ -234,7 +234,7 @@
    },
    {
     "model": "+ Fed",
-    "log_loss": 0.9824,
+    "log_loss": 0.9789,
     "brier": 0.4516,
     "hit": 0.6757,
     "p_actual": 0.5429,
@@ -253,7 +253,7 @@
    },
    {
     "model": "+ Canadian dollar",
-    "log_loss": 0.9849,
+    "log_loss": 0.9867,
     "brier": 0.4486,
     "hit": 0.6892,
     "p_actual": 0.5483,
