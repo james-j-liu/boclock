@@ -166,7 +166,7 @@
   "selected": "2026-11-22",
   "method": "core structure kept as a bundle if significantly better than 'repeat the last decision'; each other input group kept only if it significantly lowers log loss on its own. Leave-one-year-out; paired bootstrap over announcements, 2000 draws, 95% interval."
  },
- "generated": "2026-11-22 22:07 UTC",
+ "generated": "2026-11-22 22:09 UTC",
  "last": {
   "date": "2026-10-28",
   "decision_bp": 25,
