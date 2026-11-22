@@ -144,3 +144,22 @@ GitHub Pages.
 deliberately: they are the pipeline's memory and make the daily run incremental.
 Texts over 2,000 characters are stored zlib-compressed (base64, so the file stays
 JSONL); speeches by non-Council officials keep metadata only.
+
+## Decision forecast
+
+The **Decision forecast** tab gives the probability of each outcome at the next rate
+announcement. The Governing Council decides by consensus and publishes no votes, so
+the unit is the Council's decision, not individual members' votes.
+`scripts/decision_forecast.py` (with `src/boclock/forecast/`) builds it from:
+
+- the Council's own words since the last decision (rate announcement, press-conference
+  statement, Summary of deliberations) and members' speeches and evidence, each coded by
+  Jev for the decision it signals at the next announcement (`guidance.py`);
+- CPI releases against the MPR's quarterly CPI projection (`mpr_table.py` reads the
+  "Summary of the quarterly projection" table), plus the change in core inflation;
+- WTI oil, the Fed funds target and USD/CAD; and the revealed pace of the cycle.
+
+An ordered logit on the change from the previous decision; each input group is kept only
+if it lowers leave-one-year-out log loss. Backtest (74 announcements since 2017): log loss
+0.98 vs 1.22 for "same as last time", 68% of decisions called, average probability on the
+actual decision 54% (46%).

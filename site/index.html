@@ -44,6 +44,20 @@
   #dt-table tbody tr:hover { background:#1b2128; }
   #dt-table td.num { color:var(--ink); }
   a { color:var(--dove); }
+  .fc-grid { display:grid; grid-template-columns: minmax(0,1fr); gap:18px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:6px; padding:14px 16px; overflow-x:auto; }
+  .card h3 { margin:0 0 10px; font-size:14px; color:var(--hawk); letter-spacing:.3px; }
+  .card p, .card li { font-size:12.5px; line-height:1.6; color:var(--mut); }
+  table.t { border-collapse:collapse; font-size:12px; width:100%; }
+  table.t th, table.t td { padding:5px 8px; border-bottom:1px solid var(--line); text-align:right; white-space:nowrap; }
+  table.t th { color:var(--ink); background:#1b2128; position:sticky; top:0; }
+  table.t td.l, table.t th.l { text-align:left; white-space:normal; }
+  .pos { color:#e9967a; } .neg { color:#7fa7d6; } .note { font-size:12px; color:var(--mut); } .warn { color:#f2c744; }
+  .decbar { display:flex; height:32px; border-radius:4px; overflow:hidden; margin:6px 0 4px; }
+  .decbar div { display:flex; align-items:center; justify-content:center; font-size:12px; color:#fff; }
+  .scroll { overflow:auto; max-height:60vh; }
+  @media (max-width: 640px) { nav { flex-wrap:wrap; padding:0 8px; } nav button { padding:8px 10px; }
+    nav > div { margin-left:0 !important; flex-wrap:wrap; } .wrap { padding:14px 16px; } }
 </style>
 </head>
 <body>
@@ -64,6 +78,7 @@
   <button data-tab="rankings">Rankings</button>
   <button data-tab="speaker">Speaker Detail</button>
   <button data-tab="data">Data</button>
+  <button data-tab="forecast">Decision forecast</button>
   <button data-tab="methodology">Methodology</button>
   <div style="margin-left:auto;display:flex;align-items:center;gap:16px;padding:6px 12px;">
     <label style="color:var(--mut);font-size:12px;display:flex;align-items:center;gap:5px;cursor:pointer;"
@@ -141,6 +156,10 @@
       <span id="dt-info"></span>
     </div>
     <div id="dt-wrap"><table id="dt-table"></table></div>
+  </section>
+
+  <section id="forecast" class="hidden">
+    <div class="fc-grid" id="fc-root"><div class="note">Loading forecast…</div></div>
   </section>
 
   <section id="methodology" class="hidden">
@@ -720,16 +739,71 @@ function fillSpeakers(){
   }
 }
 
+// ---------------- Decision forecast tab ----------------
+let FC=null;
+const esc2=s=>String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+const bpL=b=>{b=+b; return b===0?"Hold":(b>0?"Hike ":"Cut ")+Math.abs(b)+"bp";};
+const pc=(x,d=0)=>x==null?"—":(100*x).toFixed(d)+"%";
+const oCol=b=>{b=+b; return b>0?(b>=50?"#b8432f":"#e05d44"):(b<0?(b<=-50?"#2f5d8a":"#4477aa"):"#6e7681");};
+const fD=d=>{ if(!d) return "—"; return new Date(d+"T00:00:00Z").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric",timeZone:"UTC"}); };
+const FL={council_level:"Council's own words (level)",council_gap:"Council's words vs last decision",member_level:"Members' speeches",
+  surprise:"CPI vs MPR + core",oil:"Oil (WTI)",fed:"Fed",fx:"Canadian dollar",pace:"Cycle pace",moved_last:"Moved last time",mpr_x_pace:"MPR-announcement pace"};
+const TYPE={mp_announce:"rate announcement",mp_statement:"press-conference statement",mp_account:"summary of deliberations",speech:"speech",testimony:"evidence to Parliament",interview:"interview"};
+function renderForecast(){
+  const root=document.getElementById("fc-root");
+  if(!FC){ fetch("decision_forecast.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})
+     .then(j=>{FC=j;renderForecast();}).catch(e=>{root.innerHTML='<div class="note">No forecast yet ('+esc2(e)+'). It is written by the daily run.</div>';}); return; }
+  const f=FC; let h='<div class="card"><h3>Next announcement: '+fD(f.next)+'</h3>';
+  h+='<p>As of '+fD(f.as_of)+'. Last decision ('+fD(f.last.date)+'): '+esc2(bpL(f.last.decision_bp))+', policy rate '+(+f.last.rate).toFixed(2)+'%. '+
+     'The Governing Council decides by consensus and publishes no votes, so this forecasts the Council\'s decision.</p><div class="decbar">';
+  const PR=Object.entries(f.probs).sort((a,b)=>(+a[0])-(+b[0]));
+  for(const [b,p] of PR){ if(p<0.005) continue;
+    h+='<div style="width:'+(100*p)+'%;background:'+oCol(b)+'" title="'+esc2(bpL(b))+' '+pc(p,1)+'">'+(p>0.07?esc2(bpL(b))+' '+pc(p):"")+'</div>'; }
+  h+='</div><table class="t" style="margin-top:8px"><thead><tr>'+PR.map(([b])=>'<th>'+esc2(bpL(b))+'</th>').join("")+'<th>Expected</th></tr></thead><tbody><tr>'+
+     PR.map(([,p])=>'<td>'+pc(p,1)+'</td>').join("")+'<td>'+(f.expected_bp>0?"+":"")+f.expected_bp.toFixed(1)+'bp</td></tr></tbody></table>';
+  const c=Object.entries(f.contributions).filter(([k,v])=>Math.abs(v)>=0.03).sort((a,b)=>Math.abs(b[1])-Math.abs(a[1]));
+  h+='<p><b>What drives it</b> (log-odds of a tighter decision than last time): '+c.map(([k,v])=>'<span class="'+(v>0?"pos":"neg")+'">'+esc2(FL[k]||k)+' '+(v>0?"+":"")+v.toFixed(2)+'</span>').join(", ")+'</p></div>';
+  // words
+  h+='<div class="card"><h3>What the Bank has said since the last decision</h3><table class="t"><thead><tr><th class="l">Date</th><th class="l">Document</th><th class="l">Who</th><th>Points to</th></tr></thead><tbody>';
+  const docs=[...(f.council_docs||[]).map(d=>({...d,speaker:"Governing Council"})),...(f.member_docs||[])].sort((a,b)=>a.date<b.date?-1:1);
+  for(const d of docs) h+='<tr><td class="l">'+fD(d.date)+'</td><td class="l">'+esc2(TYPE[d.type]||d.type)+'</td><td class="l">'+esc2(d.speaker)+'</td><td class="'+(d.signal>0.05?"pos":(d.signal<-0.05?"neg":""))+'">'+(d.signal>0?"+":"")+(25*d.signal).toFixed(0)+'bp</td></tr>';
+  h+='</tbody></table><p class="note">"Points to" is the decision each document signals for the next announcement, as coded by the Jev decision model (probability-weighted, 25bp per step).</p></div>';
+  // data & markets
+  const i=f.inputs||{};
+  h+='<div class="card"><h3>Data and markets since the last decision</h3>';
+  if((i.cpi_detail||[]).length){ h+='<table class="t"><thead><tr><th class="l">CPI release</th><th>Released</th><th>Outturn</th><th>MPR projection (quarter)</th><th>Surprise (z)</th></tr></thead><tbody>';
+    for(const d of i.cpi_detail) h+='<tr><td class="l">'+esc2(d.period)+'</td><td>'+fD(d.released)+'</td><td>'+(+d.actual).toFixed(1)+'%</td><td>'+(+d.expected).toFixed(1)+'%</td><td class="'+(d.z>0?"pos":"neg")+'">'+(d.z>0?"+":"")+d.z.toFixed(2)+'</td></tr>';
+    h+='</tbody></table>'; } else h+='<p>No CPI release since the last decision yet.</p>';
+  h+='<table class="t" style="margin-top:10px"><tbody>'+
+     '<tr><td class="l">Core inflation (avg of CPI-trim and CPI-median), change</td><td>'+(i.core_change_pp>0?"+":"")+(+i.core_change_pp||0).toFixed(2)+'pp</td></tr>'+
+     '<tr><td class="l">WTI oil</td><td class="'+(i.oil_pct>0?"pos":"neg")+'">'+(i.oil_pct>0?"+":"")+(+i.oil_pct||0).toFixed(1)+'%</td></tr>'+
+     '<tr><td class="l">USD/CAD (up = weaker loonie)</td><td>'+(i.usdcad_pct>0?"+":"")+(+i.usdcad_pct||0).toFixed(1)+'%</td></tr>'+
+     '<tr><td class="l">Fed funds target</td><td>'+(i.fed_bp||0)+'bp</td></tr></tbody></table>'+
+     '<p class="note">This is '+(i.mpr_meeting?"":"not ")+'an MPR announcement. Sources: Statistics Canada via the Bank\'s Valet API; MPR projection tables; FRED and Yahoo Finance for markets.</p></div>';
+  // backtest
+  const bt=f.backtest||{};
+  h+='<div class="card"><h3>Backtest — how good is this?</h3><p>Every announcement since '+esc2(bt.since)+' predicted by a model fitted on the other years only. Rows add one group of inputs at a time; the forecast uses <b>'+esc2(bt.chosen)+'</b> (lowest out-of-sample log loss).</p>';
+  h+='<div class="scroll"><table class="t"><thead><tr><th class="l">Model</th><th>Log loss</th><th>Decisions called</th><th>Avg P(actual)</th><th>Moves called</th><th>Last 5 years: called</th><th>P(actual)</th></tr></thead><tbody>';
+  for(const r of (bt.ladder||[])) h+='<tr'+(r.model===bt.chosen?' style="background:#1f2a1f"':'')+'><td class="l">'+esc2(r.model)+'</td><td>'+r.log_loss.toFixed(3)+'</td><td>'+pc(r.hit)+' of '+r.n+'</td><td>'+pc(r.p_actual)+'</td><td>'+pc(r.move_hit)+' of '+r.n_moves+'</td><td>'+pc(r.recent.hit)+' of '+r.recent.n+'</td><td>'+pc(r.recent.p_actual)+'</td></tr>';
+  h+='</tbody></table></div>';
+  if(bt.calls){ h+='<details><summary class="note" style="cursor:pointer">Announcement-by-announcement calls</summary><div class="scroll"><table class="t"><thead><tr><th class="l">Announcement</th><th>Actual</th><th>Predicted</th><th>P(actual)</th></tr></thead><tbody>';
+    for(const d of bt.calls.slice().reverse()) h+='<tr><td class="l">'+fD(d.date)+'</td><td>'+esc2(bpL(d.actual*25))+'</td><td class="'+(d.actual===d.predicted?"":"warn")+'">'+esc2(bpL(d.predicted*25))+'</td><td>'+pc(d.p_actual)+'</td></tr>';
+    h+='</tbody></table></div></details>'; }
+  h+='<p class="note">Coefficients: '+Object.entries((f.model||{}).coefficients||{}).map(([k,v])=>esc2(FL[k]||k)+' '+(v>0?"+":"")+v.toFixed(2)).join(" · ")+'. Updated '+esc2(f.generated)+'.</p></div>';
+  root.innerHTML=h;
+}
+
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
   document.querySelectorAll("nav button").forEach(x=>x.classList.remove("active"));
   b.classList.add("active");
   const tab=b.dataset.tab;
-  for(const s of ["timeline","rankings","speaker","data","methodology"])
+  for(const s of ["timeline","rankings","speaker","data","forecast","methodology"])
     document.getElementById(s).classList.toggle("hidden",s!==tab);
   if(tab==="timeline")renderTimeline();
   if(tab==="rankings")renderRankings();
   if(tab==="speaker")renderSpeaker();
   if(tab==="data")renderData();
+  if(tab==="forecast")renderForecast();
 });
 document.getElementById("dt-set").onchange=renderData;
 document.getElementById("dt-copy").onclick=()=>navigator.clipboard.writeText(dtText("\t")).then(()=>{
