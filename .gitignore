@@ -20,3 +20,6 @@ classify*.log
 
 
 !data/processed/backfill_senate.request
+# decision forecast state: guidance codes, market/MPR inputs
+!data/processed/guidance_codes.json
+!data/processed/forecast_inputs.json
