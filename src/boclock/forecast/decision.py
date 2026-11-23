@@ -16,6 +16,10 @@ over the window from the previous announcement up to the day before the next one
   oil        oil             % change in WTI over the window (per 10%)
   fed        fed             change in the Fed funds target (25bp steps)
   fx         fx             % change in USD/CAD (a weaker loonie is inflationary; per 2%)
+  tone       tone_council    hawkishness (tournament score) of the Council's own documents
+                             (announcement, statement, deliberations, MPR) in the window,
+                             minus their average over the previous 12 months
+             tone_members    the same for members' speeches and evidence
   pace       pace, moved_last, mpr_x_pace   as for the MPC: has this cycle moved at every
                              announcement or only at MPR ones, did the Bank move last time
 """
@@ -44,7 +48,11 @@ FEATURE_GROUPS = {
     "oil": ["oil"],
     "fed": ["fed"],
     "fx": ["fx"],
+    "tone": ["tone_council", "tone_members"],
 }
+
+TONE_COUNCIL = ("mp_announce", "mp_statement", "mp_account", "mp_report")
+TONE_MEMBERS = ("speech", "testimony", "interview")
 
 
 # --- inputs ------------------------------------------------------------------------
@@ -148,6 +156,7 @@ class Context:
         self.docs = sorted([(s.date, s.source_type, s.speaker, codes[s.id], s.id) for s in corpus
                             if s.id in codes and s.source_type in COUNCIL_TYPES | MEMBER_TYPES],
                            key=lambda x: (x[0], x[1], x[4]))
+        self.tones = sorted((s.date, s.source_type, (s.mu - 50) / 5) for s in corpus if s.mu is not None)
 
 
 def _signal(docs):
@@ -231,6 +240,13 @@ def pace(ctx, date):
             "paused_after_move": paused if active else 0.0}
 
 
+def _tone_shift(ctx, types, start, end):
+    back = (dt.date.fromisoformat(start) - dt.timedelta(days=365)).isoformat()
+    now = [t for d, ty, t in ctx.tones if ty in types and start <= d < end]
+    before = [t for d, ty, t in ctx.tones if ty in types and back <= d < start]
+    return float(np.mean(now) - np.mean(before)) if now and before else 0.0
+
+
 def features(ctx, prev_date, prev_dec, date):
     council = [x for x in ctx.docs if prev_date <= x[0] < date and x[1] in ("mp_announce", "mp_statement", "mp_account")]
     members = [x for x in ctx.docs if prev_date < x[0] < date and x[1] in ("speech", "testimony", "interview")]
@@ -247,6 +263,8 @@ def features(ctx, prev_date, prev_dec, date):
             "fx": float(np.clip(_mkt(mk.get("usdcad", {}), prev_date, date) / 2, -4, 4)),
             **{k: pc[k] for k in ("pace", "moved_last", "mpr_x_pace", "first_move", "run_len",
                                   "paused_after_move")},
+            "tone_council": _tone_shift(ctx, TONE_COUNCIL, prev_date, date),
+            "tone_members": _tone_shift(ctx, TONE_MEMBERS, prev_date, date),
             "prev_decision": prev_dec,
             "_mpr": pc["mpr"], "_detail": det, "_core_chg": round(core_chg, 2),
             "_oil_pct": round(oil, 1), "_fx_pct": round(_mkt(mk.get("usdcad", {}), prev_date, date), 1),

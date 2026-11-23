@@ -160,13 +160,23 @@
       0.0104
      ],
      "kept": false
+    },
+    {
+     "group": "hawkishness scores (Council & members)",
+     "log_loss": 0.8003,
+     "change": -0.0128,
+     "ci95": [
+      -0.0352,
+      0.009
+     ],
+     "kept": false
     }
    ]
   },
-  "selected": "2026-11-22",
+  "selected": "2026-11-23",
   "method": "core structure kept as a bundle if significantly better than 'repeat the last decision'; each other input group kept only if it significantly lowers log loss on its own. Leave-one-year-out; paired bootstrap over announcements, 2000 draws, 95% interval."
  },
- "generated": "2026-11-23 09:12 UTC",
+ "generated": "2026-11-23 12:45 UTC",
  "last": {
   "date": "2026-10-28",
   "decision_bp": 25,
@@ -202,7 +212,9 @@
   "surprise": -1.25,
   "oil": -1.797,
   "fed": 0.0,
-  "fx": 1.081
+  "fx": 1.081,
+  "tone_council": 1.33,
+  "tone_members": 0.932
  },
  "inputs": {
   "cpi_detail": [
