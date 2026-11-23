@@ -166,14 +166,14 @@
   "selected": "2026-11-22",
   "method": "core structure kept as a bundle if significantly better than 'repeat the last decision'; each other input group kept only if it significantly lowers log loss on its own. Leave-one-year-out; paired bootstrap over announcements, 2000 draws, 95% interval."
  },
- "generated": "2026-11-22 22:09 UTC",
+ "generated": "2026-11-23 09:12 UTC",
  "last": {
   "date": "2026-10-28",
   "decision_bp": 25,
   "rate": 2.5
  },
  "next": "2026-12-09",
- "as_of": "2026-11-22",
+ "as_of": "2026-11-23",
  "probs": {
   "-25": 0.0406,
   "0": 0.4268,
@@ -200,9 +200,9 @@
   "run_len": 1.0,
   "paused_after_move": 0.0,
   "surprise": -1.25,
-  "oil": -1.736,
+  "oil": -1.797,
   "fed": 0.0,
-  "fx": 1.093
+  "fx": 1.081
  },
  "inputs": {
   "cpi_detail": [
@@ -215,7 +215,7 @@
    }
   ],
   "core_change_pp": -0.05,
-  "oil_pct": -17.4,
+  "oil_pct": -18.0,
   "usdcad_pct": 2.2,
   "fed_bp": 0,
   "mpr_meeting": false
@@ -277,7 +277,7 @@
  },
  "backtest": {
   "since": "2001-01-01",
-  "recent_since": "2021-11-22",
+  "recent_since": "2021-11-23",
   "ladder": [
    {
     "model": "last decision only",
