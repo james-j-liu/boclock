@@ -31,7 +31,8 @@ OUT = ROOT / "data/processed/decision_model.json"
 G = D.FEATURE_GROUPS
 CORE = [("Council's own words", G["council"]), ("pace", G["pace"])]
 ADDONS = [("inertia (first move, run length, pause)", G["inertia"]), ("members' speeches", G["members"]),
-          ("CPI vs MPR", G["data"]), ("oil", G["oil"]), ("Fed", G["fed"]), ("Canadian dollar", G["fx"])]
+          ("CPI vs MPR", G["data"]), ("oil", G["oil"]), ("Fed", G["fed"]), ("Canadian dollar", G["fx"]),
+          ("hawkishness scores (Council & members)", G["tone"])]
 SINCE = "2001-01-01"
 
 
