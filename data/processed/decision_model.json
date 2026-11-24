@@ -8,33 +8,33 @@
   "fed"
  ],
  "since": "2001-01-01",
- "log_loss": 0.8131,
+ "log_loss": 0.8174,
  "report": {
   "baseline_log_loss": 0.9312,
   "core": {
-   "log_loss": 0.8556,
-   "change": -0.0756,
+   "log_loss": 0.8565,
+   "change": -0.0748,
    "ci95": [
-    -0.1355,
-    -0.0115
+    -0.1346,
+    -0.0103
    ],
    "significant": true,
    "groups": [
     {
      "group": "Council's own words",
-     "contribution": -0.0267,
+     "contribution": -0.0259,
      "ci95": [
-      -0.0556,
+      -0.0545,
       0.0001
      ],
      "significant_alone": false
     },
     {
      "group": "pace",
-     "contribution": 0.0007,
+     "contribution": 0.0017,
      "ci95": [
-      -0.019,
-      0.0213
+      -0.0176,
+      0.0224
      ],
      "significant_alone": false
     }
@@ -43,76 +43,76 @@
   "addons": [
    {
     "group": "inertia (first move, run length, pause)",
-    "log_loss": 0.8554,
-    "change": -0.0002,
+    "log_loss": 0.8571,
+    "change": 0.0007,
     "ci95": [
-     -0.0251,
-     0.0282
+     -0.0238,
+     0.029
     ],
     "kept": false
    },
    {
     "group": "members' speeches",
-    "log_loss": 0.8575,
-    "change": 0.0019,
+    "log_loss": 0.8585,
+    "change": 0.002,
     "ci95": [
-     -0.0001,
-     0.0041
+     0.001,
+     0.0033
     ],
     "kept": false
    },
    {
     "group": "CPI vs MPR",
-    "log_loss": 0.8608,
-    "change": 0.0052,
+    "log_loss": 0.861,
+    "change": 0.0045,
     "ci95": [
-     -0.0106,
-     0.0218
+     -0.0115,
+     0.0213
     ],
     "kept": false
    },
    {
     "group": "oil",
-    "log_loss": 0.847,
-    "change": -0.0086,
+    "log_loss": 0.8483,
+    "change": -0.0082,
     "ci95": [
-     -0.0263,
-     0.0089
+     -0.0253,
+     0.009
     ],
     "kept": false
    },
    {
     "group": "Fed",
-    "log_loss": 0.8131,
-    "change": -0.0425,
+    "log_loss": 0.8174,
+    "change": -0.039,
     "ci95": [
-     -0.0729,
-     -0.015
+     -0.0688,
+     -0.0121
     ],
     "kept": true
    },
    {
     "group": "Canadian dollar",
-    "log_loss": 0.8045,
-    "change": -0.0086,
+    "log_loss": 0.8096,
+    "change": -0.0078,
     "ci95": [
-     -0.0282,
-     0.0104
+     -0.0269,
+     0.0107
     ],
     "kept": false
    },
    {
     "group": "hawkishness scores (Council & members)",
-    "log_loss": 0.8003,
-    "change": -0.0128,
+    "log_loss": 0.8058,
+    "change": -0.0116,
     "ci95": [
-     -0.0352,
-     0.009
+     -0.0337,
+     0.0096
     ],
     "kept": false
    }
   ]
  },
- "selected": "2026-11-23",
+ "selected": "2026-11-24",
  "method": "core structure kept as a bundle if significantly better than 'repeat the last decision'; each other input group kept only if it significantly lowers log loss on its own. Leave-one-year-out; paired bootstrap over announcements, 2000 draws, 95% interval."
 }

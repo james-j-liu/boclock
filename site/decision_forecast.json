@@ -2,19 +2,19 @@
  "ranges": {
   "-25": [
    0.0,
-   0.08
+   0.094
   ],
   "0": [
-   0.33,
-   0.506
+   0.354,
+   0.545
   ],
   "25": [
-   0.44,
-   0.601
+   0.405,
+   0.569
   ],
   "50": [
-   0.013,
-   0.03
+   0.011,
+   0.026
   ]
  },
  "inertia": {
@@ -68,33 +68,33 @@
    "fed"
   ],
   "since": "2001-01-01",
-  "log_loss": 0.8131,
+  "log_loss": 0.8174,
   "report": {
    "baseline_log_loss": 0.9312,
    "core": {
-    "log_loss": 0.8556,
-    "change": -0.0756,
+    "log_loss": 0.8565,
+    "change": -0.0748,
     "ci95": [
-     -0.1355,
-     -0.0115
+     -0.1346,
+     -0.0103
     ],
     "significant": true,
     "groups": [
      {
       "group": "Council's own words",
-      "contribution": -0.0267,
+      "contribution": -0.0259,
       "ci95": [
-       -0.0556,
+       -0.0545,
        0.0001
       ],
       "significant_alone": false
      },
      {
       "group": "pace",
-      "contribution": 0.0007,
+      "contribution": 0.0017,
       "ci95": [
-       -0.019,
-       0.0213
+       -0.0176,
+       0.0224
       ],
       "significant_alone": false
      }
@@ -103,80 +103,80 @@
    "addons": [
     {
      "group": "inertia (first move, run length, pause)",
-     "log_loss": 0.8554,
-     "change": -0.0002,
+     "log_loss": 0.8571,
+     "change": 0.0007,
      "ci95": [
-      -0.0251,
-      0.0282
+      -0.0238,
+      0.029
      ],
      "kept": false
     },
     {
      "group": "members' speeches",
-     "log_loss": 0.8575,
-     "change": 0.0019,
+     "log_loss": 0.8585,
+     "change": 0.002,
      "ci95": [
-      -0.0001,
-      0.0041
+      0.001,
+      0.0033
      ],
      "kept": false
     },
     {
      "group": "CPI vs MPR",
-     "log_loss": 0.8608,
-     "change": 0.0052,
+     "log_loss": 0.861,
+     "change": 0.0045,
      "ci95": [
-      -0.0106,
-      0.0218
+      -0.0115,
+      0.0213
      ],
      "kept": false
     },
     {
      "group": "oil",
-     "log_loss": 0.847,
-     "change": -0.0086,
+     "log_loss": 0.8483,
+     "change": -0.0082,
      "ci95": [
-      -0.0263,
-      0.0089
+      -0.0253,
+      0.009
      ],
      "kept": false
     },
     {
      "group": "Fed",
-     "log_loss": 0.8131,
-     "change": -0.0425,
+     "log_loss": 0.8174,
+     "change": -0.039,
      "ci95": [
-      -0.0729,
-      -0.015
+      -0.0688,
+      -0.0121
      ],
      "kept": true
     },
     {
      "group": "Canadian dollar",
-     "log_loss": 0.8045,
-     "change": -0.0086,
+     "log_loss": 0.8096,
+     "change": -0.0078,
      "ci95": [
-      -0.0282,
-      0.0104
+      -0.0269,
+      0.0107
      ],
      "kept": false
     },
     {
      "group": "hawkishness scores (Council & members)",
-     "log_loss": 0.8003,
-     "change": -0.0128,
+     "log_loss": 0.8058,
+     "change": -0.0116,
      "ci95": [
-      -0.0352,
-      0.009
+      -0.0337,
+      0.0096
      ],
      "kept": false
     }
    ]
   },
-  "selected": "2026-11-23",
+  "selected": "2026-11-24",
   "method": "core structure kept as a bundle if significantly better than 'repeat the last decision'; each other input group kept only if it significantly lowers log loss on its own. Leave-one-year-out; paired bootstrap over announcements, 2000 draws, 95% interval."
  },
- "generated": "2026-11-24 18:34 UTC",
+ "generated": "2026-11-24 23:10 UTC",
  "last": {
   "date": "2026-10-28",
   "decision_bp": 25,
@@ -185,24 +185,24 @@
  "next": "2026-12-09",
  "as_of": "2026-11-24",
  "probs": {
-  "-25": 0.0406,
-  "0": 0.4268,
-  "25": 0.5123,
-  "50": 0.0203
+  "-25": 0.0473,
+  "0": 0.4599,
+  "25": 0.4753,
+  "50": 0.0175
  },
- "expected_bp": 12.8,
+ "expected_bp": 11.6,
  "contributions": {
-  "council_level": -0.152,
-  "council_gap": -0.699,
-  "pace": -0.057,
-  "moved_last": -0.801,
+  "council_level": -0.124,
+  "council_gap": -0.924,
+  "pace": -0.037,
+  "moved_last": -0.769,
   "mpr_x_pace": -0.085,
   "fed": 0.0
  },
  "features": {
-  "council_level": 0.557,
-  "council_gap": -0.443,
-  "member_level": 0.34,
+  "council_level": 0.393,
+  "council_gap": -0.607,
+  "member_level": 0.462,
   "pace": 0.5,
   "moved_last": 1.0,
   "mpr_x_pace": -0.5,
@@ -236,17 +236,17 @@
   {
    "date": "2026-10-28",
    "type": "mp_account",
-   "signal": 0.53
+   "signal": 0.4447
   },
   {
    "date": "2026-10-28",
    "type": "mp_announce",
-   "signal": 0.65
+   "signal": 0.5197
   },
   {
    "date": "2026-10-28",
    "type": "mp_statement",
-   "signal": 0.53
+   "signal": 0.3065
   }
  ],
  "member_docs": [
@@ -254,25 +254,25 @@
    "date": "2026-11-03",
    "type": "testimony",
    "speaker": "Tiff Macklem",
-   "signal": 0.48
+   "signal": 0.488
   },
   {
    "date": "2026-11-05",
    "type": "testimony",
    "speaker": "Tiff Macklem",
-   "signal": 0.51
+   "signal": 0.488
   },
   {
    "date": "2026-11-18",
    "type": "speech",
    "speaker": "Toni Gravelle",
-   "signal": 0.28
+   "signal": 0.4789
   },
   {
    "date": "2026-11-24",
    "type": "speech",
    "speaker": "Tiff Macklem",
-   "signal": 0.18
+   "signal": 0.4257
   }
  ],
  "model": {
@@ -285,12 +285,12 @@
    "fed"
   ],
   "coefficients": {
-   "council_level": -0.274,
-   "council_gap": 1.578,
-   "pace": -0.114,
-   "moved_last": -0.801,
+   "council_level": -0.317,
+   "council_gap": 1.522,
+   "pace": -0.074,
+   "moved_last": -0.769,
    "mpr_x_pace": 0.17,
-   "fed": 0.755
+   "fed": 0.73
   }
  },
  "backtest": {
@@ -318,19 +318,19 @@
    },
    {
     "model": "selected model",
-    "log_loss": 0.8131,
-    "brier": 0.4249,
-    "hit": 0.7094,
-    "p_actual": 0.5673,
-    "move_hit": 0.4861,
+    "log_loss": 0.8174,
+    "brier": 0.4263,
+    "hit": 0.6995,
+    "p_actual": 0.5665,
+    "move_hit": 0.4583,
     "n": 203,
     "n_moves": 72,
     "recent": {
-     "log_loss": 0.8892,
-     "brier": 0.5017,
-     "hit": 0.625,
-     "p_actual": 0.523,
-     "move_hit": 0.45,
+     "log_loss": 0.9061,
+     "brier": 0.5051,
+     "hit": 0.6,
+     "p_actual": 0.5222,
+     "move_hit": 0.4,
      "n": 40,
      "n_moves": 20
     }
@@ -342,7 +342,7 @@
     "date": "2001-01-23",
     "actual": -1,
     "predicted": 0,
-    "p_actual": 0.096
+    "p_actual": 0.097
    },
    {
     "date": "2001-03-06",
@@ -354,31 +354,31 @@
     "date": "2001-04-17",
     "actual": -1,
     "predicted": -2,
-    "p_actual": 0.406
+    "p_actual": 0.41
    },
    {
     "date": "2001-05-29",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.579
+    "p_actual": 0.584
    },
    {
     "date": "2001-07-17",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.576
+    "p_actual": 0.582
    },
    {
     "date": "2001-08-28",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.573
+    "p_actual": 0.58
    },
    {
     "date": "2001-09-17",
     "actual": -2,
     "predicted": -1,
-    "p_actual": 0.018
+    "p_actual": 0.019
    },
    {
     "date": "2001-10-23",
@@ -390,43 +390,43 @@
     "date": "2001-11-27",
     "actual": -2,
     "predicted": -2,
-    "p_actual": 0.467
+    "p_actual": 0.479
    },
    {
     "date": "2002-01-15",
     "actual": -1,
     "predicted": -2,
-    "p_actual": 0.287
+    "p_actual": 0.286
    },
    {
     "date": "2002-03-05",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.242
+    "p_actual": 0.234
    },
    {
     "date": "2002-04-16",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.102
+    "p_actual": 0.097
    },
    {
     "date": "2002-06-04",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.645
+    "p_actual": 0.647
    },
    {
     "date": "2002-07-16",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.644
+    "p_actual": 0.647
    },
    {
     "date": "2002-09-04",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.297
+    "p_actual": 0.294
    },
    {
     "date": "2002-10-16",
@@ -444,7 +444,7 @@
     "date": "2003-01-21",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.769
+    "p_actual": 0.768
    },
    {
     "date": "2003-03-04",
@@ -456,7 +456,7 @@
     "date": "2003-04-15",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.643
+    "p_actual": 0.642
    },
    {
     "date": "2003-06-03",
@@ -468,49 +468,49 @@
     "date": "2003-07-15",
     "actual": -1,
     "predicted": 0,
-    "p_actual": 0.115
+    "p_actual": 0.116
    },
    {
     "date": "2003-09-03",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.675
+    "p_actual": 0.678
    },
    {
     "date": "2003-10-15",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.272
+    "p_actual": 0.266
    },
    {
     "date": "2003-12-02",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.769
+    "p_actual": 0.768
    },
    {
     "date": "2004-01-20",
     "actual": -1,
     "predicted": 0,
-    "p_actual": 0.11
+    "p_actual": 0.115
    },
    {
     "date": "2004-03-02",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.682
+    "p_actual": 0.684
    },
    {
     "date": "2004-04-13",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.682
+    "p_actual": 0.688
    },
    {
     "date": "2004-06-08",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.254
+    "p_actual": 0.25
    },
    {
     "date": "2004-07-20",
@@ -522,25 +522,25 @@
     "date": "2004-09-08",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.108
+    "p_actual": 0.105
    },
    {
     "date": "2004-10-19",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.663
+    "p_actual": 0.662
    },
    {
     "date": "2004-12-07",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.296
+    "p_actual": 0.295
    },
    {
     "date": "2005-01-25",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.758
+    "p_actual": 0.757
    },
    {
     "date": "2005-03-01",
@@ -552,13 +552,13 @@
     "date": "2005-04-12",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.758
+    "p_actual": 0.757
    },
    {
     "date": "2005-05-25",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.754
+    "p_actual": 0.753
    },
    {
     "date": "2005-07-12",
@@ -576,31 +576,31 @@
     "date": "2005-10-18",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.649
+    "p_actual": 0.646
    },
    {
     "date": "2005-12-06",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.622
+    "p_actual": 0.62
    },
    {
     "date": "2006-01-24",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.655
+    "p_actual": 0.653
    },
    {
     "date": "2006-03-07",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.621
+    "p_actual": 0.62
    },
    {
     "date": "2006-04-25",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.656
+    "p_actual": 0.655
    },
    {
     "date": "2006-05-24",
@@ -612,7 +612,7 @@
     "date": "2006-07-11",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.279
+    "p_actual": 0.28
    },
    {
     "date": "2006-09-06",
@@ -636,7 +636,7 @@
     "date": "2007-01-16",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.765
+    "p_actual": 0.764
    },
    {
     "date": "2007-03-06",
@@ -648,31 +648,31 @@
     "date": "2007-04-24",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.765
+    "p_actual": 0.764
    },
    {
     "date": "2007-05-29",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.763
+    "p_actual": 0.762
    },
    {
     "date": "2007-07-10",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.103
+    "p_actual": 0.102
    },
    {
     "date": "2007-09-05",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.288
+    "p_actual": 0.29
    },
    {
     "date": "2007-10-16",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.765
+    "p_actual": 0.764
    },
    {
     "date": "2007-12-04",
@@ -684,31 +684,31 @@
     "date": "2008-01-22",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.668
+    "p_actual": 0.67
    },
    {
     "date": "2008-03-04",
     "actual": -2,
     "predicted": -1,
-    "p_actual": 0.032
+    "p_actual": 0.033
    },
    {
     "date": "2008-04-22",
     "actual": -2,
     "predicted": -2,
-    "p_actual": 0.61
+    "p_actual": 0.604
    },
    {
     "date": "2008-06-10",
     "actual": 0,
     "predicted": -2,
-    "p_actual": 0.027
+    "p_actual": 0.028
    },
    {
     "date": "2008-07-15",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.77
+    "p_actual": 0.769
    },
    {
     "date": "2008-09-03",
@@ -726,37 +726,37 @@
     "date": "2008-12-09",
     "actual": -3,
     "predicted": -3,
-    "p_actual": 0.527
+    "p_actual": 0.507
    },
    {
     "date": "2009-01-20",
     "actual": -2,
     "predicted": -3,
-    "p_actual": 0.235
+    "p_actual": 0.246
    },
    {
     "date": "2009-03-03",
     "actual": -2,
     "predicted": -2,
-    "p_actual": 0.661
+    "p_actual": 0.656
    },
    {
     "date": "2009-04-21",
     "actual": -1,
     "predicted": -2,
-    "p_actual": 0.214
+    "p_actual": 0.217
    },
    {
     "date": "2009-06-04",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.251
+    "p_actual": 0.245
    },
    {
     "date": "2009-07-21",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.755
+    "p_actual": 0.753
    },
    {
     "date": "2009-09-10",
@@ -780,55 +780,55 @@
     "date": "2010-01-19",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.758
+    "p_actual": 0.757
    },
    {
     "date": "2010-03-02",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.761
+    "p_actual": 0.76
    },
    {
     "date": "2010-04-20",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.759
+    "p_actual": 0.757
    },
    {
     "date": "2010-06-01",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.101
+    "p_actual": 0.1
    },
    {
     "date": "2010-07-20",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.667
+    "p_actual": 0.665
    },
    {
     "date": "2010-09-08",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.612
+    "p_actual": 0.613
    },
    {
     "date": "2010-10-19",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.265
+    "p_actual": 0.264
    },
    {
     "date": "2010-12-07",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.75
+    "p_actual": 0.751
    },
    {
     "date": "2011-01-18",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2011-03-01",
@@ -840,7 +840,7 @@
     "date": "2011-04-12",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2011-05-31",
@@ -852,187 +852,187 @@
     "date": "2011-07-19",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2011-09-07",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.748
+    "p_actual": 0.747
    },
    {
     "date": "2011-10-25",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2011-12-06",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2012-01-17",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2012-03-08",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2012-04-17",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2012-06-05",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2012-07-17",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2012-09-05",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2012-10-23",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2012-12-04",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2013-01-23",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2013-03-06",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2013-04-17",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2013-05-29",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2013-07-17",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2013-09-04",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2013-10-23",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2013-12-04",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2014-01-22",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2014-03-05",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2014-04-16",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2014-06-04",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2014-07-16",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2014-09-03",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2014-10-22",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2014-12-03",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2015-01-21",
     "actual": -1,
     "predicted": 0,
-    "p_actual": 0.116
+    "p_actual": 0.118
    },
    {
     "date": "2015-03-04",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.25
+    "p_actual": 0.246
    },
    {
     "date": "2015-04-15",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.768
+    "p_actual": 0.767
    },
    {
     "date": "2015-05-27",
@@ -1044,19 +1044,19 @@
     "date": "2015-07-15",
     "actual": -1,
     "predicted": 0,
-    "p_actual": 0.113
+    "p_actual": 0.117
    },
    {
     "date": "2015-09-09",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.232
+    "p_actual": 0.231
    },
    {
     "date": "2015-10-21",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.768
+    "p_actual": 0.767
    },
    {
     "date": "2015-12-02",
@@ -1068,13 +1068,13 @@
     "date": "2016-01-20",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.717
+    "p_actual": 0.722
    },
    {
     "date": "2016-03-09",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.744
+    "p_actual": 0.75
    },
    {
     "date": "2016-04-13",
@@ -1086,13 +1086,13 @@
     "date": "2016-05-25",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2016-07-13",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.75
+    "p_actual": 0.751
    },
    {
     "date": "2016-09-07",
@@ -1110,13 +1110,13 @@
     "date": "2016-12-07",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.742
+    "p_actual": 0.737
    },
    {
     "date": "2017-01-18",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.725
+    "p_actual": 0.708
    },
    {
     "date": "2017-03-01",
@@ -1128,7 +1128,7 @@
     "date": "2017-04-12",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.727
+    "p_actual": 0.726
    },
    {
     "date": "2017-05-24",
@@ -1140,121 +1140,121 @@
     "date": "2017-07-12",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.191
+    "p_actual": 0.2
    },
    {
     "date": "2017-09-06",
     "actual": 1,
-    "predicted": 1,
-    "p_actual": 0.524
+    "predicted": 0,
+    "p_actual": 0.459
    },
    {
     "date": "2017-10-25",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.378
+    "p_actual": 0.397
    },
    {
     "date": "2017-12-06",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.756
+    "p_actual": 0.758
    },
    {
     "date": "2018-01-17",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.184
+    "p_actual": 0.193
    },
    {
     "date": "2018-03-07",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.353
+    "p_actual": 0.431
    },
    {
     "date": "2018-04-18",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.723
+    "p_actual": 0.731
    },
    {
     "date": "2018-05-30",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.75
+    "p_actual": 0.742
    },
    {
     "date": "2018-07-11",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.328
+    "p_actual": 0.297
    },
    {
     "date": "2018-09-05",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.286
+    "p_actual": 0.282
    },
    {
     "date": "2018-10-24",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.331
+    "p_actual": 0.301
    },
    {
     "date": "2018-12-05",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.282
+    "p_actual": 0.27
    },
    {
     "date": "2019-01-09",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.582
+    "p_actual": 0.557
    },
    {
     "date": "2019-03-06",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.737
+    "p_actual": 0.732
    },
    {
     "date": "2019-04-24",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.75
+    "p_actual": 0.749
    },
    {
     "date": "2019-05-29",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.748
+    "p_actual": 0.747
    },
    {
     "date": "2019-07-10",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.751
+    "p_actual": 0.75
    },
    {
     "date": "2019-09-04",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.677
+    "p_actual": 0.678
    },
    {
     "date": "2019-10-30",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.671
+    "p_actual": 0.665
    },
    {
     "date": "2019-12-04",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.684
+    "p_actual": 0.666
    },
    {
     "date": "2020-01-22",
@@ -1272,31 +1272,31 @@
     "date": "2020-03-13",
     "actual": -2,
     "predicted": -2,
-    "p_actual": 0.643
+    "p_actual": 0.684
    },
    {
     "date": "2020-03-27",
     "actual": -2,
     "predicted": -2,
-    "p_actual": 0.757
+    "p_actual": 0.758
    },
    {
     "date": "2020-04-15",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.173
+    "p_actual": 0.14
    },
    {
     "date": "2020-06-03",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.755
+    "p_actual": 0.757
    },
    {
     "date": "2020-09-09",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.756
+    "p_actual": 0.757
    },
    {
     "date": "2021-07-14",
@@ -1332,19 +1332,19 @@
     "date": "2022-03-02",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.18
+    "p_actual": 0.176
    },
    {
     "date": "2022-04-13",
     "actual": 2,
     "predicted": 1,
-    "p_actual": 0.072
+    "p_actual": 0.068
    },
    {
     "date": "2022-06-01",
     "actual": 2,
     "predicted": 2,
-    "p_actual": 0.699
+    "p_actual": 0.704
    },
    {
     "date": "2022-07-13",
@@ -1356,163 +1356,163 @@
     "date": "2022-09-07",
     "actual": 3,
     "predicted": 3,
-    "p_actual": 0.598
+    "p_actual": 0.589
    },
    {
     "date": "2022-10-26",
     "actual": 2,
     "predicted": 3,
-    "p_actual": 0.388
+    "p_actual": 0.364
    },
    {
     "date": "2022-12-07",
     "actual": 2,
     "predicted": 2,
-    "p_actual": 0.768
+    "p_actual": 0.756
    },
    {
     "date": "2023-01-25",
     "actual": 1,
     "predicted": 2,
-    "p_actual": 0.234
+    "p_actual": 0.208
    },
    {
     "date": "2023-03-08",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.369
+    "p_actual": 0.352
    },
    {
     "date": "2023-04-12",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.635
+    "p_actual": 0.656
    },
    {
     "date": "2023-06-07",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.244
+    "p_actual": 0.22
    },
    {
     "date": "2023-07-12",
     "actual": 1,
     "predicted": 1,
-    "p_actual": 0.633
+    "p_actual": 0.667
    },
    {
     "date": "2023-09-06",
     "actual": 0,
     "predicted": 1,
-    "p_actual": 0.241
+    "p_actual": 0.256
    },
    {
     "date": "2023-10-25",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.735
+    "p_actual": 0.747
    },
    {
     "date": "2023-12-06",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.764
+    "p_actual": 0.761
    },
    {
     "date": "2024-01-24",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.754
+    "p_actual": 0.761
    },
    {
     "date": "2024-03-06",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.762
+    "p_actual": 0.763
    },
    {
     "date": "2024-04-10",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.764
+    "p_actual": 0.763
    },
    {
     "date": "2024-06-05",
     "actual": -1,
     "predicted": 0,
-    "p_actual": 0.143
+    "p_actual": 0.147
    },
    {
     "date": "2024-07-24",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.591
+    "p_actual": 0.613
    },
    {
     "date": "2024-09-04",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.586
+    "p_actual": 0.595
    },
    {
     "date": "2024-10-23",
     "actual": -2,
     "predicted": -1,
-    "p_actual": 0.113
+    "p_actual": 0.108
    },
    {
     "date": "2024-12-11",
     "actual": -2,
     "predicted": -2,
-    "p_actual": 0.479
+    "p_actual": 0.467
    },
    {
     "date": "2025-01-29",
     "actual": -1,
     "predicted": -2,
-    "p_actual": 0.403
+    "p_actual": 0.448
    },
    {
     "date": "2025-03-12",
     "actual": -1,
-    "predicted": -1,
-    "p_actual": 0.499
+    "predicted": 0,
+    "p_actual": 0.441
    },
    {
     "date": "2025-04-16",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.364
+    "p_actual": 0.389
    },
    {
     "date": "2025-06-04",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.763
+    "p_actual": 0.761
    },
    {
     "date": "2025-07-30",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.711
+    "p_actual": 0.738
    },
    {
     "date": "2025-09-17",
     "actual": -1,
     "predicted": 0,
-    "p_actual": 0.155
+    "p_actual": 0.111
    },
    {
     "date": "2025-10-29",
     "actual": -1,
     "predicted": -1,
-    "p_actual": 0.717
+    "p_actual": 0.706
    },
    {
     "date": "2025-12-10",
     "actual": 0,
     "predicted": -1,
-    "p_actual": 0.341
+    "p_actual": 0.345
    },
    {
     "date": "2026-01-28",
@@ -1524,7 +1524,7 @@
     "date": "2026-03-18",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.757
+    "p_actual": 0.756
    },
    {
     "date": "2026-04-29",
@@ -1536,7 +1536,7 @@
     "date": "2026-06-10",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.757
+    "p_actual": 0.756
    },
    {
     "date": "2026-07-15",
@@ -1548,13 +1548,13 @@
     "date": "2026-09-02",
     "actual": 0,
     "predicted": 0,
-    "p_actual": 0.757
+    "p_actual": 0.756
    },
    {
     "date": "2026-10-28",
     "actual": 1,
     "predicted": 0,
-    "p_actual": 0.213
+    "p_actual": 0.209
    }
   ]
  }

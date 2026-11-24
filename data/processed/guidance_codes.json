@@ -1,5391 +1,6546 @@
 {
 "001431fbe2cfeb49": {
+"blind": true,
 "date": "2023-06-08",
-"ev": 0.67,
-"focus": 0.465,
+"ev": 0.4527,
+"focus": 0.692,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.59,
-"hike_50": 0.04,
-"hold": 0.37
+"cut_25": 0.0123,
+"cut_50": 0.0036,
+"hike_25": 0.3995,
+"hike_50": 0.0364,
+"hold": 0.5482
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Paul Beaudry",
 "type": "speech"
 },
 "0065aaba4af754ac": {
+"blind": true,
 "date": "2023-10-30",
-"ev": -0.01,
-"focus": 0.613,
+"ev": 0.1119,
+"focus": 0.644,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0321,
+"cut_50": 0.0056,
+"hike_25": 0.104,
+"hike_50": 0.0256,
+"hold": 0.8326
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "00e3b7f8acf5f6c7": {
+"blind": true,
 "date": "2024-03-06",
-"ev": 0.0,
-"focus": 0.757,
+"ev": 0.0301,
+"focus": 0.806,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0281,
+"cut_50": 0.0034,
+"hike_25": 0.0483,
+"hike_50": 0.0083,
+"hold": 0.912
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "0322e18f904fac48": {
+"blind": true,
 "date": "2018-10-24",
-"ev": 0.93,
-"focus": 0.655,
+"ev": 0.9887,
+"focus": 0.798,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.91,
-"hike_50": 0.01,
-"hold": 0.08
+"cut_25": 0.0039,
+"cut_50": 0.0012,
+"hike_25": 0.8957,
+"hike_50": 0.0496,
+"hold": 0.0496
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "047268d4a288948a": {
+"blind": true,
 "date": "2023-07-12",
-"ev": 0.7,
-"focus": 0.708,
+"ev": 0.7123,
+"focus": 0.853,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.7,
-"hike_50": 0.0,
-"hold": 0.3
+"cut_25": 0.0048,
+"cut_50": 0.0018,
+"hike_25": 0.6712,
+"hike_50": 0.0247,
+"hold": 0.2975
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "050c5991dcb15f3d": {
+"blind": true,
 "date": "2020-07-15",
-"ev": 0.0,
-"focus": 0.705,
+"ev": -0.0078,
+"focus": 0.749,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0111,
+"cut_50": 0.003,
+"hike_25": 0.0059,
+"hike_50": 0.0017,
+"hold": 0.9783
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "060985f7048b9275": {
+"blind": true,
 "date": "2023-10-03",
-"ev": 0.14,
-"focus": 0.31,
+"ev": 0.3611,
+"focus": 0.489,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.1,
-"hike_50": 0.02,
-"hold": 0.88
+"cut_25": 0.0445,
+"cut_50": 0.0071,
+"hike_25": 0.3564,
+"hike_50": 0.0317,
+"hold": 0.5602
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Nicolas Vincent",
 "type": "speech"
 },
 "06e98c15ba071dbf": {
+"blind": true,
 "date": "2024-09-04",
-"ev": -0.97,
-"focus": 0.62,
+"ev": -0.968,
+"focus": 0.764,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.97,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.03
+"cut_25": 0.956,
+"cut_50": 0.0083,
+"hike_25": 0.0023,
+"hike_50": 0.0012,
+"hold": 0.0322
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "07265d0fa822121e": {
+"blind": true,
 "date": "2024-09-04",
-"ev": -0.97,
-"focus": 0.708,
+"ev": -0.9821,
+"focus": 0.796,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.97,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.03
+"cut_25": 0.9439,
+"cut_50": 0.0212,
+"hike_25": 0.0022,
+"hike_50": 0.001,
+"hold": 0.0318
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "072dd93e28f42032": {
+"blind": true,
 "date": "2023-09-19",
-"ev": 0.66,
-"focus": 0.525,
+"ev": 0.4242,
+"focus": 0.702,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.64,
-"hike_50": 0.01,
-"hold": 0.35
+"cut_25": 0.0205,
+"cut_50": 0.004,
+"hike_25": 0.4136,
+"hike_50": 0.0195,
+"hold": 0.5424
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Sharon Kozicki",
 "type": "speech"
 },
 "082f3659f819fe5f": {
+"blind": true,
 "date": "2020-03-04",
-"ev": -1.09,
-"focus": 0.445,
+"ev": -1.2842,
+"focus": 0.67,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.41,
-"cut_50": 0.34,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.25
+"cut_25": 0.211,
+"cut_50": 0.5453,
+"hike_25": 0.008,
+"hike_50": 0.0047,
+"hold": 0.231
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "0869e74aa649a5c4": {
+"blind": true,
 "date": "2016-09-26",
-"ev": 0.0,
-"focus": 0.175,
+"ev": -0.0427,
+"focus": 0.117,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0632,
+"cut_50": 0.0321,
+"hike_25": 0.0604,
+"hike_50": 0.0121,
+"hold": 0.8321
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "08746ec7e48b7aa4": {
+"blind": true,
 "date": "2019-01-09",
-"ev": 0.38,
-"focus": 0.487,
+"ev": 0.56,
+"focus": 0.633,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.38,
-"hike_50": 0.0,
-"hold": 0.62
+"cut_25": 0.0209,
+"cut_50": 0.0042,
+"hike_25": 0.5537,
+"hike_50": 0.0178,
+"hold": 0.4035
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "0956b003da5791c5": {
+"blind": true,
 "date": "2018-05-31",
-"ev": 0.75,
-"focus": 0.61,
+"ev": 0.759,
+"focus": 0.764,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.75,
-"hike_50": 0.0,
-"hold": 0.25
+"cut_25": 0.0068,
+"cut_50": 0.0022,
+"hike_25": 0.7493,
+"hike_50": 0.0104,
+"hold": 0.2313
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Sylvain Leduc",
 "type": "speech"
 },
 "0ab79b26c4cd78ff": {
+"blind": true,
 "date": "2022-09-20",
-"ev": 1.15,
-"focus": 0.355,
+"ev": 1.2427,
+"focus": 0.551,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.47,
-"hike_50": 0.34,
-"hold": 0.19
+"cut_25": 0.0114,
+"cut_50": 0.0052,
+"hike_25": 0.4343,
+"hike_50": 0.4151,
+"hold": 0.134
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Paul Beaudry",
 "type": "speech"
 },
 "0ce668895bc52136": {
+"blind": true,
 "date": "2026-09-02",
-"ev": 0.23,
-"focus": 0.487,
+"ev": 0.2084,
+"focus": 0.646,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.24,
-"hike_50": 0.0,
-"hold": 0.75
+"cut_25": 0.0177,
+"cut_50": 0.0036,
+"hike_25": 0.2131,
+"hike_50": 0.0101,
+"hold": 0.7556
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "0d60996b84607c48": {
+"blind": true,
 "date": "2017-10-25",
-"ev": 0.09,
-"focus": 0.52,
+"ev": 0.1589,
+"focus": 0.68,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.09,
-"hike_50": 0.0,
-"hold": 0.91
+"cut_25": 0.0114,
+"cut_50": 0.0028,
+"hike_25": 0.1541,
+"hike_50": 0.0109,
+"hold": 0.8207
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "0dd84809c2cce3e4": {
+"blind": true,
 "date": "2020-09-09",
-"ev": 0.0,
-"focus": 0.647,
+"ev": -0.0049,
+"focus": 0.738,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0106,
+"cut_50": 0.0024,
+"hike_25": 0.0077,
+"hike_50": 0.0015,
+"hold": 0.9777
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "0ed337e79c454f26": {
+"blind": true,
 "date": "2016-09-14",
-"ev": -0.03,
-"focus": 0.333,
+"ev": -0.0207,
+"focus": 0.346,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.01,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.94
+"cut_25": 0.1167,
+"cut_50": 0.0175,
+"hike_25": 0.1115,
+"hike_50": 0.0097,
+"hold": 0.7447
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "0f4caf582578f234": {
+"blind": true,
 "date": "2024-02-06",
-"ev": 0.0,
-"focus": 0.52,
+"ev": 0.0017,
+"focus": 0.602,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0403,
+"cut_50": 0.0034,
+"hike_25": 0.0369,
+"hike_50": 0.006,
+"hold": 0.9133
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "116f693dd615a873": {
+"blind": true,
 "date": "2018-10-24",
-"ev": 0.78,
-"focus": 0.512,
+"ev": 0.892,
+"focus": 0.656,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.76,
-"hike_50": 0.01,
-"hold": 0.23
+"cut_25": 0.0046,
+"cut_50": 0.0014,
+"hike_25": 0.8709,
+"hike_50": 0.0142,
+"hold": 0.1088
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "11dcfd925bbd09a1": {
+"blind": true,
 "date": "2016-07-13",
-"ev": 0.0,
-"focus": 0.417,
+"ev": 0.1101,
+"focus": 0.633,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0175,
+"cut_50": 0.0035,
+"hike_25": 0.1119,
+"hike_50": 0.0114,
+"hold": 0.8557
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "1377cc346b13d604": {
+"blind": true,
 "date": "2020-08-25",
-"ev": -0.03,
-"focus": 0.23,
+"ev": -0.1576,
+"focus": 0.277,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.1112,
+"cut_50": 0.043,
+"hike_25": 0.0262,
+"hike_50": 0.0067,
+"hold": 0.8129
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "138140c1e5ddd408": {
+"blind": true,
 "date": "2016-10-06",
-"ev": -0.08,
-"focus": 0.507,
+"ev": -0.1644,
+"focus": 0.668,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.06,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.93
+"cut_25": 0.1751,
+"cut_50": 0.0139,
+"hike_25": 0.0262,
+"hike_50": 0.0062,
+"hold": 0.7786
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "150e592f94151ef8": {
+"blind": true,
 "date": "2026-10-28",
-"ev": 0.53,
-"focus": 0.61,
+"ev": 0.4447,
+"focus": 0.814,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.53,
-"hike_50": 0.0,
-"hold": 0.47
+"cut_25": 0.0057,
+"cut_50": 0.0022,
+"hike_25": 0.4361,
+"hike_50": 0.0093,
+"hold": 0.5467
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "1514ad31e61e6b12": {
+"blind": true,
 "date": "2019-05-30",
-"ev": -0.02,
-"focus": 0.45,
+"ev": -0.0247,
+"focus": 0.646,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0721,
+"cut_50": 0.0066,
+"hike_25": 0.048,
+"hike_50": 0.0063,
+"hold": 0.867
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "155aa0ee30d48fe8": {
+"blind": true,
 "date": "2026-06-10",
-"ev": -0.14,
-"focus": 0.44,
+"ev": 0.0075,
+"focus": 0.626,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.14,
-"cut_50": 0.01,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.83
+"cut_25": 0.0627,
+"cut_50": 0.0037,
+"hike_25": 0.0627,
+"hike_50": 0.0075,
+"hold": 0.8634
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "15937e0be464ef17": {
+"blind": true,
 "date": "2024-03-06",
-"ev": -0.02,
-"focus": 0.465,
+"ev": 0.0062,
+"focus": 0.66,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0911,
+"cut_50": 0.0083,
+"hike_25": 0.0911,
+"hike_50": 0.0114,
+"hold": 0.7981
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "16bcf763c49dd24c": {
+"blind": true,
 "date": "2024-09-19",
-"ev": -0.44,
-"focus": 0.27,
+"ev": -0.4962,
+"focus": 0.317,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.44,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.56
+"cut_25": 0.4752,
+"cut_50": 0.0252,
+"hike_25": 0.0196,
+"hike_50": 0.0048,
+"hold": 0.4752
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Nicolas Vincent",
 "type": "speech"
 },
 "176098cce6bde470": {
+"blind": true,
 "date": "2021-07-14",
-"ev": 0.0,
-"focus": 0.682,
+"ev": 0.0179,
+"focus": 0.701,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0114,
+"cut_50": 0.0018,
+"hike_25": 0.0257,
+"hike_50": 0.0036,
+"hold": 0.9575
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "17709cebcd2a8793": {
+"blind": true,
 "date": "2018-04-18",
-"ev": 0.67,
-"focus": 0.797,
+"ev": 0.8422,
+"focus": 0.847,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.65,
-"hike_50": 0.01,
-"hold": 0.34
+"cut_25": 0.0083,
+"cut_50": 0.0023,
+"hike_25": 0.7964,
+"hike_50": 0.0294,
+"hold": 0.1636
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "18bfc7e61de569af": {
+"blind": true,
 "date": "2020-06-04",
-"ev": 0.0,
-"focus": 0.547,
+"ev": -0.0078,
+"focus": 0.701,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0233,
+"cut_50": 0.0052,
+"hike_25": 0.0162,
+"hike_50": 0.0049,
+"hold": 0.9503
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 },
 "1a3de129450fab66": {
+"blind": true,
 "date": "2022-07-13",
-"ev": 1.86,
-"focus": 0.55,
+"ev": 1.76,
+"focus": 0.778,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.1,
-"hike_50": 0.88,
-"hold": 0.02
+"cut_25": 0.0026,
+"cut_50": 0.0016,
+"hike_25": 0.2097,
+"hike_50": 0.778,
+"hold": 0.0081
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "1aa126cae7e9ae31": {
+"blind": true,
 "date": "2017-09-06",
-"ev": 0.55,
-"focus": 0.502,
+"ev": 0.4426,
+"focus": 0.667,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.53,
-"hike_50": 0.01,
-"hold": 0.46
+"cut_25": 0.0105,
+"cut_50": 0.0036,
+"hike_25": 0.4172,
+"hike_50": 0.0216,
+"hold": 0.5472
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "1aebe130c8d1fd67": {
+"blind": true,
 "date": "2020-04-15",
-"ev": 0.0,
-"focus": 0.378,
+"ev": -0.0143,
+"focus": 0.593,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0197,
+"cut_50": 0.0062,
+"hike_25": 0.0114,
+"hike_50": 0.0031,
+"hold": 0.9596
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "1afbc32720baa823": {
+"blind": true,
 "date": "2022-09-07",
-"ev": 1.36,
-"focus": 0.605,
+"ev": 1.4726,
+"focus": 0.777,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.62,
-"hike_50": 0.37,
-"hold": 0.01
+"cut_25": 0.003,
+"cut_50": 0.0015,
+"hike_25": 0.4928,
+"hike_50": 0.4928,
+"hold": 0.0099
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "1b3f7b6437c73da0": {
+"blind": true,
 "date": "2020-05-14",
-"ev": 0.0,
-"focus": 0.275,
+"ev": -0.0869,
+"focus": 0.374,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0532,
+"cut_50": 0.0215,
+"hike_25": 0.0053,
+"hike_50": 0.002,
+"hold": 0.918
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "1b446be773792fa0": {
+"blind": true,
 "date": "2017-11-28",
-"ev": 0.3,
-"focus": 0.225,
+"ev": 0.4975,
+"focus": 0.318,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.28,
-"hike_50": 0.01,
-"hold": 0.71
+"cut_25": 0.0353,
+"cut_50": 0.0059,
+"hike_25": 0.4857,
+"hike_50": 0.0294,
+"hold": 0.4437
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "1bddbb03217904ea": {
+"blind": true,
 "date": "2018-07-11",
-"ev": 0.85,
-"focus": 0.502,
+"ev": 0.8712,
+"focus": 0.646,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.85,
-"hike_50": 0.0,
-"hold": 0.15
+"cut_25": 0.0041,
+"cut_50": 0.0013,
+"hike_25": 0.8639,
+"hike_50": 0.007,
+"hold": 0.1236
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "1c25d1e3708dc4c6": {
+"blind": true,
 "date": "2020-04-16",
-"ev": 0.0,
-"focus": 0.39,
+"ev": -0.0134,
+"focus": 0.663,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0212,
+"cut_50": 0.0094,
+"hike_25": 0.0169,
+"hike_50": 0.0049,
+"hold": 0.9475
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "1c57353fd3803a59": {
+"blind": true,
 "date": "2024-10-29",
-"ev": -1.11,
-"focus": 0.583,
+"ev": -0.9477,
+"focus": 0.628,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.83,
-"cut_50": 0.14,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.03
+"cut_25": 0.7874,
+"cut_50": 0.0859,
+"hike_25": 0.0061,
+"hike_50": 0.0027,
+"hold": 0.1179
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "1c6b76f2f1fa1010": {
+"blind": true,
 "date": "2021-01-20",
-"ev": 0.0,
-"focus": 0.73,
+"ev": -0.0086,
+"focus": 0.748,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0133,
+"cut_50": 0.0022,
+"hike_25": 0.0068,
+"hike_50": 0.0012,
+"hold": 0.9765
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "1d4b65e794658097": {
+"blind": true,
 "date": "2023-10-25",
-"ev": 0.67,
-"focus": 0.507,
+"ev": 0.3976,
+"focus": 0.742,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.65,
-"hike_50": 0.01,
-"hold": 0.34
+"cut_25": 0.0201,
+"cut_50": 0.0052,
+"hike_25": 0.3799,
+"hike_50": 0.0241,
+"hold": 0.5707
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "1d57b803764029bd": {
+"blind": true,
 "date": "2017-04-12",
-"ev": 0.13,
-"focus": 0.415,
+"ev": 0.132,
+"focus": 0.381,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.11,
-"hike_50": 0.01,
-"hold": 0.88
+"cut_25": 0.061,
+"cut_50": 0.0098,
+"hike_25": 0.1804,
+"hike_50": 0.0161,
+"hold": 0.7328
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "1de58ba38e9d7f04": {
+"blind": true,
 "date": "2024-12-11",
-"ev": -1.09,
-"focus": 0.65,
+"ev": -0.9626,
+"focus": 0.824,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.89,
-"cut_50": 0.1,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.01
+"cut_25": 0.8458,
+"cut_50": 0.0614,
+"hike_25": 0.0032,
+"hike_50": 0.0014,
+"hold": 0.0882
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "1e0b3675022868cf": {
+"blind": true,
 "date": "2023-02-16",
-"ev": 0.02,
-"focus": 0.805,
+"ev": 0.0369,
+"focus": 0.851,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0017,
+"cut_50": 0.0007,
+"hike_25": 0.0283,
+"hike_50": 0.0058,
+"hold": 0.9635
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "1effa790e07beb47": {
+"blind": true,
 "date": "2018-09-27",
-"ev": 0.9,
-"focus": 0.59,
+"ev": 0.889,
+"focus": 0.606,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.9,
-"hike_50": 0.0,
-"hold": 0.1
+"cut_25": 0.0067,
+"cut_50": 0.0015,
+"hike_25": 0.8678,
+"hike_50": 0.0155,
+"hold": 0.1084
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "2091326d8ea97101": {
+"blind": true,
 "date": "2024-10-23",
-"ev": -1.16,
-"focus": 0.552,
+"ev": -1.0858,
+"focus": 0.744,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.78,
-"cut_50": 0.19,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.03
+"cut_25": 0.8558,
+"cut_50": 0.1171,
+"hike_25": 0.002,
+"hike_50": 0.001,
+"hold": 0.0241
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "20f36900d6f69251": {
+"blind": true,
 "date": "2020-10-28",
-"ev": 0.0,
-"focus": 0.682,
+"ev": -0.008,
+"focus": 0.785,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0098,
+"cut_50": 0.0017,
+"hike_25": 0.0036,
+"hike_50": 0.0008,
+"hold": 0.9841
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "217544c5f2d853e4": {
+"blind": true,
 "date": "2026-03-18",
-"ev": -0.01,
-"focus": 0.63,
+"ev": 0.046,
+"focus": 0.774,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0179,
+"cut_50": 0.0024,
+"hike_25": 0.0581,
+"hike_50": 0.0053,
+"hold": 0.9163
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "21ebcc60c297d8f6": {
+"blind": true,
 "date": "2023-12-07",
-"ev": 0.18,
-"focus": 0.465,
+"ev": 0.2606,
+"focus": 0.577,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.16,
-"hike_50": 0.01,
-"hold": 0.83
+"cut_25": 0.0299,
+"cut_50": 0.0051,
+"hike_25": 0.2743,
+"hike_50": 0.0133,
+"hold": 0.6774
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 },
 "231c72def89250cc": {
+"blind": true,
 "date": "2021-12-15",
-"ev": 0.14,
-"focus": 0.448,
+"ev": 0.4277,
+"focus": 0.458,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.11,
-"hike_50": 0.02,
-"hold": 0.86
+"cut_25": 0.018,
+"cut_50": 0.0062,
+"hike_25": 0.3247,
+"hike_50": 0.0667,
+"hold": 0.5844
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "24d170ca49ad1182": {
+"blind": true,
 "date": "2024-05-02",
-"ev": -0.05,
-"focus": 0.195,
+"ev": 0.0158,
+"focus": 0.205,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.05,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.95
+"cut_25": 0.109,
+"cut_50": 0.0352,
+"hike_25": 0.1248,
+"hike_50": 0.0352,
+"hold": 0.6958
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "24fa5f0b6fb80e2e": {
+"blind": true,
 "date": "2018-09-08",
-"ev": 0.0,
-"focus": 0.135,
+"ev": -0.0289,
+"focus": 0.092,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0711,
+"cut_50": 0.0263,
+"hike_25": 0.0778,
+"hike_50": 0.0085,
+"hold": 0.8164
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "252765042a002e78": {
+"blind": true,
 "date": "2022-11-23",
-"ev": 0.62,
-"focus": 0.318,
+"ev": 0.8336,
+"focus": 0.45,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.4,
-"hike_50": 0.11,
-"hold": 0.49
+"cut_25": 0.022,
+"cut_50": 0.0057,
+"hike_25": 0.4983,
+"hike_50": 0.1843,
+"hold": 0.2897
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "26907160375767bd": {
+"blind": true,
 "date": "2020-04-15",
-"ev": -0.01,
-"focus": 0.453,
+"ev": -0.0387,
+"focus": 0.65,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0304,
+"cut_50": 0.0123,
+"hike_25": 0.0103,
+"hike_50": 0.003,
+"hold": 0.944
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "284b991e707131b9": {
+"blind": true,
 "date": "2020-03-18",
-"ev": -0.39,
-"focus": 0.203,
+"ev": -0.3531,
+"focus": 0.397,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.07,
-"cut_50": 0.16,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.77
+"cut_25": 0.1553,
+"cut_50": 0.1082,
+"hike_25": 0.0096,
+"hike_50": 0.0045,
+"hold": 0.7224
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "288c5129a4ec0f6c": {
+"blind": true,
 "date": "2023-07-12",
-"ev": 0.62,
-"focus": 0.64,
+"ev": 0.3998,
+"focus": 0.812,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.62,
-"hike_50": 0.0,
-"hold": 0.38
+"cut_25": 0.0065,
+"cut_50": 0.0027,
+"hike_25": 0.3789,
+"hike_50": 0.0164,
+"hold": 0.5955
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "28a1fdb0c64891e7": {
+"blind": true,
 "date": "2025-01-29",
-"ev": -0.57,
-"focus": 0.52,
+"ev": -0.2321,
+"focus": 0.762,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.57,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.43
+"cut_25": 0.2513,
+"cut_50": 0.0089,
+"hike_25": 0.0214,
+"hike_50": 0.0077,
+"hold": 0.7108
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "291e195f60a2e665": {
+"blind": true,
 "date": "2018-03-01",
-"ev": 0.01,
-"focus": 0.258,
+"ev": 0.0228,
+"focus": 0.101,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0436,
+"cut_50": 0.0123,
+"hike_25": 0.075,
+"hike_50": 0.008,
+"hold": 0.8612
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "2928a2f9ddb5bc88": {
+"blind": true,
 "date": "2026-05-06",
-"ev": 0.0,
-"focus": 0.165,
+"ev": -0.1038,
+"focus": 0.152,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.1454,
+"cut_50": 0.0429,
+"hike_25": 0.0808,
+"hike_50": 0.0233,
+"hold": 0.7076
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "2a25d657e5546a4a": {
+"blind": true,
 "date": "2025-08-26",
-"ev": -0.12,
-"focus": 0.247,
+"ev": -0.0672,
+"focus": 0.326,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.09,
-"cut_50": 0.02,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.88
+"cut_25": 0.1171,
+"cut_50": 0.021,
+"hike_25": 0.0681,
+"hike_50": 0.0119,
+"hold": 0.7819
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "2ae05b67f3d9e030": {
+"blind": true,
 "date": "2022-10-06",
-"ev": 1.51,
-"focus": 0.62,
+"ev": 1.618,
+"focus": 0.753,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.49,
-"hike_50": 0.51,
-"hold": 0.0
+"cut_25": 0.0029,
+"cut_50": 0.0017,
+"hike_25": 0.3531,
+"hike_50": 0.6356,
+"hold": 0.0068
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "2b0d5f12e13879d4": {
+"blind": true,
 "date": "2026-07-15",
-"ev": -0.02,
-"focus": 0.43,
+"ev": 0.061,
+"focus": 0.634,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0202,
+"cut_50": 0.0032,
+"hike_25": 0.0683,
+"hike_50": 0.0096,
+"hold": 0.8988
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "2cdff691c25de4b0": {
+"blind": true,
 "date": "2020-08-26",
-"ev": 0.0,
-"focus": 0.223,
+"ev": -0.0217,
+"focus": 0.198,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0427,
+"cut_50": 0.0207,
+"hike_25": 0.0467,
+"hike_50": 0.0078,
+"hold": 0.8821
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "2cea4cbd905524a8": {
+"blind": true,
 "date": "2016-04-19",
-"ev": -0.02,
-"focus": 0.335,
+"ev": -0.0066,
+"focus": 0.327,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.04,
-"cut_50": 0.01,
-"hike_25": 0.04,
-"hike_50": 0.0,
-"hold": 0.91
+"cut_25": 0.1158,
+"cut_50": 0.0162,
+"hike_25": 0.1158,
+"hike_50": 0.0129,
+"hold": 0.7393
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "2d0f7fb9e7881124": {
+"blind": true,
 "date": "2018-04-18",
-"ev": 0.39,
-"focus": 0.517,
+"ev": 0.5141,
+"focus": 0.645,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.39,
-"hike_50": 0.0,
-"hold": 0.61
+"cut_25": 0.0097,
+"cut_50": 0.0029,
+"hike_25": 0.4963,
+"hike_50": 0.0167,
+"hold": 0.4744
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "2e4657a00fac4715": {
+"blind": true,
 "date": "2023-10-25",
-"ev": 0.19,
-"focus": 0.605,
+"ev": 0.3865,
+"focus": 0.788,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.19,
-"hike_50": 0.0,
-"hold": 0.81
+"cut_25": 0.0145,
+"cut_50": 0.0043,
+"hike_25": 0.3748,
+"hike_50": 0.0173,
+"hold": 0.5891
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "2e9b667c32f20645": {
+"blind": true,
 "date": "2019-04-08",
-"ev": 0.0,
-"focus": 0.193,
+"ev": 0.0613,
+"focus": 0.069,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0442,
+"cut_50": 0.0196,
+"hike_25": 0.1309,
+"hike_50": 0.0069,
+"hold": 0.7984
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "2f6a33aab8d37186": {
+"blind": true,
 "date": "2019-04-01",
-"ev": -0.02,
-"focus": 0.307,
+"ev": -0.2231,
+"focus": 0.359,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.2607,
+"cut_50": 0.0118,
+"hike_25": 0.0468,
+"hike_50": 0.0072,
+"hold": 0.6736
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "30965fb28f01497c": {
+"blind": true,
 "date": "2023-11-09",
-"ev": -0.01,
-"focus": 0.24,
+"ev": 0.0092,
+"focus": 0.381,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0642,
+"cut_50": 0.0092,
+"hike_25": 0.0703,
+"hike_50": 0.0108,
+"hold": 0.8455
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "speech"
 },
 "3252f2b93eb90d74": {
+"blind": true,
 "date": "2025-12-10",
-"ev": 0.0,
-"focus": 0.48,
+"ev": 0.0003,
+"focus": 0.657,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0085,
+"cut_50": 0.001,
+"hike_25": 0.0074,
+"hike_50": 0.0016,
+"hold": 0.9815
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "33a11cf7ac5a2ba9": {
+"blind": true,
 "date": "2017-01-18",
-"ev": 0.01,
-"focus": 0.472,
+"ev": 0.0793,
+"focus": 0.666,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0329,
+"cut_50": 0.004,
+"hike_25": 0.0975,
+"hike_50": 0.0114,
+"hold": 0.8541
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "33cf75163eb8f97c": {
+"blind": true,
 "date": "2023-11-01",
-"ev": 0.37,
-"focus": 0.59,
+"ev": 0.5003,
+"focus": 0.763,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.37,
-"hike_50": 0.0,
-"hold": 0.63
+"cut_25": 0.0229,
+"cut_50": 0.0048,
+"hike_25": 0.4849,
+"hike_50": 0.024,
+"hold": 0.4634
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "33ec8e03fc1ffadc": {
+"blind": true,
 "date": "2023-04-18",
-"ev": 0.42,
-"focus": 0.69,
+"ev": 0.3268,
+"focus": 0.764,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.4,
-"hike_50": 0.01,
-"hold": 0.59
+"cut_25": 0.008,
+"cut_50": 0.0028,
+"hike_25": 0.2971,
+"hike_50": 0.0216,
+"hold": 0.6705
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "35521382fdee50df": {
+"blind": true,
 "date": "2018-06-27",
-"ev": 0.72,
-"focus": 0.403,
+"ev": 0.792,
+"focus": 0.547,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.7,
-"hike_50": 0.01,
-"hold": 0.29
+"cut_25": 0.0141,
+"cut_50": 0.0031,
+"hike_25": 0.7727,
+"hike_50": 0.0198,
+"hold": 0.1902
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "35b8d32275f312c8": {
+"blind": true,
 "date": "2018-11-05",
-"ev": 0.93,
-"focus": 0.412,
+"ev": 0.9185,
+"focus": 0.512,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.91,
-"hike_50": 0.01,
-"hold": 0.08
+"cut_25": 0.0061,
+"cut_50": 0.0017,
+"hike_25": 0.8807,
+"hike_50": 0.0237,
+"hold": 0.0878
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "364d10e68a5740c7": {
+"blind": true,
 "date": "2026-09-21",
-"ev": 0.1,
-"focus": 0.547,
+"ev": 0.1524,
+"focus": 0.671,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.11,
-"hike_50": 0.0,
-"hold": 0.88
+"cut_25": 0.0112,
+"cut_50": 0.003,
+"hike_25": 0.1546,
+"hike_50": 0.0075,
+"hold": 0.8237
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "365abc299eee5651": {
+"blind": true,
 "date": "2025-04-16",
-"ev": -0.16,
-"focus": 0.555,
+"ev": 0.0079,
+"focus": 0.716,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.16,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.84
+"cut_25": 0.0514,
+"cut_50": 0.0039,
+"hike_25": 0.0491,
+"hike_50": 0.009,
+"hold": 0.8866
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "36b51870c3f8972b": {
+"blind": true,
 "date": "2026-02-05",
-"ev": -0.07,
-"focus": 0.395,
+"ev": -0.05,
+"focus": 0.533,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.07,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.93
+"cut_25": 0.0831,
+"cut_50": 0.0059,
+"hike_25": 0.0336,
+"hike_50": 0.0056,
+"hold": 0.8718
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "36c4b5b06bc6101f": {
+"blind": true,
 "date": "2024-09-24",
-"ev": -1.0,
-"focus": 0.618,
+"ev": -0.9815,
+"focus": 0.672,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.96,
-"cut_50": 0.02,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.02
+"cut_25": 0.9315,
+"cut_50": 0.0274,
+"hike_25": 0.0022,
+"hike_50": 0.0013,
+"hold": 0.0376
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "36f6d89dc1f4a1d5": {
+"blind": true,
 "date": "2025-06-04",
-"ev": -0.66,
-"focus": 0.502,
+"ev": -0.4391,
+"focus": 0.668,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.66,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.34
+"cut_25": 0.4429,
+"cut_50": 0.0091,
+"hike_25": 0.0127,
+"hike_50": 0.0046,
+"hold": 0.5307
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "3756845f656138c2": {
+"blind": true,
 "date": "2023-04-20",
-"ev": 0.39,
-"focus": 0.69,
+"ev": 0.4675,
+"focus": 0.74,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.37,
-"hike_50": 0.01,
-"hold": 0.62
+"cut_25": 0.0093,
+"cut_50": 0.0031,
+"hike_25": 0.4254,
+"hike_50": 0.0289,
+"hold": 0.5333
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "387eec25b5a0d6e8": {
+"blind": true,
 "date": "2025-09-17",
-"ev": -0.47,
-"focus": 0.468,
+"ev": -0.3735,
+"focus": 0.643,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.47,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.53
+"cut_25": 0.3564,
+"cut_50": 0.0172,
+"hike_25": 0.0087,
+"hike_50": 0.0043,
+"hold": 0.6132
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "388400245e12c965": {
+"blind": true,
 "date": "2020-05-01",
-"ev": -0.06,
-"focus": 0.185,
+"ev": -0.2319,
+"focus": 0.053,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.02,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0716,
+"cut_50": 0.0898,
+"hike_25": 0.012,
+"hike_50": 0.0036,
+"hold": 0.823
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "38f37e81fc5444fd": {
+"blind": true,
 "date": "2019-03-14",
-"ev": 0.04,
-"focus": 0.21,
+"ev": 0.2163,
+"focus": 0.214,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.05,
-"hike_50": 0.0,
-"hold": 0.94
+"cut_25": 0.0871,
+"cut_50": 0.0125,
+"hike_25": 0.3089,
+"hike_50": 0.0097,
+"hold": 0.5818
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "3aa348a9306b1cf1": {
+"blind": true,
 "date": "2020-06-22",
-"ev": 0.0,
-"focus": 0.492,
+"ev": -0.0304,
+"focus": 0.648,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0305,
+"cut_50": 0.0079,
+"hike_25": 0.0108,
+"hike_50": 0.0025,
+"hold": 0.9483
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "3eee10bec4cef9fe": {
+"blind": true,
 "date": "2022-04-25",
-"ev": 1.94,
-"focus": 0.72,
+"ev": 1.8991,
+"focus": 0.833,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.06,
-"hike_50": 0.94,
-"hold": 0.0
+"cut_25": 0.0016,
+"cut_50": 0.0012,
+"hike_25": 0.0829,
+"hike_50": 0.9101,
+"hold": 0.0042
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "3f8792870f5c5870": {
+"blind": true,
 "date": "2020-03-13",
-"ev": -1.14,
-"focus": 0.477,
+"ev": -1.09,
+"focus": 0.624,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.26,
-"cut_50": 0.44,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.3
+"cut_25": 0.3059,
+"cut_50": 0.4013,
+"hike_25": 0.0082,
+"hike_50": 0.0051,
+"hold": 0.2795
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "3f98da00c32b0749": {
+"blind": true,
 "date": "2017-09-14",
-"ev": 0.0,
-"focus": 0.182,
+"ev": -0.0143,
+"focus": 0.165,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0501,
+"cut_50": 0.0185,
+"hike_25": 0.06,
+"hike_50": 0.0064,
+"hold": 0.8649
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "404b70ee4f8c569e": {
+"blind": true,
 "date": "2026-11-03",
-"ev": 0.48,
-"focus": 0.53,
+"ev": 0.488,
+"focus": 0.689,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.48,
-"hike_50": 0.0,
-"hold": 0.52
+"cut_25": 0.008,
+"cut_50": 0.0025,
+"hike_25": 0.478,
+"hike_50": 0.0115,
+"hold": 0.5001
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "40bae407ba9dd9e2": {
+"blind": true,
 "date": "2022-05-03",
-"ev": 1.17,
-"focus": 0.472,
+"ev": 1.2931,
+"focus": 0.54,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.77,
-"hike_50": 0.2,
-"hold": 0.03
+"cut_25": 0.0044,
+"cut_50": 0.0018,
+"hike_25": 0.631,
+"hike_50": 0.335,
+"hold": 0.0279
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "speech"
 },
 "40bf0c1593b8f124": {
+"blind": true,
 "date": "2018-05-16",
-"ev": 0.25,
-"focus": 0.33,
+"ev": 0.1601,
+"focus": 0.277,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.23,
-"hike_50": 0.01,
-"hold": 0.76
+"cut_25": 0.0737,
+"cut_50": 0.0099,
+"hike_25": 0.2282,
+"hike_50": 0.0126,
+"hold": 0.6756
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "412404eacbaeb02a": {
+"blind": true,
 "date": "2017-10-31",
-"ev": 0.06,
-"focus": 0.67,
+"ev": 0.1406,
+"focus": 0.729,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.06,
-"hike_50": 0.0,
-"hold": 0.94
+"cut_25": 0.0073,
+"cut_50": 0.0024,
+"hike_25": 0.1384,
+"hike_50": 0.0072,
+"hold": 0.8447
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "41eda589a62b8fa9": {
+"blind": true,
 "date": "2021-07-14",
-"ev": 0.0,
-"focus": 0.682,
+"ev": 0.0103,
+"focus": 0.725,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0062,
+"cut_50": 0.0014,
+"hike_25": 0.0133,
+"hike_50": 0.003,
+"hold": 0.9761
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "423a89d681e3d242": {
+"blind": true,
 "date": "2018-04-23",
-"ev": 0.33,
-"focus": 0.28,
+"ev": 0.5325,
+"focus": 0.406,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.31,
-"hike_50": 0.01,
-"hold": 0.68
+"cut_25": 0.0255,
+"cut_50": 0.0044,
+"hike_25": 0.5146,
+"hike_50": 0.026,
+"hold": 0.4295
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "4335dd681c6bd782": {
+"blind": true,
 "date": "2023-04-12",
-"ev": 0.37,
-"focus": 0.682,
+"ev": 0.2709,
+"focus": 0.767,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.35,
-"hike_50": 0.01,
-"hold": 0.64
+"cut_25": 0.0089,
+"cut_50": 0.0028,
+"hike_25": 0.254,
+"hike_50": 0.0157,
+"hold": 0.7185
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "449ed76697634c13": {
+"blind": true,
 "date": "2023-01-25",
-"ev": 0.03,
-"focus": 0.728,
+"ev": 0.0267,
+"focus": 0.808,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.03,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0015,
+"cut_50": 0.0005,
+"hike_25": 0.0238,
+"hike_50": 0.0027,
+"hold": 0.9714
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "44c286eca9775715": {
+"blind": true,
 "date": "2017-11-01",
-"ev": 0.12,
-"focus": 0.525,
+"ev": 0.1009,
+"focus": 0.692,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.12,
-"hike_50": 0.0,
-"hold": 0.88
+"cut_25": 0.0072,
+"cut_50": 0.0019,
+"hike_25": 0.101,
+"hike_50": 0.0055,
+"hold": 0.8845
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "45ed2f1dd8822e6c": {
+"blind": true,
 "date": "2017-06-12",
-"ev": 0.04,
-"focus": 0.568,
+"ev": 0.492,
+"focus": 0.626,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.04,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0204,
+"cut_50": 0.0055,
+"hike_25": 0.4608,
+"hike_50": 0.0313,
+"hold": 0.4821
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "45fb3b5473130e42": {
+"blind": true,
 "date": "2017-04-18",
-"ev": 0.01,
-"focus": 0.225,
+"ev": 0.0553,
+"focus": 0.119,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0834,
+"cut_50": 0.0295,
+"hike_25": 0.1799,
+"hike_50": 0.0089,
+"hold": 0.6983
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "4684da0a5c149f36": {
+"blind": true,
 "date": "2022-04-13",
-"ev": 1.41,
-"focus": 0.552,
+"ev": 1.3816,
+"focus": 0.769,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.57,
-"hike_50": 0.42,
-"hold": 0.01
+"cut_25": 0.0032,
+"cut_50": 0.0017,
+"hike_25": 0.5649,
+"hike_50": 0.4116,
+"hold": 0.0186
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "46d00ee0907c8703": {
+"blind": true,
 "date": "2021-09-08",
-"ev": 0.0,
-"focus": 0.705,
+"ev": 0.0115,
+"focus": 0.772,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0067,
+"cut_50": 0.0017,
+"hike_25": 0.0166,
+"hike_50": 0.0025,
+"hold": 0.9725
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "4704d358c8c431db": {
+"blind": true,
 "date": "2026-11-24",
-"ev": 0.18,
-"focus": 0.39,
+"ev": 0.4257,
+"focus": 0.589,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.06,
-"cut_50": 0.0,
-"hike_25": 0.22,
-"hike_50": 0.01,
-"hold": 0.71
+"cut_25": 0.0198,
+"cut_50": 0.0043,
+"hike_25": 0.3999,
+"hike_50": 0.0271,
+"hold": 0.5488
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "486097f1887caf6f": {
+"blind": true,
 "date": "2025-04-16",
-"ev": -0.14,
-"focus": 0.405,
+"ev": -0.0365,
+"focus": 0.649,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.13,
-"cut_50": 0.01,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.85
+"cut_25": 0.0976,
+"cut_50": 0.0117,
+"hike_25": 0.0621,
+"hike_50": 0.0111,
+"hold": 0.8174
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "4b11febd63985772": {
+"blind": true,
 "date": "2023-10-25",
-"ev": 0.13,
-"focus": 0.748,
+"ev": 0.4959,
+"focus": 0.843,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.13,
-"hike_50": 0.0,
-"hold": 0.87
+"cut_25": 0.011,
+"cut_50": 0.0037,
+"hike_25": 0.4708,
+"hike_50": 0.0218,
+"hold": 0.4926
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "4c0dd21853a164bf": {
+"blind": true,
 "date": "2021-05-13",
-"ev": 0.0,
-"focus": 0.383,
+"ev": -0.0391,
+"focus": 0.249,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0276,
+"cut_50": 0.016,
+"hike_25": 0.0153,
+"hike_50": 0.0026,
+"hold": 0.9384
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "4c9f41b37e9d5e55": {
+"blind": true,
 "date": "2017-03-21",
-"ev": 0.01,
-"focus": 0.32,
+"ev": 0.0943,
+"focus": 0.487,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0211,
+"cut_50": 0.0034,
+"hike_25": 0.1075,
+"hike_50": 0.0073,
+"hold": 0.8607
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "4cb6be84c11f92d8": {
+"blind": true,
 "date": "2026-09-02",
-"ev": 0.15,
-"focus": 0.5,
+"ev": 0.2292,
+"focus": 0.633,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.18,
-"hike_50": 0.0,
-"hold": 0.79
+"cut_25": 0.0205,
+"cut_50": 0.0044,
+"hike_25": 0.2352,
+"hike_50": 0.0116,
+"hold": 0.7283
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "4d165d429f0fc05f": {
+"blind": true,
 "date": "2021-10-27",
-"ev": 0.0,
-"focus": 0.647,
+"ev": 0.0528,
+"focus": 0.696,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0065,
+"cut_50": 0.002,
+"hike_25": 0.0474,
+"hike_50": 0.0079,
+"hold": 0.9362
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "4d8010c56b667ef7": {
+"blind": true,
 "date": "2023-03-08",
-"ev": 0.29,
-"focus": 0.565,
+"ev": 0.2394,
+"focus": 0.745,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.29,
-"hike_50": 0.0,
-"hold": 0.71
+"cut_25": 0.0139,
+"cut_50": 0.0037,
+"hike_25": 0.219,
+"hike_50": 0.0209,
+"hold": 0.7425
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "4e156ea86872c228": {
+"blind": true,
 "date": "2022-03-02",
-"ev": 1.26,
-"focus": 0.645,
+"ev": 1.2349,
+"focus": 0.731,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.7,
-"hike_50": 0.28,
-"hold": 0.02
+"cut_25": 0.003,
+"cut_50": 0.0014,
+"hike_25": 0.7268,
+"hike_50": 0.2569,
+"hold": 0.0119
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "4ff9b25d6e1f21a1": {
+"blind": true,
 "date": "2021-12-13",
-"ev": 0.08,
-"focus": 0.275,
+"ev": 0.5263,
+"focus": 0.271,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.06,
-"hike_50": 0.01,
-"hold": 0.93
+"cut_25": 0.0257,
+"cut_50": 0.0214,
+"hike_25": 0.2952,
+"hike_50": 0.1498,
+"hold": 0.5079
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "50264745e69be84b": {
+"blind": true,
 "date": "2016-10-24",
-"ev": -0.05,
-"focus": 0.465,
+"ev": -0.1237,
+"focus": 0.342,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.02,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.93
+"cut_25": 0.1476,
+"cut_50": 0.0416,
+"hike_25": 0.0784,
+"hike_50": 0.0144,
+"hold": 0.7181
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "5182dbc391674f96": {
+"blind": true,
 "date": "2020-09-10",
-"ev": 0.0,
-"focus": 0.583,
+"ev": -0.0098,
+"focus": 0.684,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0127,
+"cut_50": 0.0031,
+"hike_25": 0.0055,
+"hike_50": 0.0018,
+"hold": 0.9769
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "521c61772515cbcb": {
+"blind": true,
 "date": "2016-06-04",
-"ev": -0.05,
-"focus": 0.172,
+"ev": -0.0076,
+"focus": 0.262,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0524,
+"cut_50": 0.0155,
+"hike_25": 0.06,
+"hike_50": 0.0078,
+"hold": 0.8643
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "529a61924f91f8d2": {
+"blind": true,
 "date": "2019-09-04",
-"ev": -0.1,
-"focus": 0.405,
+"ev": -0.1541,
+"focus": 0.647,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.1,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.9
+"cut_25": 0.1453,
+"cut_50": 0.0199,
+"hike_25": 0.019,
+"hike_50": 0.006,
+"hold": 0.8098
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "52bc2f9a7c6979f7": {
+"blind": true,
 "date": "2020-12-15",
-"ev": 0.0,
-"focus": 0.228,
+"ev": -0.074,
+"focus": 0.231,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0605,
+"cut_50": 0.0142,
+"hike_25": 0.0104,
+"hike_50": 0.0023,
+"hold": 0.9125
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "52d0ef75a6118500": {
+"blind": true,
 "date": "2020-04-16",
-"ev": -0.05,
-"focus": 0.287,
+"ev": -0.2048,
+"focus": 0.336,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0978,
+"cut_50": 0.0651,
+"hike_25": 0.0137,
+"hike_50": 0.0047,
+"hold": 0.8187
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "55f3f710b669ed0d": {
+"blind": true,
 "date": "2025-04-16",
-"ev": -0.1,
-"focus": 0.635,
+"ev": -0.0706,
+"focus": 0.798,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.1,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.9
+"cut_25": 0.1143,
+"cut_50": 0.0057,
+"hike_25": 0.0337,
+"hike_50": 0.0106,
+"hold": 0.8357
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "566ac0b9c02ce7a1": {
+"blind": true,
 "date": "2022-11-22",
-"ev": 1.08,
-"focus": 0.35,
+"ev": 1.1143,
+"focus": 0.534,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.52,
-"hike_50": 0.28,
-"hold": 0.2
+"cut_25": 0.0118,
+"cut_50": 0.0042,
+"hike_25": 0.3668,
+"hike_50": 0.3838,
+"hold": 0.2334
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "speech"
 },
 "569a1c81ad805c48": {
+"blind": true,
 "date": "2025-06-04",
-"ev": -0.75,
-"focus": 0.67,
+"ev": -0.498,
+"focus": 0.768,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.75,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.25
+"cut_25": 0.4914,
+"cut_50": 0.0177,
+"hike_25": 0.0135,
+"hike_50": 0.0077,
+"hold": 0.4697
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "56d79089be74c644": {
+"blind": true,
 "date": "2023-09-06",
-"ev": 0.47,
-"focus": 0.557,
+"ev": 0.3593,
+"focus": 0.719,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.47,
-"hike_50": 0.0,
-"hold": 0.53
+"cut_25": 0.0158,
+"cut_50": 0.0045,
+"hike_25": 0.3425,
+"hike_50": 0.0208,
+"hold": 0.6165
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "56f8789815f8cc02": {
+"blind": true,
 "date": "2026-10-28",
-"ev": 0.53,
-"focus": 0.568,
+"ev": 0.3065,
+"focus": 0.756,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.53,
-"hike_50": 0.0,
-"hold": 0.47
+"cut_25": 0.006,
+"cut_50": 0.0024,
+"hike_25": 0.3022,
+"hike_50": 0.0076,
+"hold": 0.6818
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "5762ae7cfdcb74d5": {
+"blind": true,
 "date": "2026-09-02",
-"ev": 0.15,
-"focus": 0.53,
+"ev": 0.2576,
+"focus": 0.762,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.15,
-"hike_50": 0.0,
-"hold": 0.85
+"cut_25": 0.0164,
+"cut_50": 0.0037,
+"hike_25": 0.2521,
+"hike_50": 0.0146,
+"hold": 0.7132
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "57df2e63a4a5cc6f": {
+"blind": true,
 "date": "2023-03-29",
-"ev": 0.29,
-"focus": 0.315,
+"ev": 0.334,
+"focus": 0.354,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.25,
-"hike_50": 0.02,
-"hold": 0.73
+"cut_25": 0.0368,
+"cut_50": 0.005,
+"hike_25": 0.3222,
+"hike_50": 0.0293,
+"hold": 0.6067
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 },
 "58d598d6feda6c7f": {
+"blind": true,
 "date": "2022-12-08",
-"ev": 1.18,
-"focus": 0.61,
+"ev": 0.8466,
+"focus": 0.734,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.38,
-"hike_50": 0.4,
-"hold": 0.22
+"cut_25": 0.0066,
+"cut_50": 0.0025,
+"hike_25": 0.5576,
+"hike_50": 0.1503,
+"hold": 0.283
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Sharon Kozicki",
 "type": "speech"
 },
 "58d6edcc892cebb7": {
+"blind": true,
 "date": "2024-03-06",
-"ev": -0.17,
-"focus": 0.75,
+"ev": 0.0019,
+"focus": 0.831,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.17,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.83
+"cut_25": 0.044,
+"cut_50": 0.0033,
+"hike_25": 0.0335,
+"hike_50": 0.0095,
+"hold": 0.9098
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "59b8f6abc342d467": {
+"blind": true,
 "date": "2021-04-21",
-"ev": 0.0,
-"focus": 0.685,
+"ev": -0.0037,
+"focus": 0.768,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0082,
+"cut_50": 0.0018,
+"hike_25": 0.0057,
+"hike_50": 0.0012,
+"hold": 0.9831
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "5a4188012f291750": {
+"blind": true,
 "date": "2024-04-10",
-"ev": -0.07,
-"focus": 0.458,
+"ev": -0.2254,
+"focus": 0.637,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.07,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.93
+"cut_25": 0.2474,
+"cut_50": 0.0128,
+"hike_25": 0.0323,
+"hike_50": 0.0076,
+"hold": 0.6999
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "5a6c90d92d34e860": {
+"blind": true,
 "date": "2017-07-12",
-"ev": 0.65,
-"focus": 0.667,
+"ev": 0.3417,
+"focus": 0.776,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.65,
-"hike_50": 0.0,
-"hold": 0.35
+"cut_25": 0.0101,
+"cut_50": 0.0033,
+"hike_25": 0.3268,
+"hike_50": 0.0158,
+"hold": 0.644
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "5c2f366306b50043": {
+"blind": true,
 "date": "2016-01-20",
-"ev": -0.26,
-"focus": 0.522,
+"ev": -0.0828,
+"focus": 0.746,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.24,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.75
+"cut_25": 0.0982,
+"cut_50": 0.011,
+"hike_25": 0.0231,
+"hike_50": 0.0071,
+"hold": 0.8606
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "5c4a14ee7c6525a2": {
+"blind": true,
 "date": "2017-11-15",
-"ev": 0.13,
-"focus": 0.48,
+"ev": 0.1743,
+"focus": 0.602,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.11,
-"hike_50": 0.01,
-"hold": 0.88
+"cut_25": 0.0193,
+"cut_50": 0.0031,
+"hike_25": 0.1848,
+"hike_50": 0.0075,
+"hold": 0.7854
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "5c6f5d7a1cbc6d83": {
+"blind": true,
 "date": "2017-05-24",
-"ev": 0.01,
-"focus": 0.393,
+"ev": 0.0873,
+"focus": 0.644,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0213,
+"cut_50": 0.0035,
+"hike_25": 0.0949,
+"hike_50": 0.0104,
+"hold": 0.8699
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "5de1b352c018c241": {
+"blind": true,
 "date": "2020-06-16",
-"ev": 0.0,
-"focus": 0.583,
+"ev": -0.027,
+"focus": 0.668,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0268,
+"cut_50": 0.0072,
+"hike_25": 0.0104,
+"hike_50": 0.0019,
+"hold": 0.9537
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "5f8777bc1fae76e2": {
+"blind": true,
 "date": "2019-04-30",
-"ev": 0.0,
-"focus": 0.502,
+"ev": 0.0282,
+"focus": 0.568,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.093,
+"cut_50": 0.0049,
+"hike_25": 0.1165,
+"hike_50": 0.0072,
+"hold": 0.7784
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "639ecf6d97545a17": {
+"blind": true,
 "date": "2026-03-26",
-"ev": 0.01,
-"focus": 0.34,
+"ev": 0.086,
+"focus": 0.417,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0386,
+"cut_50": 0.0038,
+"hike_25": 0.1141,
+"hike_50": 0.0091,
+"hold": 0.8344
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "speech"
 },
 "656c11b1b0c5999f": {
+"blind": true,
 "date": "2022-11-01",
-"ev": 1.8,
-"focus": 0.642,
+"ev": 1.6707,
+"focus": 0.811,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.2,
-"hike_50": 0.8,
-"hold": 0.0
+"cut_25": 0.0035,
+"cut_50": 0.0016,
+"hike_25": 0.2932,
+"hike_50": 0.6921,
+"hold": 0.0097
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "656e006b9a374170": {
+"blind": true,
 "date": "2023-06-07",
-"ev": 0.77,
-"focus": 0.445,
+"ev": 0.9916,
+"focus": 0.747,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.71,
-"hike_50": 0.03,
-"hold": 0.26
+"cut_25": 0.007,
+"cut_50": 0.0029,
+"hike_25": 0.673,
+"hike_50": 0.1657,
+"hold": 0.1514
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "657c547fea50c313": {
+"blind": true,
 "date": "2017-12-06",
-"ev": 0.14,
-"focus": 0.535,
+"ev": 0.24,
+"focus": 0.672,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.14,
-"hike_50": 0.0,
-"hold": 0.86
+"cut_25": 0.0085,
+"cut_50": 0.0029,
+"hike_25": 0.2304,
+"hike_50": 0.0119,
+"hold": 0.7464
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "67162fb05ef4daa5": {
+"blind": true,
 "date": "2020-06-03",
-"ev": 0.0,
-"focus": 0.5,
+"ev": -0.0204,
+"focus": 0.654,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.033,
+"cut_50": 0.0068,
+"hike_25": 0.0192,
+"hike_50": 0.0035,
+"hold": 0.9375
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "67b3409c4c8602ad": {
+"blind": true,
 "date": "2017-12-14",
-"ev": 0.12,
-"focus": 0.468,
+"ev": 0.3721,
+"focus": 0.55,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.12,
-"hike_50": 0.0,
-"hold": 0.88
+"cut_25": 0.0186,
+"cut_50": 0.0037,
+"hike_25": 0.3759,
+"hike_50": 0.0111,
+"hold": 0.5908
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "67c87c722726be34": {
+"blind": true,
 "date": "2019-12-12",
-"ev": -0.07,
-"focus": 0.347,
+"ev": 0.0663,
+"focus": 0.309,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.05,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.94
+"cut_25": 0.1235,
+"cut_50": 0.0132,
+"hike_25": 0.1942,
+"hike_50": 0.011,
+"hold": 0.6581
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "684e2dc5e3f9e908": {
+"blind": true,
 "date": "2021-02-23",
-"ev": 0.0,
-"focus": 0.395,
+"ev": -0.017,
+"focus": 0.493,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0182,
+"cut_50": 0.003,
+"hike_25": 0.0054,
+"hike_50": 0.0009,
+"hold": 0.9725
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "68909e4ed3e45d32": {
+"blind": true,
 "date": "2026-01-28",
-"ev": -0.04,
-"focus": 0.568,
+"ev": 0.0251,
+"focus": 0.778,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.04,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0218,
+"cut_50": 0.0019,
+"hike_25": 0.043,
+"hike_50": 0.0039,
+"hold": 0.9294
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "695c8d295b1ce546": {
+"blind": true,
 "date": "2025-03-12",
-"ev": -0.21,
-"focus": 0.552,
+"ev": -0.0579,
+"focus": 0.679,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.21,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.79
+"cut_25": 0.0837,
+"cut_50": 0.0056,
+"hike_25": 0.027,
+"hike_50": 0.005,
+"hold": 0.8787
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "695e5bb2cd4a7e61": {
+"blind": true,
 "date": "2018-01-17",
-"ev": 0.65,
-"focus": 0.532,
+"ev": 0.2014,
+"focus": 0.653,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.65,
-"hike_50": 0.0,
-"hold": 0.35
+"cut_25": 0.0121,
+"cut_50": 0.0033,
+"hike_25": 0.1996,
+"hike_50": 0.0103,
+"hold": 0.7747
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "69d0c866141b81ee": {
+"blind": true,
 "date": "2025-10-29",
-"ev": -0.05,
-"focus": 0.487,
+"ev": -0.02,
+"focus": 0.672,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.05,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.95
+"cut_25": 0.0228,
+"cut_50": 0.0015,
+"hike_25": 0.0036,
+"hike_50": 0.0011,
+"hold": 0.971
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "69d649f3a0056118": {
+"blind": true,
 "date": "2021-10-27",
-"ev": 0.0,
-"focus": 0.667,
+"ev": 0.0125,
+"focus": 0.738,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0074,
+"cut_50": 0.0015,
+"hike_25": 0.0182,
+"hike_50": 0.0023,
+"hold": 0.9707
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "6aa1b9111cdb775c": {
+"blind": true,
 "date": "2025-10-02",
-"ev": -0.47,
-"focus": 0.292,
+"ev": -0.1172,
+"focus": 0.313,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.42,
-"cut_50": 0.03,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.54
+"cut_25": 0.1632,
+"cut_50": 0.0261,
+"hike_25": 0.0723,
+"hike_50": 0.013,
+"hold": 0.7254
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Rhys R. Mendes",
 "type": "speech"
 },
 "6b4a0fce86996f17": {
+"blind": true,
 "date": "2025-10-29",
-"ev": -0.16,
-"focus": 0.71,
+"ev": -0.0348,
+"focus": 0.828,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.16,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.84
+"cut_25": 0.0369,
+"cut_50": 0.0023,
+"hike_25": 0.003,
+"hike_50": 0.0018,
+"hold": 0.956
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "6c62e8ecc7658aea": {
+"blind": true,
 "date": "2017-02-09",
-"ev": -0.04,
-"focus": 0.223,
+"ev": -0.0601,
+"focus": 0.238,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.01,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.95
+"cut_25": 0.1039,
+"cut_50": 0.0223,
+"hike_25": 0.0692,
+"hike_50": 0.0097,
+"hold": 0.7949
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "6c70fea2d35513fb": {
+"blind": true,
 "date": "2023-07-12",
-"ev": 0.39,
-"focus": 0.455,
+"ev": 0.4442,
+"focus": 0.73,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.37,
-"hike_50": 0.01,
-"hold": 0.62
+"cut_25": 0.0129,
+"cut_50": 0.0039,
+"hike_25": 0.3501,
+"hike_50": 0.0574,
+"hold": 0.5757
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "6cda494eb4f6d747": {
+"blind": true,
 "date": "2025-03-12",
-"ev": -0.25,
-"focus": 0.412,
+"ev": -0.1974,
+"focus": 0.627,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.26,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.73
+"cut_25": 0.2434,
+"cut_50": 0.0105,
+"hike_25": 0.0478,
+"hike_50": 0.0096,
+"hold": 0.6886
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "6ce31b455d82e143": {
+"blind": true,
 "date": "2023-01-25",
-"ev": 0.05,
-"focus": 0.792,
+"ev": 0.0507,
+"focus": 0.843,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.05,
-"hike_50": 0.0,
-"hold": 0.95
+"cut_25": 0.0038,
+"cut_50": 0.0011,
+"hike_25": 0.0498,
+"hike_50": 0.0035,
+"hold": 0.9418
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "6db9f87e04682f18": {
+"blind": true,
 "date": "2024-01-24",
-"ev": -0.02,
-"focus": 0.458,
+"ev": -0.0142,
+"focus": 0.679,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0865,
+"cut_50": 0.0064,
+"hike_25": 0.069,
+"hike_50": 0.0081,
+"hold": 0.8299
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "6df87af10579d2ca": {
+"blind": true,
 "date": "2023-12-06",
-"ev": 0.45,
-"focus": 0.688,
+"ev": 0.2515,
+"focus": 0.832,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.45,
-"hike_50": 0.0,
-"hold": 0.55
+"cut_25": 0.0178,
+"cut_50": 0.0048,
+"hike_25": 0.2616,
+"hike_50": 0.0086,
+"hold": 0.7073
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "6e258d0022da2742": {
+"blind": true,
 "date": "2025-09-23",
-"ev": -0.46,
-"focus": 0.28,
+"ev": -0.4404,
+"focus": 0.412,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.42,
-"cut_50": 0.02,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.56
+"cut_25": 0.373,
+"cut_50": 0.0466,
+"hike_25": 0.0144,
+"hike_50": 0.0057,
+"hold": 0.5603
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "6ea377c445aa3265": {
+"blind": true,
 "date": "2017-10-25",
-"ev": 0.12,
-"focus": 0.688,
+"ev": 0.2133,
+"focus": 0.785,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.12,
-"hike_50": 0.0,
-"hold": 0.88
+"cut_25": 0.0107,
+"cut_50": 0.0032,
+"hike_25": 0.2069,
+"hike_50": 0.0117,
+"hold": 0.7676
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "6ee853333faaa799": {
+"blind": true,
 "date": "2020-06-16",
-"ev": 0.0,
-"focus": 0.217,
+"ev": -0.1089,
+"focus": 0.272,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0831,
+"cut_50": 0.0386,
+"hike_25": 0.0368,
+"hike_50": 0.0072,
+"hold": 0.8342
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "6eeee7dfa150966e": {
+"blind": true,
 "date": "2018-04-25",
-"ev": 0.41,
-"focus": 0.535,
+"ev": 0.3066,
+"focus": 0.627,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.41,
-"hike_50": 0.0,
-"hold": 0.59
+"cut_25": 0.0153,
+"cut_50": 0.0041,
+"hike_25": 0.2958,
+"hike_50": 0.0171,
+"hold": 0.6676
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "700d58eff3168345": {
+"blind": true,
 "date": "2016-11-08",
-"ev": -0.06,
-"focus": 0.17,
+"ev": -0.0936,
+"focus": 0.074,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.04,
-"cut_50": 0.02,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.92
+"cut_25": 0.1183,
+"cut_50": 0.0365,
+"hike_25": 0.0824,
+"hike_50": 0.0077,
+"hold": 0.7551
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "704183affadc9724": {
+"blind": true,
 "date": "2018-09-06",
-"ev": 0.7,
-"focus": 0.708,
+"ev": 0.7333,
+"focus": 0.779,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.7,
-"hike_50": 0.0,
-"hold": 0.3
+"cut_25": 0.0058,
+"cut_50": 0.0018,
+"hike_25": 0.7278,
+"hike_50": 0.0074,
+"hold": 0.2573
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "714983922e76a743": {
+"blind": true,
 "date": "2024-06-24",
-"ev": -0.74,
-"focus": 0.383,
+"ev": -0.7076,
+"focus": 0.491,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.72,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.27
+"cut_25": 0.6763,
+"cut_50": 0.0238,
+"hike_25": 0.0103,
+"hike_50": 0.003,
+"hold": 0.2865
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "72a41a6d1b5dd486": {
+"blind": true,
 "date": "2023-01-25",
-"ev": 0.08,
-"focus": 0.575,
+"ev": 0.0819,
+"focus": 0.724,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.08,
-"hike_50": 0.0,
-"hold": 0.92
+"cut_25": 0.0031,
+"cut_50": 0.0013,
+"hike_25": 0.0667,
+"hike_50": 0.0105,
+"hold": 0.9185
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "72c468e3d63c4ffe": {
+"blind": true,
 "date": "2021-09-09",
-"ev": 0.0,
-"focus": 0.693,
+"ev": 0.0519,
+"focus": 0.761,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0083,
+"cut_50": 0.0018,
+"hike_25": 0.0494,
+"hike_50": 0.0072,
+"hold": 0.9333
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "7365a58b92d3a2ac": {
+"blind": true,
 "date": "2019-04-24",
-"ev": -0.03,
-"focus": 0.532,
+"ev": -0.0577,
+"focus": 0.732,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.1126,
+"cut_50": 0.0067,
+"hike_25": 0.0477,
+"hike_50": 0.0102,
+"hold": 0.8229
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "7376c41dd39d067e": {
+"blind": true,
 "date": "2017-01-18",
-"ev": 0.03,
-"focus": 0.388,
+"ev": 0.0631,
+"focus": 0.626,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.03,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0363,
+"cut_50": 0.0041,
+"hike_25": 0.0937,
+"hike_50": 0.007,
+"hold": 0.8589
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "7424428eeff50251": {
+"blind": true,
 "date": "2026-05-04",
-"ev": 0.08,
-"focus": 0.237,
+"ev": 0.175,
+"focus": 0.349,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.07,
-"hike_50": 0.01,
-"hold": 0.91
+"cut_25": 0.0931,
+"cut_50": 0.0156,
+"hike_25": 0.2405,
+"hike_50": 0.0294,
+"hold": 0.6215
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "74a8958f1d217761": {
+"blind": true,
 "date": "2020-05-26",
-"ev": -0.01,
-"focus": 0.338,
+"ev": -0.0662,
+"focus": 0.598,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0426,
+"cut_50": 0.0207,
+"hike_25": 0.0105,
+"hike_50": 0.0036,
+"hold": 0.9226
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "74ef9f606ba833a2": {
+"blind": true,
 "date": "2019-01-31",
-"ev": 0.02,
-"focus": 0.355,
+"ev": 0.1901,
+"focus": 0.409,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.05,
-"cut_50": 0.01,
-"hike_25": 0.09,
-"hike_50": 0.0,
-"hold": 0.85
+"cut_25": 0.0862,
+"cut_50": 0.0059,
+"hike_25": 0.267,
+"hike_50": 0.0105,
+"hold": 0.6304
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "74fdcba44463d0ed": {
+"blind": true,
 "date": "2020-03-27",
-"ev": -0.03,
-"focus": 0.362,
+"ev": -0.0914,
+"focus": 0.609,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0568,
+"cut_50": 0.0288,
+"hike_25": 0.0137,
+"hike_50": 0.0047,
+"hold": 0.8959
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "7516b41c4a3f8385": {
+"blind": true,
 "date": "2024-04-10",
-"ev": -0.21,
-"focus": 0.73,
+"ev": -0.1907,
+"focus": 0.801,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.21,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.79
+"cut_25": 0.206,
+"cut_50": 0.0063,
+"hike_25": 0.0183,
+"hike_50": 0.0048,
+"hold": 0.7645
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "7630a1fe7d1c1ccb": {
+"blind": true,
 "date": "2018-12-06",
-"ev": 0.61,
-"focus": 0.59,
+"ev": 0.5426,
+"focus": 0.726,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.59,
-"hike_50": 0.01,
-"hold": 0.4
+"cut_25": 0.0121,
+"cut_50": 0.0031,
+"hike_25": 0.5277,
+"hike_50": 0.0166,
+"hold": 0.4404
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "7713ad7a88c8c767": {
+"blind": true,
 "date": "2026-05-26",
-"ev": -0.12,
-"focus": 0.287,
+"ev": -0.1527,
+"focus": 0.351,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.1,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.89
+"cut_25": 0.1675,
+"cut_50": 0.0152,
+"hike_25": 0.0314,
+"hike_50": 0.0069,
+"hold": 0.779
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Nicolas Vincent",
 "type": "speech"
 },
 "779b841fe9ad39fc": {
+"blind": true,
 "date": "2017-05-04",
-"ev": -0.02,
-"focus": 0.425,
+"ev": -0.0412,
+"focus": 0.418,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0732,
+"cut_50": 0.0065,
+"hike_25": 0.0355,
+"hike_50": 0.0047,
+"hold": 0.88
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "77bacf4dc9047377": {
+"blind": true,
 "date": "2023-11-22",
-"ev": 0.54,
-"focus": 0.542,
+"ev": 0.203,
+"focus": 0.708,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.4,
-"hike_50": 0.07,
-"hold": 0.53
+"cut_25": 0.0125,
+"cut_50": 0.0034,
+"hike_25": 0.1838,
+"hike_50": 0.0192,
+"hold": 0.7812
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "77bd4fc2448eb393": {
+"blind": true,
 "date": "2023-04-12",
-"ev": 0.38,
-"focus": 0.492,
+"ev": 0.2532,
+"focus": 0.722,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.36,
-"hike_50": 0.01,
-"hold": 0.63
+"cut_25": 0.0119,
+"cut_50": 0.0032,
+"hike_25": 0.2455,
+"hike_50": 0.013,
+"hold": 0.7265
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "783c3d6f02198052": {
+"blind": true,
 "date": "2018-10-31",
-"ev": 0.77,
-"focus": 0.54,
+"ev": 0.907,
+"focus": 0.657,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.75,
-"hike_50": 0.01,
-"hold": 0.24
+"cut_25": 0.0051,
+"cut_50": 0.0016,
+"hike_25": 0.8646,
+"hike_50": 0.0254,
+"hold": 0.1033
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "787f4ebf142d057d": {
+"blind": true,
 "date": "2023-09-06",
-"ev": 0.51,
-"focus": 0.73,
+"ev": 0.4149,
+"focus": 0.797,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.51,
-"hike_50": 0.0,
-"hold": 0.49
+"cut_25": 0.0096,
+"cut_50": 0.0035,
+"hike_25": 0.3985,
+"hike_50": 0.0164,
+"hold": 0.5721
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "7941c2565ccecd13": {
+"blind": true,
 "date": "2026-01-28",
-"ev": -0.03,
-"focus": 0.417,
+"ev": 0.0017,
+"focus": 0.632,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0158,
+"cut_50": 0.0017,
+"hike_25": 0.0158,
+"hike_50": 0.0025,
+"hold": 0.9643
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "7a8d5704acd02ccf": {
+"blind": true,
 "date": "2024-06-13",
-"ev": -0.81,
-"focus": 0.35,
+"ev": -0.8627,
+"focus": 0.45,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.79,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.2
+"cut_25": 0.8236,
+"cut_50": 0.0231,
+"hike_25": 0.0037,
+"hike_50": 0.0018,
+"hold": 0.1478
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Sharon Kozicki",
 "type": "speech"
 },
 "7af0aabb35a0da45": {
+"blind": true,
 "date": "2022-09-08",
-"ev": 1.85,
-"focus": 0.682,
+"ev": 1.779,
+"focus": 0.765,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.15,
-"hike_50": 0.85,
-"hold": 0.0
+"cut_25": 0.0021,
+"cut_50": 0.0016,
+"hike_25": 0.1804,
+"hike_50": 0.8019,
+"hold": 0.014
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "speech"
 },
 "7b7a92d11b164384": {
+"blind": true,
 "date": "2018-12-05",
-"ev": 0.55,
-"focus": 0.603,
+"ev": 0.6817,
+"focus": 0.688,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.55,
-"hike_50": 0.0,
-"hold": 0.45
+"cut_25": 0.0301,
+"cut_50": 0.0044,
+"hike_25": 0.6823,
+"hike_50": 0.0192,
+"hold": 0.264
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "7be21c549391e86c": {
+"blind": true,
 "date": "2022-10-26",
-"ev": 1.44,
-"focus": 0.565,
+"ev": 1.3265,
+"focus": 0.801,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.54,
-"hike_50": 0.45,
-"hold": 0.01
+"cut_25": 0.003,
+"cut_50": 0.0013,
+"hike_25": 0.631,
+"hike_50": 0.3506,
+"hold": 0.0141
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "7c6abe33a2a53125": {
+"blind": true,
 "date": "2018-05-01",
-"ev": 0.77,
-"focus": 0.705,
+"ev": 0.5702,
+"focus": 0.712,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.75,
-"hike_50": 0.01,
-"hold": 0.24
+"cut_25": 0.0094,
+"cut_50": 0.0028,
+"hike_25": 0.5506,
+"hike_50": 0.0173,
+"hold": 0.4198
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "7c830c74a641db3d": {
+"blind": true,
 "date": "2020-04-30",
-"ev": 0.0,
-"focus": 0.497,
+"ev": -0.0336,
+"focus": 0.625,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0332,
+"cut_50": 0.0092,
+"hike_25": 0.0123,
+"hike_50": 0.0028,
+"hold": 0.9425
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "7ea63e1318d1cea9": {
+"blind": true,
 "date": "2020-01-22",
-"ev": -0.2,
-"focus": 0.468,
+"ev": -0.1134,
+"focus": 0.602,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.18,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.81
+"cut_25": 0.1919,
+"cut_50": 0.0089,
+"hike_25": 0.0777,
+"hike_50": 0.0093,
+"hold": 0.7122
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "7f0b7a24385dda07": {
+"blind": true,
 "date": "2018-03-13",
-"ev": 0.44,
-"focus": 0.455,
+"ev": 0.2981,
+"focus": 0.532,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.42,
-"hike_50": 0.01,
-"hold": 0.57
+"cut_25": 0.0164,
+"cut_50": 0.0038,
+"hike_25": 0.297,
+"hike_50": 0.0125,
+"hold": 0.6702
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "80d18d40c8c16d5c": {
+"blind": true,
 "date": "2016-03-09",
-"ev": 0.0,
-"focus": 0.458,
+"ev": 0.0788,
+"focus": 0.658,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0267,
+"cut_50": 0.0038,
+"hike_25": 0.0867,
+"hike_50": 0.0133,
+"hold": 0.8695
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "80fc3e15e443c97c": {
+"blind": true,
 "date": "2024-01-24",
-"ev": 0.0,
-"focus": 0.752,
+"ev": 0.0414,
+"focus": 0.773,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0107,
+"cut_50": 0.0018,
+"hike_25": 0.0433,
+"hike_50": 0.0062,
+"hold": 0.9379
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "8151f092d868db37": {
+"blind": true,
 "date": "2023-09-07",
-"ev": 0.56,
-"focus": 0.613,
+"ev": 0.5148,
+"focus": 0.816,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.54,
-"hike_50": 0.01,
-"hold": 0.45
+"cut_25": 0.0099,
+"cut_50": 0.0031,
+"hike_25": 0.4811,
+"hike_50": 0.0249,
+"hold": 0.4811
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "817d122f509a48f5": {
+"blind": true,
 "date": "2021-11-16",
-"ev": 0.01,
-"focus": 0.38,
+"ev": 0.0386,
+"focus": 0.503,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0116,
+"cut_50": 0.0035,
+"hike_25": 0.0451,
+"hike_50": 0.006,
+"hold": 0.9337
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "81d1fc2b132f50a8": {
+"blind": true,
 "date": "2016-01-07",
-"ev": -0.26,
-"focus": 0.355,
+"ev": -0.0936,
+"focus": 0.488,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.21,
-"cut_50": 0.03,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.75
+"cut_25": 0.1383,
+"cut_50": 0.0181,
+"hike_25": 0.0641,
+"hike_50": 0.0084,
+"hold": 0.7711
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "81d256ef1c4a6925": {
+"blind": true,
 "date": "2024-01-24",
-"ev": 0.0,
-"focus": 0.705,
+"ev": 0.0286,
+"focus": 0.842,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0227,
+"cut_50": 0.003,
+"hike_25": 0.0427,
+"hike_50": 0.0073,
+"hold": 0.9242
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "838c6d91b2556220": {
+"blind": true,
 "date": "2017-04-13",
-"ev": 0.0,
-"focus": 0.31,
+"ev": 0.081,
+"focus": 0.618,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0315,
+"cut_50": 0.0047,
+"hike_25": 0.0975,
+"hike_50": 0.0122,
+"hold": 0.8541
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "83c274169379bf5c": {
+"blind": true,
 "date": "2017-10-03",
-"ev": 0.06,
-"focus": 0.235,
+"ev": 0.0623,
+"focus": 0.159,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.07,
-"hike_50": 0.0,
-"hold": 0.92
+"cut_25": 0.0644,
+"cut_50": 0.0145,
+"hike_25": 0.1388,
+"hike_50": 0.0084,
+"hold": 0.7739
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Sylvain Leduc",
 "type": "speech"
 },
 "8541ffbf96c5bbc9": {
+"blind": true,
 "date": "2025-07-30",
-"ev": -0.44,
-"focus": 0.492,
+"ev": -0.1543,
+"focus": 0.671,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.44,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.56
+"cut_25": 0.1767,
+"cut_50": 0.0071,
+"hike_25": 0.0247,
+"hike_50": 0.0059,
+"hold": 0.7855
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "85549636e47c94f2": {
+"blind": true,
 "date": "2025-09-17",
-"ev": -0.34,
-"focus": 0.445,
+"ev": -0.33,
+"focus": 0.663,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.34,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.66
+"cut_25": 0.3033,
+"cut_50": 0.0247,
+"hike_25": 0.0128,
+"hike_50": 0.005,
+"hold": 0.6542
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "85fc474448477ebb": {
+"blind": true,
 "date": "2022-12-07",
-"ev": 0.92,
-"focus": 0.562,
+"ev": 1.0373,
+"focus": 0.745,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.78,
-"hike_50": 0.07,
-"hold": 0.15
+"cut_25": 0.0087,
+"cut_50": 0.0031,
+"hike_25": 0.5814,
+"hike_50": 0.2354,
+"hold": 0.1715
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "8632b228a87ee044": {
+"blind": true,
 "date": "2026-07-15",
-"ev": -0.1,
-"focus": 0.552,
+"ev": 0.0608,
+"focus": 0.763,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.08,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.91
+"cut_25": 0.0229,
+"cut_50": 0.003,
+"hike_25": 0.0742,
+"hike_50": 0.0077,
+"hold": 0.8921
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "86966ae901c47983": {
+"blind": true,
 "date": "2024-07-24",
-"ev": -0.52,
-"focus": 0.445,
+"ev": -0.4499,
+"focus": 0.677,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.52,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.48
+"cut_25": 0.4379,
+"cut_50": 0.0181,
+"hike_25": 0.0144,
+"hike_50": 0.0049,
+"hold": 0.5247
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "86efadc76064174b": {
+"blind": true,
 "date": "2026-03-18",
-"ev": -0.09,
-"focus": 0.443,
+"ev": -0.0047,
+"focus": 0.646,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.12,
-"cut_50": 0.0,
-"hike_25": 0.03,
-"hike_50": 0.0,
-"hold": 0.85
+"cut_25": 0.0741,
+"cut_50": 0.0045,
+"hike_25": 0.0618,
+"hike_50": 0.0083,
+"hold": 0.8513
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "880a22fbbe11e6d9": {
+"blind": true,
 "date": "2020-11-26",
-"ev": 0.0,
-"focus": 0.74,
+"ev": -0.0118,
+"focus": 0.779,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0139,
+"cut_50": 0.0026,
+"hike_25": 0.0044,
+"hike_50": 0.0015,
+"hold": 0.9776
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "8811e7ecbf2f0287": {
+"blind": true,
 "date": "2016-12-07",
-"ev": 0.01,
-"focus": 0.412,
+"ev": 0.1583,
+"focus": 0.66,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.024,
+"cut_50": 0.0043,
+"hike_25": 0.1567,
+"hike_50": 0.0171,
+"hold": 0.7979
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "887351f27f55da5d": {
+"blind": true,
 "date": "2025-10-29",
-"ev": -0.02,
-"focus": 0.453,
+"ev": -0.0107,
+"focus": 0.666,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0146,
+"cut_50": 0.0014,
+"hike_25": 0.0046,
+"hike_50": 0.001,
+"hold": 0.9784
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "8a003fbbe9abbeba": {
+"blind": true,
 "date": "2018-08-25",
-"ev": 0.55,
-"focus": 0.51,
+"ev": 0.5541,
+"focus": 0.487,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.55,
-"hike_50": 0.0,
-"hold": 0.45
+"cut_25": 0.0309,
+"cut_50": 0.0049,
+"hike_25": 0.5573,
+"hike_50": 0.0188,
+"hold": 0.3881
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "8a54f4477d14c6e9": {
+"blind": true,
 "date": "2025-01-29",
-"ev": -0.45,
-"focus": 0.455,
+"ev": -0.1022,
+"focus": 0.611,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.45,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.55
+"cut_25": 0.1383,
+"cut_50": 0.0092,
+"hike_25": 0.0373,
+"hike_50": 0.0086,
+"hold": 0.8066
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "8df839855fd653b2": {
+"blind": true,
 "date": "2025-12-16",
-"ev": 0.0,
-"focus": 0.352,
+"ev": -0.0124,
+"focus": 0.415,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0247,
+"cut_50": 0.0016,
+"hike_25": 0.0109,
+"hike_50": 0.0023,
+"hold": 0.9605
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "8ec84416a3127a39": {
+"blind": true,
 "date": "2026-01-28",
-"ev": -0.05,
-"focus": 0.525,
+"ev": 0.0066,
+"focus": 0.684,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.05,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.95
+"cut_25": 0.0222,
+"cut_50": 0.0021,
+"hike_25": 0.0266,
+"hike_50": 0.0032,
+"hold": 0.946
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "8fb8538bbdf58ecc": {
+"blind": true,
 "date": "2024-09-20",
-"ev": 0.0,
-"focus": 0.25,
+"ev": -0.0454,
+"focus": 0.146,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0787,
+"cut_50": 0.0382,
+"hike_25": 0.0787,
+"hike_50": 0.0154,
+"hold": 0.7891
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "8ff5f307a9e530c0": {
+"blind": true,
 "date": "2022-07-13",
-"ev": 1.59,
-"focus": 0.698,
+"ev": 1.7332,
+"focus": 0.783,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.39,
-"hike_50": 0.6,
-"hold": 0.01
+"cut_25": 0.0031,
+"cut_50": 0.0019,
+"hike_25": 0.2326,
+"hike_50": 0.7537,
+"hold": 0.0086
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "90375f7a61e68d43": {
+"blind": true,
 "date": "2016-09-08",
-"ev": -0.11,
-"focus": 0.233,
+"ev": -0.085,
+"focus": 0.168,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.09,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.9
+"cut_25": 0.1126,
+"cut_50": 0.0138,
+"hike_25": 0.0456,
+"hike_50": 0.0048,
+"hold": 0.8233
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Timothy Lane",
 "type": "speech"
 },
 "90549064b8354eee": {
+"blind": true,
 "date": "2016-09-20",
-"ev": -0.1,
-"focus": 0.435,
+"ev": -0.0878,
+"focus": 0.537,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.08,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.91
+"cut_25": 0.1273,
+"cut_50": 0.009,
+"hike_25": 0.045,
+"hike_50": 0.0063,
+"hold": 0.8124
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "90ff93364d7a0846": {
+"blind": true,
 "date": "2020-01-22",
-"ev": -0.05,
-"focus": 0.725,
+"ev": -0.0764,
+"focus": 0.776,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.05,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.95
+"cut_25": 0.131,
+"cut_50": 0.0095,
+"hike_25": 0.0463,
+"hike_50": 0.0137,
+"hold": 0.7995
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "92111974366fadbd": {
+"blind": true,
 "date": "2020-03-15",
-"ev": -1.21,
-"focus": 0.53,
+"ev": -1.1554,
+"focus": 0.774,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.27,
-"cut_50": 0.47,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.26
+"cut_25": 0.2927,
+"cut_50": 0.4397,
+"hike_25": 0.0073,
+"hike_50": 0.0047,
+"hold": 0.2556
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "92adc00f60ffeb83": {
+"blind": true,
 "date": "2016-09-07",
-"ev": -0.01,
-"focus": 0.425,
+"ev": 0.0325,
+"focus": 0.656,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0661,
+"cut_50": 0.006,
+"hike_25": 0.0828,
+"hike_50": 0.0139,
+"hold": 0.8312
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "936a1925681da19e": {
+"blind": true,
 "date": "2026-06-23",
-"ev": 0.0,
-"focus": 0.01,
+"ev": -0.0799,
+"focus": 0.031,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0681,
+"cut_50": 0.0316,
+"hike_25": 0.0362,
+"hike_50": 0.0076,
+"hold": 0.8566
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "93a35be97ea52496": {
+"blind": true,
 "date": "2025-06-05",
-"ev": -0.21,
-"focus": 0.297,
+"ev": -0.1484,
+"focus": 0.376,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.21,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.79
+"cut_25": 0.1888,
+"cut_50": 0.0164,
+"hike_25": 0.0509,
+"hike_50": 0.0112,
+"hold": 0.7328
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Sharon Kozicki",
 "type": "speech"
 },
 "93b598b9ad1ff16c": {
+"blind": true,
 "date": "2020-11-12",
-"ev": -0.01,
-"focus": 0.27,
+"ev": -0.079,
+"focus": 0.241,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0647,
+"cut_50": 0.0209,
+"hike_25": 0.02,
+"hike_50": 0.0037,
+"hold": 0.8907
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "9450e91de7253d08": {
+"blind": true,
 "date": "2026-06-10",
-"ev": 0.01,
-"focus": 0.69,
+"ev": 0.0547,
+"focus": 0.748,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.04,
-"cut_50": 0.0,
-"hike_25": 0.05,
-"hike_50": 0.0,
-"hold": 0.91
+"cut_25": 0.0221,
+"cut_50": 0.0028,
+"hike_25": 0.0684,
+"hike_50": 0.007,
+"hold": 0.8998
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "9465c8af3c6cc8ce": {
+"blind": true,
 "date": "2019-05-29",
-"ev": 0.0,
-"focus": 0.495,
+"ev": 0.0655,
+"focus": 0.675,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0141,
+"cut_50": 0.0024,
+"hike_25": 0.072,
+"hike_50": 0.0063,
+"hold": 0.9052
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "9477f73fe9f9a8d9": {
+"blind": true,
 "date": "2025-12-10",
-"ev": -0.01,
-"focus": 0.598,
+"ev": 0.0121,
+"focus": 0.801,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0194,
+"cut_50": 0.002,
+"hike_25": 0.0304,
+"hike_50": 0.0025,
+"hold": 0.9457
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "95ddba1a7aa64298": {
+"blind": true,
 "date": "2022-01-26",
-"ev": 0.75,
-"focus": 0.863,
+"ev": 0.8883,
+"focus": 0.838,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.71,
-"hike_50": 0.02,
-"hold": 0.27
+"cut_25": 0.0035,
+"cut_50": 0.002,
+"hike_25": 0.7102,
+"hike_50": 0.0928,
+"hold": 0.1914
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "96425b9a40423d4c": {
+"blind": true,
 "date": "2016-07-13",
-"ev": -0.01,
-"focus": 0.323,
+"ev": 0.1046,
+"focus": 0.616,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0361,
+"cut_50": 0.0044,
+"hike_25": 0.134,
+"hike_50": 0.0078,
+"hold": 0.8177
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "978c7259c546873f": {
+"blind": true,
 "date": "2016-10-24",
-"ev": -0.01,
-"focus": 0.675,
+"ev": -0.1854,
+"focus": 0.701,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.2157,
+"cut_50": 0.0104,
+"hike_25": 0.0338,
+"hike_50": 0.0087,
+"hold": 0.7313
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "97db3d7e4007be87": {
+"blind": true,
 "date": "2022-01-26",
-"ev": 0.68,
-"focus": 0.64,
+"ev": 0.4862,
+"focus": 0.728,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.64,
-"hike_50": 0.02,
-"hold": 0.34
+"cut_25": 0.0059,
+"cut_50": 0.003,
+"hike_25": 0.3833,
+"hike_50": 0.0574,
+"hold": 0.5504
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "988f326110503435": {
+"blind": true,
 "date": "2021-12-09",
-"ev": 0.0,
-"focus": 0.568,
+"ev": 0.0972,
+"focus": 0.705,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0089,
+"cut_50": 0.0028,
+"hike_25": 0.0812,
+"hike_50": 0.0152,
+"hold": 0.8919
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 },
 "98ae73df0f15c635": {
+"blind": true,
 "date": "2025-03-12",
-"ev": -0.33,
-"focus": 0.635,
+"ev": -0.0839,
+"focus": 0.796,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.33,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.67
+"cut_25": 0.0963,
+"cut_50": 0.0047,
+"hike_25": 0.0115,
+"hike_50": 0.0051,
+"hold": 0.8825
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "98eacb48bb3ef6d4": {
+"blind": true,
 "date": "2026-04-29",
-"ev": 0.0,
-"focus": 0.73,
+"ev": 0.0698,
+"focus": 0.753,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0168,
+"cut_50": 0.0033,
+"hike_25": 0.0745,
+"hike_50": 0.0093,
+"hold": 0.8961
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "99164bd9a73ff3d1": {
+"blind": true,
 "date": "2022-03-03",
-"ev": 0.31,
-"focus": 0.223,
+"ev": 0.862,
+"focus": 0.339,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.21,
-"hike_50": 0.05,
-"hold": 0.74
+"cut_25": 0.0257,
+"cut_50": 0.0146,
+"hike_25": 0.4861,
+"hike_50": 0.2154,
+"hold": 0.2581
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "998f4a305165966a": {
+"blind": true,
 "date": "2017-07-12",
-"ev": 0.49,
-"focus": 0.517,
+"ev": 0.3539,
+"focus": 0.671,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.49,
-"hike_50": 0.0,
-"hold": 0.51
+"cut_25": 0.0155,
+"cut_50": 0.0043,
+"hike_25": 0.344,
+"hike_50": 0.017,
+"hold": 0.6192
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "9b20ee1561ad0898": {
+"blind": true,
 "date": "2025-02-06",
-"ev": -0.01,
-"focus": 0.275,
+"ev": -0.1215,
+"focus": 0.39,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.1458,
+"cut_50": 0.0204,
+"hike_25": 0.0493,
+"hike_50": 0.0079,
+"hold": 0.7767
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "9be46c095a53cf88": {
+"blind": true,
 "date": "2018-10-25",
-"ev": 0.0,
-"focus": 0.13,
+"ev": 0.0186,
+"focus": 0.043,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0569,
+"cut_50": 0.0188,
+"hike_25": 0.0978,
+"hike_50": 0.0076,
+"hold": 0.819
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "9beb6caee3ce541f": {
+"blind": true,
 "date": "2025-03-20",
-"ev": -0.17,
-"focus": 0.47,
+"ev": 0.0082,
+"focus": 0.636,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.19,
-"cut_50": 0.02,
-"hike_25": 0.04,
-"hike_50": 0.01,
-"hold": 0.74
+"cut_25": 0.045,
+"cut_50": 0.007,
+"hike_25": 0.0515,
+"hike_50": 0.0079,
+"hold": 0.8886
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "9c06636c884d90cb": {
+"blind": true,
 "date": "2022-04-25",
-"ev": 0.94,
-"focus": 0.403,
+"ev": 0.9431,
+"focus": 0.442,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.64,
-"hike_50": 0.15,
-"hold": 0.21
+"cut_25": 0.0292,
+"cut_50": 0.0103,
+"hike_25": 0.4815,
+"hike_50": 0.2557,
+"hold": 0.2233
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "9d0e9832a09041ea": {
+"blind": true,
 "date": "2021-04-27",
-"ev": 0.0,
-"focus": 0.765,
+"ev": 0.0107,
+"focus": 0.773,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0047,
+"cut_50": 0.0013,
+"hike_25": 0.0128,
+"hike_50": 0.0026,
+"hold": 0.9786
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "9d1adfde4b42c44e": {
+"blind": true,
 "date": "2022-06-01",
-"ev": 1.62,
-"focus": 0.598,
+"ev": 1.5208,
+"focus": 0.797,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.38,
-"hike_50": 0.62,
-"hold": 0.0
+"cut_25": 0.0027,
+"cut_50": 0.0017,
+"hike_25": 0.4496,
+"hike_50": 0.5387,
+"hold": 0.0073
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "9d8f94b539a45809": {
+"blind": true,
 "date": "2026-06-10",
-"ev": 0.06,
-"focus": 0.71,
+"ev": 0.0587,
+"focus": 0.773,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.07,
-"hike_50": 0.0,
-"hold": 0.92
+"cut_25": 0.053,
+"cut_50": 0.0043,
+"hike_25": 0.0953,
+"hike_50": 0.0125,
+"hold": 0.835
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "9e0c591f32b0c222": {
+"blind": true,
 "date": "2024-03-21",
-"ev": -0.07,
-"focus": 0.295,
+"ev": -0.2532,
+"focus": 0.34,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.07,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.93
+"cut_25": 0.2173,
+"cut_50": 0.0408,
+"hike_25": 0.0297,
+"hike_50": 0.008,
+"hold": 0.7041
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 },
 "9ebdf6744124e0d9": {
+"blind": true,
 "date": "2020-12-10",
-"ev": 0.0,
-"focus": 0.618,
+"ev": -0.0046,
+"focus": 0.699,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0111,
+"cut_50": 0.0022,
+"hike_25": 0.0085,
+"hike_50": 0.0012,
+"hold": 0.977
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Paul Beaudry",
 "type": "speech"
 },
 "9f97ade9fe9e5295": {
+"blind": true,
 "date": "2023-05-04",
-"ev": 0.37,
-"focus": 0.575,
+"ev": 0.347,
+"focus": 0.745,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.35,
-"hike_50": 0.01,
-"hold": 0.64
+"cut_25": 0.0114,
+"cut_50": 0.0037,
+"hike_25": 0.3246,
+"hike_50": 0.0206,
+"hold": 0.6396
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "9faa6d11779f7788": {
+"blind": true,
 "date": "2022-12-12",
-"ev": 1.35,
-"focus": 0.62,
+"ev": 1.1332,
+"focus": 0.743,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.37,
-"hike_50": 0.49,
-"hold": 0.14
+"cut_25": 0.0061,
+"cut_50": 0.0031,
+"hike_25": 0.2958,
+"hike_50": 0.4248,
+"hold": 0.2703
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "a0fae09b0117f492": {
+"blind": true,
 "date": "2025-09-17",
-"ev": -0.35,
-"focus": 0.55,
+"ev": -0.2012,
+"focus": 0.785,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.35,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.65
+"cut_25": 0.2071,
+"cut_50": 0.0078,
+"hike_25": 0.012,
+"hike_50": 0.0047,
+"hold": 0.7684
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "a21b5a2720b8a29b": {
+"blind": true,
 "date": "2016-11-01",
-"ev": 0.0,
-"focus": 0.198,
+"ev": -0.0426,
+"focus": 0.216,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.1092,
+"cut_50": 0.0235,
+"hike_25": 0.0953,
+"hike_50": 0.0091,
+"hold": 0.7629
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "a2764e9945dd8afc": {
+"blind": true,
 "date": "2017-09-14",
-"ev": 0.0,
-"focus": 0.17,
+"ev": -0.0137,
+"focus": 0.18,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0362,
+"cut_50": 0.0175,
+"hike_25": 0.0433,
+"hike_50": 0.0071,
+"hold": 0.8959
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "a382adb19f92d13f": {
+"blind": true,
 "date": "2025-02-21",
-"ev": -0.08,
-"focus": 0.403,
+"ev": -0.0551,
+"focus": 0.563,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.14,
-"cut_50": 0.02,
-"hike_25": 0.08,
-"hike_50": 0.01,
-"hold": 0.75
+"cut_25": 0.1407,
+"cut_50": 0.012,
+"hike_25": 0.0856,
+"hike_50": 0.012,
+"hold": 0.7497
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "a465e2e4de51c323": {
+"blind": true,
 "date": "2023-03-09",
-"ev": 0.09,
-"focus": 0.627,
+"ev": 0.2058,
+"focus": 0.749,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.09,
-"hike_50": 0.0,
-"hold": 0.91
+"cut_25": 0.0124,
+"cut_50": 0.0039,
+"hike_25": 0.1833,
+"hike_50": 0.0214,
+"hold": 0.7789
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "speech"
 },
 "a535fb4c76359d5b": {
+"blind": true,
 "date": "2026-09-29",
-"ev": 0.0,
-"focus": 0.16,
+"ev": -0.0327,
+"focus": 0.119,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.033,
+"cut_50": 0.0116,
+"hike_25": 0.0167,
+"hike_50": 0.0034,
+"hold": 0.9352
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 },
 "a74aca86e7c5121d": {
+"blind": true,
 "date": "2026-11-18",
-"ev": 0.28,
-"focus": 0.365,
+"ev": 0.4789,
+"focus": 0.374,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.23,
-"hike_50": 0.03,
-"hold": 0.73
+"cut_25": 0.0376,
+"cut_50": 0.0127,
+"hike_25": 0.4126,
+"hike_50": 0.0646,
+"hold": 0.4725
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 },
 "a7908342889bfd47": {
+"blind": true,
 "date": "2025-11-05",
-"ev": -0.06,
-"focus": 0.26,
+"ev": -0.0035,
+"focus": 0.3,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.04,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.95
+"cut_25": 0.1193,
+"cut_50": 0.02,
+"hike_25": 0.109,
+"hike_50": 0.0234,
+"hold": 0.7282
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "a86b5db9a931c9e4": {
+"blind": true,
 "date": "2026-05-04",
-"ev": 0.02,
-"focus": 0.713,
+"ev": 0.1631,
+"focus": 0.764,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.03,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0342,
+"cut_50": 0.0049,
+"hike_25": 0.1664,
+"hike_50": 0.0203,
+"hold": 0.7742
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "a96f9a6f96b83e88": {
+"blind": true,
 "date": "2019-04-30",
-"ev": 0.21,
-"focus": 0.265,
+"ev": 0.5057,
+"focus": 0.371,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.19,
-"hike_50": 0.01,
-"hold": 0.8
+"cut_25": 0.0377,
+"cut_50": 0.0049,
+"hike_25": 0.4958,
+"hike_50": 0.0287,
+"hold": 0.4329
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "aa3dd15dbbf66185": {
+"blind": true,
 "date": "2024-12-16",
-"ev": -0.59,
-"focus": 0.56,
+"ev": -0.5876,
+"focus": 0.643,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.45,
-"cut_50": 0.07,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.48
+"cut_25": 0.5337,
+"cut_50": 0.0324,
+"hike_25": 0.0057,
+"hike_50": 0.0026,
+"hold": 0.4257
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "ab64b8a0c75ddb11": {
+"blind": true,
 "date": "2019-02-21",
-"ev": 0.23,
-"focus": 0.492,
+"ev": 0.2246,
+"focus": 0.558,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.21,
-"hike_50": 0.01,
-"hold": 0.78
+"cut_25": 0.0146,
+"cut_50": 0.0037,
+"hike_25": 0.2296,
+"hike_50": 0.0085,
+"hold": 0.7438
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "ab8b2021464454d9": {
+"blind": true,
 "date": "2024-07-24",
-"ev": -0.9,
-"focus": 0.642,
+"ev": -0.9162,
+"focus": 0.794,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.9,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.1
+"cut_25": 0.9055,
+"cut_50": 0.008,
+"hike_25": 0.0026,
+"hike_50": 0.0014,
+"hold": 0.0825
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "abc5f84f3cf2f75d": {
+"blind": true,
 "date": "2019-10-30",
-"ev": -0.08,
-"focus": 0.487,
+"ev": -0.2449,
+"focus": 0.696,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.08,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.92
+"cut_25": 0.2499,
+"cut_50": 0.0261,
+"hike_25": 0.0392,
+"hike_50": 0.009,
+"hold": 0.6758
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "ac32c91cb98cadf8": {
+"blind": true,
 "date": "2017-04-12",
-"ev": 0.02,
-"focus": 0.407,
+"ev": 0.1242,
+"focus": 0.643,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0238,
+"cut_50": 0.0039,
+"hike_25": 0.1299,
+"hike_50": 0.0129,
+"hold": 0.8294
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "acad60dd22166db5": {
+"blind": true,
 "date": "2025-06-18",
-"ev": -0.61,
-"focus": 0.51,
+"ev": -0.4797,
+"focus": 0.568,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.61,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.39
+"cut_25": 0.4768,
+"cut_50": 0.0105,
+"hike_25": 0.0098,
+"hike_50": 0.0041,
+"hold": 0.4989
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "acafa69eb871e5b9": {
+"blind": true,
 "date": "2020-03-05",
-"ev": -0.64,
-"focus": 0.595,
+"ev": -1.1532,
+"focus": 0.733,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.38,
-"cut_50": 0.13,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.49
+"cut_25": 0.2453,
+"cut_50": 0.4619,
+"hike_25": 0.0079,
+"hike_50": 0.004,
+"hold": 0.2809
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "adf2d031b3a9438b": {
+"blind": true,
 "date": "2016-11-16",
-"ev": -0.04,
-"focus": 0.25,
+"ev": -0.0529,
+"focus": 0.181,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.04,
-"cut_50": 0.01,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.93
+"cut_25": 0.0858,
+"cut_50": 0.0221,
+"hike_25": 0.0625,
+"hike_50": 0.0073,
+"hold": 0.8224
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Timothy Lane",
 "type": "speech"
 },
 "ae1b58ef6848dcb1": {
+"blind": true,
 "date": "2017-11-07",
-"ev": 0.01,
-"focus": 0.352,
+"ev": 0.3762,
+"focus": 0.44,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.03,
-"hike_50": 0.0,
-"hold": 0.95
+"cut_25": 0.0363,
+"cut_50": 0.0052,
+"hike_25": 0.399,
+"hike_50": 0.012,
+"hold": 0.5475
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "afafaac0910ad77f": {
+"blind": true,
 "date": "2020-03-13",
-"ev": -0.75,
-"focus": 0.302,
+"ev": -1.1512,
+"focus": 0.574,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.13,
-"cut_50": 0.31,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.56
+"cut_25": 0.2205,
+"cut_50": 0.4756,
+"hike_25": 0.0089,
+"hike_50": 0.0058,
+"hold": 0.2892
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "b090ce3e2c5cc07e": {
+"blind": true,
 "date": "2024-06-12",
-"ev": -0.82,
-"focus": 0.468,
+"ev": -0.7802,
+"focus": 0.585,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.82,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.18
+"cut_25": 0.7579,
+"cut_50": 0.0213,
+"hike_25": 0.0127,
+"hike_50": 0.0038,
+"hold": 0.2043
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "b287a9dda2e54037": {
+"blind": true,
 "date": "2025-07-30",
-"ev": -0.52,
-"focus": 0.52,
+"ev": -0.111,
+"focus": 0.649,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.52,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.48
+"cut_25": 0.1402,
+"cut_50": 0.0069,
+"hike_25": 0.0275,
+"hike_50": 0.0078,
+"hold": 0.8176
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "b2b770a02a99c475": {
+"blind": true,
 "date": "2016-11-28",
-"ev": -0.02,
-"focus": 0.275,
+"ev": 0.0242,
+"focus": 0.228,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0982,
+"cut_50": 0.0126,
+"hike_25": 0.1288,
+"hike_50": 0.0094,
+"hold": 0.7511
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "b3a6ad0139eb7ac3": {
+"blind": true,
 "date": "2022-02-02",
-"ev": 0.78,
-"focus": 0.855,
+"ev": 0.8385,
+"focus": 0.839,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.74,
-"hike_50": 0.02,
-"hold": 0.24
+"cut_25": 0.004,
+"cut_50": 0.0021,
+"hike_25": 0.6305,
+"hike_50": 0.1081,
+"hold": 0.2553
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "b419262b2c49db0e": {
+"blind": true,
 "date": "2022-02-16",
-"ev": 0.97,
-"focus": 0.545,
+"ev": 0.7507,
+"focus": 0.683,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.77,
-"hike_50": 0.1,
-"hold": 0.13
+"cut_25": 0.0055,
+"cut_50": 0.0024,
+"hike_25": 0.5794,
+"hike_50": 0.0908,
+"hold": 0.3219
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Timothy Lane",
 "type": "speech"
 },
 "b41aa097e6904f3e": {
+"blind": true,
 "date": "2022-11-10",
-"ev": 1.3,
-"focus": 0.5,
+"ev": 1.209,
+"focus": 0.681,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.56,
-"hike_50": 0.37,
-"hold": 0.07
+"cut_25": 0.0102,
+"cut_50": 0.0032,
+"hike_25": 0.3963,
+"hike_50": 0.4147,
+"hold": 0.1756
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "b46857d91d6e6a04": {
+"blind": true,
 "date": "2026-03-18",
-"ev": 0.02,
-"focus": 0.5,
+"ev": 0.0463,
+"focus": 0.688,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.05,
-"cut_50": 0.0,
-"hike_25": 0.07,
-"hike_50": 0.0,
-"hold": 0.88
+"cut_25": 0.0253,
+"cut_50": 0.0026,
+"hike_25": 0.0654,
+"hike_50": 0.0057,
+"hold": 0.901
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "b468fe2f55b9e6c9": {
+"blind": true,
 "date": "2016-04-13",
-"ev": 0.0,
-"focus": 0.325,
+"ev": 0.0851,
+"focus": 0.69,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0326,
+"cut_50": 0.0055,
+"hike_25": 0.1056,
+"hike_50": 0.0115,
+"hold": 0.8449
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "b47a366dafc42a5f": {
+"blind": true,
 "date": "2022-04-13",
-"ev": 1.66,
-"focus": 0.77,
+"ev": 1.7915,
+"focus": 0.814,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.34,
-"hike_50": 0.66,
-"hold": 0.0
+"cut_25": 0.0023,
+"cut_50": 0.0014,
+"hike_25": 0.1816,
+"hike_50": 0.8075,
+"hold": 0.0072
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "b533c12b5ffdd762": {
+"blind": true,
 "date": "2016-06-15",
-"ev": -0.08,
-"focus": 0.343,
+"ev": 0.0604,
+"focus": 0.45,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.06,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.93
+"cut_25": 0.0429,
+"cut_50": 0.0045,
+"hike_25": 0.0968,
+"hike_50": 0.0077,
+"hold": 0.8481
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "b5964a997df6298a": {
+"blind": true,
 "date": "2021-06-16",
-"ev": 0.0,
-"focus": 0.677,
+"ev": 0.0069,
+"focus": 0.733,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0088,
+"cut_50": 0.0015,
+"hike_25": 0.0139,
+"hike_50": 0.0025,
+"hold": 0.9732
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "b5a6e3c866f9608d": {
+"blind": true,
 "date": "2022-11-14",
-"ev": 1.21,
-"focus": 0.365,
+"ev": 1.1978,
+"focus": 0.432,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.41,
-"hike_50": 0.4,
-"hold": 0.19
+"cut_25": 0.0123,
+"cut_50": 0.0046,
+"hike_25": 0.4698,
+"hike_50": 0.3747,
+"hold": 0.1386
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "b6a47665cf2a7452": {
+"blind": true,
 "date": "2024-12-11",
-"ev": -0.64,
-"focus": 0.555,
+"ev": -0.279,
+"focus": 0.749,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.28,
-"cut_50": 0.18,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.54
+"cut_25": 0.2163,
+"cut_50": 0.0388,
+"hike_25": 0.0082,
+"hike_50": 0.0034,
+"hold": 0.7333
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "b6cbb5ebc52f78b0": {
+"blind": true,
 "date": "2021-06-10",
-"ev": 0.0,
-"focus": 0.665,
+"ev": 0.0272,
+"focus": 0.736,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0057,
+"cut_50": 0.0016,
+"hike_25": 0.027,
+"hike_50": 0.0045,
+"hold": 0.9612
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Timothy Lane",
 "type": "speech"
 },
 "b7b1f0b01f66adaa": {
+"blind": true,
 "date": "2026-05-13",
-"ev": 0.0,
-"focus": 0.228,
+"ev": -0.0989,
+"focus": 0.089,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0915,
+"cut_50": 0.0282,
+"hike_25": 0.0338,
+"hike_50": 0.0076,
+"hold": 0.8388
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Michelle Alexopoulos",
 "type": "speech"
 },
 "b8373962fde11fe3": {
+"blind": true,
 "date": "2023-12-06",
-"ev": 0.15,
-"focus": 0.5,
+"ev": 0.0514,
+"focus": 0.748,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.17,
-"hike_50": 0.0,
-"hold": 0.81
+"cut_25": 0.0665,
+"cut_50": 0.0087,
+"hike_25": 0.1145,
+"hike_50": 0.0104,
+"hold": 0.7999
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "b83aa17ac189e2ec": {
+"blind": true,
 "date": "2018-07-11",
-"ev": 0.89,
-"focus": 0.635,
+"ev": 0.929,
+"focus": 0.783,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.87,
-"hike_50": 0.01,
-"hold": 0.12
+"cut_25": 0.0048,
+"cut_50": 0.0014,
+"hike_25": 0.9013,
+"hike_50": 0.0176,
+"hold": 0.075
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "b8930e641423271a": {
+"blind": true,
 "date": "2019-03-07",
-"ev": 0.01,
-"focus": 0.495,
+"ev": 0.0851,
+"focus": 0.631,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0416,
+"cut_50": 0.0052,
+"hike_25": 0.1232,
+"hike_50": 0.007,
+"hold": 0.823
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lynn Patterson",
 "type": "speech"
 },
 "b91c0e65a4b83e6e": {
+"blind": true,
 "date": "2026-04-29",
-"ev": 0.0,
-"focus": 0.743,
+"ev": 0.0238,
+"focus": 0.797,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0154,
+"cut_50": 0.0024,
+"hike_25": 0.0332,
+"hike_50": 0.0053,
+"hold": 0.9436
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "b9a14674da2b9a4e": {
+"blind": true,
 "date": "2022-10-26",
-"ev": 1.81,
-"focus": 0.593,
+"ev": 1.6169,
+"focus": 0.805,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.17,
-"hike_50": 0.82,
-"hold": 0.01
+"cut_25": 0.0037,
+"cut_50": 0.0017,
+"hike_25": 0.317,
+"hike_50": 0.6535,
+"hold": 0.0241
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "ba21774b55eba9d0": {
+"blind": true,
 "date": "2023-06-07",
-"ev": 0.68,
-"focus": 0.632,
+"ev": 0.6792,
+"focus": 0.837,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.64,
-"hike_50": 0.02,
-"hold": 0.34
+"cut_25": 0.0066,
+"cut_50": 0.0028,
+"hike_25": 0.5676,
+"hike_50": 0.0619,
+"hold": 0.3611
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "bb0abb26c421a899": {
+"blind": true,
 "date": "2023-10-30",
-"ev": 0.11,
-"focus": 0.703,
+"ev": 0.2379,
+"focus": 0.782,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.11,
-"hike_50": 0.0,
-"hold": 0.89
+"cut_25": 0.0203,
+"cut_50": 0.0048,
+"hike_25": 0.2338,
+"hike_50": 0.017,
+"hold": 0.7241
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "bbf753735a1c3648": {
+"blind": true,
 "date": "2019-07-10",
-"ev": -0.01,
-"focus": 0.398,
+"ev": -0.0382,
+"focus": 0.664,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0758,
+"cut_50": 0.0071,
+"hike_25": 0.0403,
+"hike_50": 0.0058,
+"hold": 0.8711
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "bc0594c4b99734c1": {
+"blind": true,
 "date": "2018-03-08",
-"ev": 0.33,
-"focus": 0.675,
+"ev": 0.308,
+"focus": 0.721,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.33,
-"hike_50": 0.0,
-"hold": 0.67
+"cut_25": 0.0083,
+"cut_50": 0.0029,
+"hike_25": 0.3003,
+"hike_50": 0.0108,
+"hold": 0.6777
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Timothy Lane",
 "type": "speech"
 },
 "bdd5fec844f98f63": {
+"blind": true,
 "date": "2025-07-30",
-"ev": -0.6,
-"focus": 0.708,
+"ev": -0.2705,
+"focus": 0.778,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.6,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.4
+"cut_25": 0.2885,
+"cut_50": 0.0065,
+"hike_25": 0.0171,
+"hike_50": 0.0069,
+"hold": 0.681
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "bf34694aff929098": {
+"blind": true,
 "date": "2024-11-06",
-"ev": -0.91,
-"focus": 0.263,
+"ev": -0.8258,
+"focus": 0.282,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.89,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.1
+"cut_25": 0.7495,
+"cut_50": 0.052,
+"hike_25": 0.0164,
+"hike_50": 0.0057,
+"hold": 0.1764
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "speech"
 },
 "bfe38832656ee75f": {
+"blind": true,
 "date": "2020-01-30",
-"ev": -0.01,
-"focus": 0.27,
+"ev": 0.1298,
+"focus": 0.382,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0712,
+"cut_50": 0.0091,
+"hike_25": 0.1924,
+"hike_50": 0.0134,
+"hold": 0.714
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Paul Beaudry",
 "type": "speech"
 },
 "c156530f928bb717": {
+"blind": true,
 "date": "2020-05-25",
-"ev": -0.02,
-"focus": 0.34,
+"ev": 0.0004,
+"focus": 0.546,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.01,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0219,
+"cut_50": 0.0083,
+"hike_25": 0.0301,
+"hike_50": 0.0044,
+"hold": 0.9353
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "c1ae8f788efdbac4": {
+"blind": true,
 "date": "2017-04-12",
-"ev": 0.01,
-"focus": 0.427,
+"ev": 0.1277,
+"focus": 0.704,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0232,
+"cut_50": 0.004,
+"hike_25": 0.1353,
+"hike_50": 0.0118,
+"hold": 0.8257
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "c1dbdc71ef9ad3d5": {
+"blind": true,
 "date": "2023-02-07",
-"ev": 0.02,
-"focus": 0.667,
+"ev": 0.0605,
+"focus": 0.785,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0048,
+"cut_50": 0.0014,
+"hike_25": 0.0495,
+"hike_50": 0.0093,
+"hold": 0.935
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "c23850f5fba5a2ba": {
+"blind": true,
 "date": "2018-10-30",
-"ev": 0.83,
-"focus": 0.738,
+"ev": 0.6246,
+"focus": 0.742,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.83,
-"hike_50": 0.0,
-"hold": 0.17
+"cut_25": 0.0059,
+"cut_50": 0.0021,
+"hike_25": 0.6087,
+"hike_50": 0.013,
+"hold": 0.3702
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "c2eaccb259d1a9ca": {
+"blind": true,
 "date": "2026-11-05",
-"ev": 0.51,
-"focus": 0.52,
+"ev": 0.488,
+"focus": 0.689,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.51,
-"hike_50": 0.0,
-"hold": 0.49
+"cut_25": 0.008,
+"cut_50": 0.0025,
+"hike_25": 0.478,
+"hike_50": 0.0115,
+"hold": 0.5001
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "c526ae3c2cc9bff8": {
+"blind": true,
 "date": "2020-05-20",
-"ev": -0.01,
-"focus": 0.5,
+"ev": -0.0213,
+"focus": 0.633,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0197,
+"cut_50": 0.0083,
+"hike_25": 0.0095,
+"hike_50": 0.0027,
+"hold": 0.9597
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Timothy Lane",
 "type": "speech"
 },
 "c5839362336f70e6": {
+"blind": true,
 "date": "2016-10-19",
-"ev": -0.02,
-"focus": 0.24,
+"ev": -0.0605,
+"focus": 0.331,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.1225,
+"cut_50": 0.0137,
+"hike_25": 0.0745,
+"hike_50": 0.0074,
+"hold": 0.7819
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "c5869e2e700c8d2d": {
+"blind": true,
 "date": "2025-06-04",
-"ev": -0.12,
-"focus": 0.48,
+"ev": 0.023,
+"focus": 0.685,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.12,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.88
+"cut_25": 0.0903,
+"cut_50": 0.0075,
+"hike_25": 0.0944,
+"hike_50": 0.0169,
+"hold": 0.7908
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "c5cd9cdaa3a8eceb": {
+"blind": true,
 "date": "2018-04-23",
-"ev": 0.39,
-"focus": 0.635,
+"ev": 0.2368,
+"focus": 0.655,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.37,
-"hike_50": 0.01,
-"hold": 0.62
+"cut_25": 0.0121,
+"cut_50": 0.0033,
+"hike_25": 0.2291,
+"hike_50": 0.0133,
+"hold": 0.7422
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "c64317abdc331de6": {
+"blind": true,
 "date": "2020-08-26",
-"ev": 0.0,
-"focus": 0.237,
+"ev": -0.164,
+"focus": 0.285,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0946,
+"cut_50": 0.0502,
+"hike_25": 0.0213,
+"hike_50": 0.0049,
+"hold": 0.8289
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "c6c747ba944df6d9": {
+"blind": true,
 "date": "2019-07-10",
-"ev": -0.02,
-"focus": 0.372,
+"ev": -0.0119,
+"focus": 0.648,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0565,
+"cut_50": 0.0045,
+"hike_25": 0.0431,
+"hike_50": 0.0053,
+"hold": 0.8907
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "c71349d631a4b464": {
+"blind": true,
 "date": "2019-04-24",
-"ev": -0.03,
-"focus": 0.422,
+"ev": -0.0002,
+"focus": 0.598,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0735,
+"cut_50": 0.0053,
+"hike_25": 0.0702,
+"hike_50": 0.0068,
+"hold": 0.8441
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "c89d443bf68f92a4": {
+"blind": true,
 "date": "2019-05-01",
-"ev": -0.01,
-"focus": 0.343,
+"ev": -0.1903,
+"focus": 0.527,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.2393,
+"cut_50": 0.0142,
+"hike_25": 0.0616,
+"hike_50": 0.0079,
+"hold": 0.677
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "c91976c0a51a436c": {
+"blind": true,
 "date": "2024-10-30",
-"ev": -1.03,
-"focus": 0.6,
+"ev": -1.0317,
+"focus": 0.747,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.93,
-"cut_50": 0.05,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.02
+"cut_25": 0.91,
+"cut_50": 0.0632,
+"hike_25": 0.0022,
+"hike_50": 0.0012,
+"hold": 0.0234
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "ca03ea459a047066": {
+"blind": true,
 "date": "2018-01-17",
-"ev": 0.61,
-"focus": 0.718,
+"ev": 0.2085,
+"focus": 0.747,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.61,
-"hike_50": 0.0,
-"hold": 0.39
+"cut_25": 0.0088,
+"cut_50": 0.003,
+"hike_25": 0.2082,
+"hike_50": 0.0075,
+"hold": 0.7725
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "cabc955c628c3b9a": {
+"blind": true,
 "date": "2019-12-04",
-"ev": -0.02,
-"focus": 0.505,
+"ev": 0.0215,
+"focus": 0.677,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0872,
+"cut_50": 0.0076,
+"hike_25": 0.0872,
+"hike_50": 0.0183,
+"hold": 0.7996
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "cb937c23df90b192": {
+"blind": true,
 "date": "2016-10-19",
-"ev": -0.28,
-"focus": 0.603,
+"ev": -0.4243,
+"focus": 0.749,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.28,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.72
+"cut_25": 0.4068,
+"cut_50": 0.0289,
+"hike_25": 0.0215,
+"hike_50": 0.0093,
+"hold": 0.5335
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "ccce423286fc944b": {
+"blind": true,
 "date": "2023-12-15",
-"ev": 0.01,
-"focus": 0.695,
+"ev": 0.1527,
+"focus": 0.719,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0317,
+"cut_50": 0.0043,
+"hike_25": 0.1616,
+"hike_50": 0.0157,
+"hold": 0.7866
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "cd0d87c876a576d9": {
+"blind": true,
 "date": "2020-01-09",
-"ev": 0.03,
-"focus": 0.255,
+"ev": -0.0356,
+"focus": 0.319,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.06,
-"hike_50": 0.0,
-"hold": 0.91
+"cut_25": 0.1108,
+"cut_50": 0.0155,
+"hike_25": 0.0925,
+"hike_50": 0.0069,
+"hold": 0.7743
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "cd0ddc29afb32330": {
+"blind": true,
 "date": "2019-09-05",
-"ev": -0.05,
-"focus": 0.468,
+"ev": -0.1505,
+"focus": 0.677,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.04,
-"cut_50": 0.01,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.94
+"cut_25": 0.1657,
+"cut_50": 0.0185,
+"hike_25": 0.0373,
+"hike_50": 0.0075,
+"hold": 0.771
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "cd5d8817d0e01e13": {
+"blind": true,
 "date": "2024-06-05",
-"ev": -0.7,
-"focus": 0.73,
+"ev": -0.8219,
+"focus": 0.83,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.7,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.3
+"cut_25": 0.8187,
+"cut_50": 0.0061,
+"hike_25": 0.0051,
+"hike_50": 0.002,
+"hold": 0.1682
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "ce680c17959a6ae3": {
+"blind": true,
 "date": "2021-03-11",
-"ev": 0.0,
-"focus": 0.578,
+"ev": -0.0017,
+"focus": 0.729,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0111,
+"cut_50": 0.0027,
+"hike_25": 0.0106,
+"hike_50": 0.0021,
+"hold": 0.9735
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "cec24c8364469e79": {
+"blind": true,
 "date": "2026-05-06",
-"ev": 0.07,
-"focus": 0.66,
+"ev": 0.1968,
+"focus": 0.763,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.06,
-"hike_50": 0.01,
-"hold": 0.92
+"cut_25": 0.0439,
+"cut_50": 0.0066,
+"hike_25": 0.1954,
+"hike_50": 0.0293,
+"hold": 0.7249
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "cf3f278b4746d1f6": {
+"blind": true,
 "date": "2022-06-09",
-"ev": 1.4,
-"focus": 0.28,
+"ev": 1.4071,
+"focus": 0.416,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.52,
-"hike_50": 0.44,
-"hold": 0.04
+"cut_25": 0.0059,
+"cut_50": 0.0026,
+"hike_25": 0.4871,
+"hike_50": 0.4656,
+"hold": 0.0387
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "cfc74338123d91ba": {
+"blind": true,
 "date": "2017-04-12",
-"ev": 0.0,
-"focus": 0.557,
+"ev": 0.0582,
+"focus": 0.666,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0272,
+"cut_50": 0.003,
+"hike_25": 0.0771,
+"hike_50": 0.0072,
+"hold": 0.8855
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "d10c553b90f1a617": {
+"blind": true,
 "date": "2018-05-30",
-"ev": 0.9,
-"focus": 0.55,
+"ev": 0.8678,
+"focus": 0.676,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.9,
-"hike_50": 0.0,
-"hold": 0.1
+"cut_25": 0.0053,
+"cut_50": 0.0016,
+"hike_25": 0.8449,
+"hike_50": 0.0158,
+"hold": 0.1323
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "d2cf7bee408078f5": {
+"blind": true,
 "date": "2016-06-02",
-"ev": -0.11,
-"focus": 0.27,
+"ev": -0.0802,
+"focus": 0.283,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.09,
-"cut_50": 0.02,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.87
+"cut_25": 0.1136,
+"cut_50": 0.0092,
+"hike_25": 0.042,
+"hike_50": 0.0049,
+"hold": 0.8303
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "d2fb2cdb952758ff": {
+"blind": true,
 "date": "2021-10-07",
-"ev": 0.0,
-"focus": 0.077,
+"ev": -0.0669,
+"focus": 0.079,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0426,
+"cut_50": 0.0355,
+"hike_25": 0.0372,
+"hike_50": 0.0047,
+"hold": 0.88
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "d41ec654a018999a": {
+"blind": true,
 "date": "2020-11-26",
-"ev": 0.0,
-"focus": 0.645,
+"ev": -0.0084,
+"focus": 0.573,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0277,
+"cut_50": 0.0053,
+"hike_25": 0.0231,
+"hike_50": 0.0034,
+"hold": 0.9406
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "d5e0e468002b6adc": {
+"blind": true,
 "date": "2022-06-02",
-"ev": 1.91,
-"focus": 0.728,
+"ev": 1.744,
+"focus": 0.798,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.07,
-"hike_50": 0.92,
-"hold": 0.01
+"cut_25": 0.0027,
+"cut_50": 0.002,
+"hike_25": 0.1699,
+"hike_50": 0.7904,
+"hold": 0.0349
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Paul Beaudry",
 "type": "speech"
 },
 "d6859a4f1588c31e": {
+"blind": true,
 "date": "2024-12-11",
-"ev": -0.51,
-"focus": 0.63,
+"ev": -0.2467,
+"focus": 0.793,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.43,
-"cut_50": 0.04,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.53
+"cut_25": 0.2204,
+"cut_50": 0.021,
+"hike_25": 0.0076,
+"hike_50": 0.004,
+"hold": 0.747
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "d6c7140a85bc7140": {
+"blind": true,
 "date": "2025-01-29",
-"ev": -0.24,
-"focus": 0.525,
+"ev": -0.1866,
+"focus": 0.662,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.24,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.76
+"cut_25": 0.2301,
+"cut_50": 0.0079,
+"hike_25": 0.0395,
+"hike_50": 0.0099,
+"hold": 0.7126
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "d7d42a52d2139ccb": {
+"blind": true,
 "date": "2024-05-01",
-"ev": -0.32,
-"focus": 0.657,
+"ev": -0.185,
+"focus": 0.703,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.32,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.68
+"cut_25": 0.1926,
+"cut_50": 0.0074,
+"hike_25": 0.0134,
+"hike_50": 0.0045,
+"hold": 0.7821
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "d7e87625de34cba0": {
+"blind": true,
 "date": "2017-10-31",
-"ev": 0.06,
-"focus": 0.273,
+"ev": 0.1789,
+"focus": 0.318,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.07,
-"hike_50": 0.0,
-"hold": 0.92
+"cut_25": 0.0804,
+"cut_50": 0.011,
+"hike_25": 0.249,
+"hike_50": 0.0162,
+"hold": 0.6435
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "d858ba630b039e42": {
+"blind": true,
 "date": "2025-11-05",
-"ev": -0.01,
-"focus": 0.532,
+"ev": -0.011,
+"focus": 0.693,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0167,
+"cut_50": 0.0013,
+"hike_25": 0.0059,
+"hike_50": 0.0012,
+"hold": 0.9749
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "d99a08bef2ce3877": {
+"blind": true,
 "date": "2022-04-27",
-"ev": 1.65,
-"focus": 0.755,
+"ev": 1.7585,
+"focus": 0.789,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.35,
-"hike_50": 0.65,
-"hold": 0.0
+"cut_25": 0.0022,
+"cut_50": 0.0014,
+"hike_25": 0.2179,
+"hike_50": 0.7728,
+"hold": 0.0057
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "da49edd71bb1c551": {
+"blind": true,
 "date": "2026-10-28",
-"ev": 0.65,
-"focus": 0.475,
+"ev": 0.5197,
+"focus": 0.68,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.65,
-"hike_50": 0.0,
-"hold": 0.35
+"cut_25": 0.0067,
+"cut_50": 0.0023,
+"hike_25": 0.5133,
+"hike_50": 0.0088,
+"hold": 0.4689
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "da6e2754df50d0f7": {
+"blind": true,
 "date": "2026-07-15",
-"ev": -0.04,
-"focus": 0.393,
+"ev": 0.0211,
+"focus": 0.622,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.04,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.0249,
+"cut_50": 0.0024,
+"hike_25": 0.0392,
+"hike_50": 0.0059,
+"hold": 0.9276
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "dc4ce3b543e31920": {
+"blind": true,
 "date": "2017-03-01",
-"ev": 0.0,
-"focus": 0.487,
+"ev": 0.0235,
+"focus": 0.644,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0643,
+"cut_50": 0.0051,
+"hike_25": 0.0704,
+"hike_50": 0.0138,
+"hold": 0.8463
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "dc51272fd13c9bad": {
+"blind": true,
 "date": "2022-11-23",
-"ev": 1.85,
-"focus": 0.662,
+"ev": 1.6051,
+"focus": 0.793,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.13,
-"hike_50": 0.86,
-"hold": 0.01
+"cut_25": 0.0035,
+"cut_50": 0.0017,
+"hike_25": 0.3147,
+"hike_50": 0.6487,
+"hold": 0.0314
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "dc858b8ef948c08b": {
+"blind": true,
 "date": "2026-10-01",
-"ev": -0.01,
-"focus": 0.19,
+"ev": -0.0666,
+"focus": 0.223,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0735,
+"cut_50": 0.0284,
+"hike_25": 0.0427,
+"hike_50": 0.0105,
+"hold": 0.8448
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "speech"
 },
 "ddf5d34737091416": {
+"blind": true,
 "date": "2016-04-20",
-"ev": -0.36,
-"focus": 0.455,
+"ev": -0.1622,
+"focus": 0.659,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.31,
-"cut_50": 0.03,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.65
+"cut_25": 0.2328,
+"cut_50": 0.0169,
+"hike_25": 0.0787,
+"hike_50": 0.0129,
+"hold": 0.6587
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "dfef61a39285f54c": {
+"blind": true,
 "date": "2019-12-05",
-"ev": 0.0,
-"focus": 0.585,
+"ev": 0.0046,
+"focus": 0.726,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0559,
+"cut_50": 0.004,
+"hike_25": 0.0488,
+"hike_50": 0.0098,
+"hold": 0.8815
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Timothy Lane",
 "type": "speech"
 },
 "dff72f67dadc09c3": {
+"blind": true,
 "date": "2017-09-27",
-"ev": 0.58,
-"focus": 0.69,
+"ev": 0.367,
+"focus": 0.739,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.58,
-"hike_50": 0.0,
-"hold": 0.42
+"cut_25": 0.0105,
+"cut_50": 0.0032,
+"hike_25": 0.3577,
+"hike_50": 0.0132,
+"hold": 0.6154
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "e00c1110cf354d72": {
+"blind": true,
 "date": "2019-01-09",
-"ev": 0.43,
-"focus": 0.507,
+"ev": 0.4704,
+"focus": 0.723,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.43,
-"hike_50": 0.0,
-"hold": 0.57
+"cut_25": 0.027,
+"cut_50": 0.0048,
+"hike_25": 0.4764,
+"hike_50": 0.0153,
+"hold": 0.4764
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "e0663c83d096b1bd": {
+"blind": true,
 "date": "2024-10-23",
-"ev": -1.2,
-"focus": 0.603,
+"ev": -1.0732,
+"focus": 0.759,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.74,
-"cut_50": 0.23,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.03
+"cut_25": 0.8917,
+"cut_50": 0.093,
+"hike_25": 0.0019,
+"hike_50": 0.0012,
+"hold": 0.0122
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "e0a229b0d8334d8b": {
+"blind": true,
 "date": "2024-09-04",
-"ev": -0.56,
-"focus": 0.417,
+"ev": -0.4363,
+"focus": 0.621,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.56,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.44
+"cut_25": 0.4304,
+"cut_50": 0.0135,
+"hike_25": 0.0118,
+"hike_50": 0.0047,
+"hold": 0.5396
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "e10e4ddf7d8e630d": {
+"blind": true,
 "date": "2022-03-25",
-"ev": 1.22,
-"focus": 0.547,
+"ev": 1.46,
+"focus": 0.712,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.76,
-"hike_50": 0.23,
-"hold": 0.01
+"cut_25": 0.0033,
+"cut_50": 0.002,
+"hike_25": 0.5039,
+"hike_50": 0.4816,
+"hold": 0.0092
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Sharon Kozicki",
 "type": "speech"
 },
 "e2523efb111f3a91": {
+"blind": true,
 "date": "2016-04-26",
-"ev": -0.01,
-"focus": 0.233,
+"ev": -0.0863,
+"focus": 0.19,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.1144,
+"cut_50": 0.0215,
+"hike_25": 0.0581,
+"hike_50": 0.0065,
+"hold": 0.7995
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "e29a1dc4355355f2": {
+"blind": true,
 "date": "2020-06-18",
-"ev": -0.03,
-"focus": 0.28,
+"ev": -0.1529,
+"focus": 0.37,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0878,
+"cut_50": 0.0466,
+"hike_25": 0.0189,
+"hike_50": 0.0046,
+"hold": 0.842
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "e373dd2db8be1377": {
+"blind": true,
 "date": "2020-02-05",
-"ev": 0.07,
-"focus": 0.285,
+"ev": 0.1389,
+"focus": 0.279,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.06,
-"hike_50": 0.01,
-"hold": 0.92
+"cut_25": 0.0709,
+"cut_50": 0.0171,
+"hike_25": 0.2197,
+"hike_50": 0.0122,
+"hold": 0.6802
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "e40204460eccace4": {
+"blind": true,
 "date": "2016-10-19",
-"ev": 0.0,
-"focus": 0.465,
+"ev": 0.0484,
+"focus": 0.71,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0326,
+"cut_50": 0.0036,
+"hike_25": 0.0703,
+"hike_50": 0.009,
+"hold": 0.8845
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "e49b8f840925a386": {
+"blind": true,
 "date": "2024-03-26",
-"ev": -0.08,
-"focus": 0.237,
+"ev": -0.2181,
+"focus": 0.164,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.07,
-"cut_50": 0.01,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.91
+"cut_25": 0.2187,
+"cut_50": 0.0492,
+"hike_25": 0.0706,
+"hike_50": 0.0142,
+"hold": 0.6473
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "speech"
 },
 "e50c303337caf507": {
+"blind": true,
 "date": "2022-03-03",
-"ev": 0.95,
-"focus": 0.675,
+"ev": 1.1158,
+"focus": 0.808,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.91,
-"hike_50": 0.02,
-"hold": 0.07
+"cut_25": 0.0033,
+"cut_50": 0.0016,
+"hike_25": 0.7741,
+"hike_50": 0.1741,
+"hold": 0.0469
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "e66c242c607d19e8": {
+"blind": true,
 "date": "2024-02-01",
-"ev": -0.01,
-"focus": 0.79,
+"ev": -0.0041,
+"focus": 0.825,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0374,
+"cut_50": 0.0025,
+"hike_25": 0.0261,
+"hike_50": 0.0061,
+"hold": 0.9279
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "e7e1e13457e5f728": {
+"blind": true,
 "date": "2019-10-30",
-"ev": 0.01,
-"focus": 0.545,
+"ev": -0.0583,
+"focus": 0.76,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.02,
-"cut_50": 0.0,
-"hike_25": 0.03,
-"hike_50": 0.0,
-"hold": 0.95
+"cut_25": 0.112,
+"cut_50": 0.0078,
+"hike_25": 0.0543,
+"hike_50": 0.0074,
+"hold": 0.8185
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "e8877743876b35ff": {
+"blind": true,
 "date": "2019-06-17",
-"ev": 0.0,
-"focus": 0.155,
+"ev": 0.1507,
+"focus": 0.161,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0769,
+"cut_50": 0.0135,
+"hike_25": 0.2175,
+"hike_50": 0.0185,
+"hold": 0.6736
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "e8a51df6b9c1a164": {
+"blind": true,
 "date": "2018-11-20",
-"ev": 0.09,
-"focus": 0.255,
+"ev": 0.7066,
+"focus": 0.295,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.07,
-"hike_50": 0.01,
-"hold": 0.92
+"cut_25": 0.026,
+"cut_50": 0.0067,
+"hike_25": 0.6436,
+"hike_50": 0.0512,
+"hold": 0.2726
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "e8eb36dd34751933": {
+"blind": true,
 "date": "2024-06-05",
-"ev": -0.53,
-"focus": 0.405,
+"ev": -0.5434,
+"focus": 0.631,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.53,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.47
+"cut_25": 0.5351,
+"cut_50": 0.0172,
+"hike_25": 0.0157,
+"hike_50": 0.0052,
+"hold": 0.4268
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "eab49659723ff84b": {
+"blind": true,
 "date": "2025-12-10",
-"ev": -0.01,
-"focus": 0.585,
+"ev": -0.0026,
+"focus": 0.79,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.018,
+"cut_50": 0.0017,
+"hike_25": 0.0126,
+"hike_50": 0.0032,
+"hold": 0.9645
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "eaf59f7f09de51c9": {
+"blind": true,
 "date": "2019-03-06",
-"ev": -0.03,
-"focus": 0.562,
+"ev": -0.0714,
+"focus": 0.671,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.1218,
+"cut_50": 0.0067,
+"hike_25": 0.0516,
+"hike_50": 0.0062,
+"hold": 0.8137
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "ebc40a820ebb6f7e": {
+"blind": true,
 "date": "2018-03-07",
-"ev": 0.24,
-"focus": 0.605,
+"ev": 0.2116,
+"focus": 0.706,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.24,
-"hike_50": 0.0,
-"hold": 0.76
+"cut_25": 0.0134,
+"cut_50": 0.0033,
+"hike_25": 0.206,
+"hike_50": 0.0128,
+"hold": 0.7645
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "ecc09349eee64a73": {
+"blind": true,
 "date": "2024-11-26",
-"ev": -1.12,
-"focus": 0.475,
+"ev": -1.0197,
+"focus": 0.599,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.84,
-"cut_50": 0.14,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.02
+"cut_25": 0.8957,
+"cut_50": 0.0651,
+"hike_25": 0.0034,
+"hike_50": 0.0014,
+"hold": 0.0345
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Rhys R. Mendes",
 "type": "speech"
 },
 "ee5648415b7bcf88": {
+"blind": true,
 "date": "2023-02-16",
-"ev": 0.31,
-"focus": 0.345,
+"ev": 0.2212,
+"focus": 0.566,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.25,
-"hike_50": 0.03,
-"hold": 0.72
+"cut_25": 0.0226,
+"cut_50": 0.0054,
+"hike_25": 0.1852,
+"hike_50": 0.0348,
+"hold": 0.752
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Paul Beaudry",
 "type": "speech"
 },
 "efbbd83ceadda5e5": {
+"blind": true,
 "date": "2016-04-05",
-"ev": -0.04,
-"focus": 0.247,
+"ev": -0.1408,
+"focus": 0.237,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.04,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.96
+"cut_25": 0.2016,
+"cut_50": 0.021,
+"hike_25": 0.0854,
+"hike_50": 0.0087,
+"hold": 0.6833
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "f0aba5e807135a66": {
+"blind": true,
 "date": "2023-03-08",
-"ev": 0.5,
-"focus": 0.703,
+"ev": 0.3866,
+"focus": 0.819,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.48,
-"hike_50": 0.01,
-"hold": 0.51
+"cut_25": 0.006,
+"cut_50": 0.0025,
+"hike_25": 0.3209,
+"hike_50": 0.0383,
+"hold": 0.6323
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "f0ad7c8d00a68087": {
+"blind": true,
 "date": "2024-06-05",
-"ev": -0.8,
-"focus": 0.618,
+"ev": -0.8451,
+"focus": 0.756,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.8,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.2
+"cut_25": 0.8333,
+"cut_50": 0.0104,
+"hike_25": 0.0048,
+"hike_50": 0.002,
+"hold": 0.1495
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "f0d86dceec708608": {
+"blind": true,
 "date": "2024-04-10",
-"ev": -0.14,
-"focus": 0.718,
+"ev": -0.1664,
+"focus": 0.751,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.14,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.86
+"cut_25": 0.1785,
+"cut_50": 0.0067,
+"hike_25": 0.0163,
+"hike_50": 0.0047,
+"hold": 0.7938
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "f1476fe819fde580": {
+"blind": true,
 "date": "2020-05-04",
-"ev": -0.01,
-"focus": 0.378,
+"ev": -0.0521,
+"focus": 0.516,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.99
+"cut_25": 0.0396,
+"cut_50": 0.0122,
+"hike_25": 0.008,
+"hike_50": 0.002,
+"hold": 0.9382
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "speech"
 },
 "f25c9f5ac87ffafe": {
+"blind": true,
 "date": "2016-02-08",
-"ev": -0.13,
-"focus": 0.24,
+"ev": -0.0456,
+"focus": 0.299,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.1,
-"cut_50": 0.02,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.87
+"cut_25": 0.123,
+"cut_50": 0.0193,
+"hike_25": 0.0981,
+"hike_50": 0.0089,
+"hold": 0.7506
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Timothy Lane",
 "type": "speech"
 },
 "f2cd986ff42bc7be": {
+"blind": true,
 "date": "2025-01-16",
-"ev": 0.0,
-"focus": 0.225,
+"ev": -0.0841,
+"focus": 0.204,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0914,
+"cut_50": 0.0235,
+"hike_25": 0.0405,
+"hike_50": 0.0069,
+"hold": 0.8376
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 },
 "f327b3652a8ffb79": {
+"blind": true,
 "date": "2026-04-29",
-"ev": -0.07,
-"focus": 0.39,
+"ev": 0.0712,
+"focus": 0.616,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.07,
-"cut_50": 0.01,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.9
+"cut_25": 0.0246,
+"cut_50": 0.0034,
+"hike_25": 0.0874,
+"hike_50": 0.0076,
+"hold": 0.877
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "f34812870646216d": {
+"blind": true,
 "date": "2024-05-02",
-"ev": -0.39,
-"focus": 0.812,
+"ev": -0.3647,
+"focus": 0.816,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.39,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.61
+"cut_25": 0.3605,
+"cut_50": 0.009,
+"hike_25": 0.0064,
+"hike_50": 0.0037,
+"hold": 0.6202
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "f3e3e86d16a6607b": {
+"blind": true,
 "date": "2022-02-09",
-"ev": 1.03,
-"focus": 0.482,
+"ev": 0.6407,
+"focus": 0.528,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.83,
-"hike_50": 0.1,
-"hold": 0.07
+"cut_25": 0.0059,
+"cut_50": 0.0031,
+"hike_25": 0.4565,
+"hike_50": 0.0981,
+"hold": 0.4363
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "speech"
 },
 "f515274ee57f79d8": {
+"blind": true,
 "date": "2020-03-27",
-"ev": -0.03,
-"focus": 0.415,
+"ev": -0.1198,
+"focus": 0.597,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.01,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0727,
+"cut_50": 0.0353,
+"hike_25": 0.013,
+"hike_50": 0.0052,
+"hold": 0.8738
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_statement"
 },
 "f557f96ca41ee69a": {
+"blind": true,
 "date": "2021-12-08",
-"ev": 0.0,
-"focus": 0.615,
+"ev": 0.0107,
+"focus": 0.726,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0081,
+"cut_50": 0.0017,
+"hike_25": 0.0166,
+"hike_50": 0.0027,
+"hold": 0.971
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "f5fba5a77576b5b8": {
+"blind": true,
 "date": "2018-10-30",
-"ev": 0.76,
-"focus": 0.63,
+"ev": 0.7243,
+"focus": 0.699,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.76,
-"hike_50": 0.0,
-"hold": 0.24
+"cut_25": 0.0091,
+"cut_50": 0.0025,
+"hike_25": 0.6705,
+"hike_50": 0.0339,
+"hold": 0.284
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn A. Wilkins",
 "type": "testimony"
 },
 "f6b2438cc2dfc62c": {
+"blind": true,
 "date": "2016-05-25",
-"ev": 0.0,
-"focus": 0.417,
+"ev": 0.1069,
+"focus": 0.645,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.98
+"cut_25": 0.0321,
+"cut_50": 0.0048,
+"hike_25": 0.1138,
+"hike_50": 0.0174,
+"hold": 0.8319
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "f73dfc228974c8d9": {
+"blind": true,
 "date": "2016-04-13",
-"ev": 0.0,
-"focus": 0.357,
+"ev": 0.0648,
+"focus": 0.661,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0259,
+"cut_50": 0.0037,
+"hike_25": 0.0802,
+"hike_50": 0.009,
+"hold": 0.8812
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "f97172f07452f37e": {
+"blind": true,
 "date": "2016-04-19",
-"ev": -0.12,
-"focus": 0.477,
+"ev": -0.0646,
+"focus": 0.657,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.08,
-"cut_50": 0.02,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.9
+"cut_25": 0.1122,
+"cut_50": 0.0087,
+"hike_25": 0.052,
+"hike_50": 0.0065,
+"hold": 0.8205
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "testimony"
 },
 "f97ed5205c1187fc": {
+"blind": true,
 "date": "2024-10-23",
-"ev": -1.07,
-"focus": 0.66,
+"ev": -1.0584,
+"focus": 0.822,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.89,
-"cut_50": 0.09,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.02
+"cut_25": 0.9104,
+"cut_50": 0.0757,
+"hike_25": 0.0016,
+"hike_50": 0.0009,
+"hold": 0.0113
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "f9f4a1f44f460223": {
+"blind": true,
 "date": "2022-03-03",
-"ev": 0.95,
-"focus": 0.708,
+"ev": 1.0492,
+"focus": 0.824,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.91,
-"hike_50": 0.02,
-"hold": 0.07
+"cut_25": 0.0031,
+"cut_50": 0.0015,
+"hike_25": 0.8121,
+"hike_50": 0.1216,
+"hold": 0.0617
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "fa0558a92c43cc00": {
+"blind": true,
 "date": "2025-11-06",
-"ev": -0.06,
-"focus": 0.637,
+"ev": -0.022,
+"focus": 0.716,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.06,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.94
+"cut_25": 0.0248,
+"cut_50": 0.0024,
+"hike_25": 0.0049,
+"hike_50": 0.0014,
+"hold": 0.9665
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "fa49e9cb018f7073": {
+"blind": true,
 "date": "2022-05-12",
-"ev": 1.67,
-"focus": 0.72,
+"ev": 1.5944,
+"focus": 0.76,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.33,
-"hike_50": 0.67,
-"hold": 0.0
+"cut_25": 0.0023,
+"cut_50": 0.0017,
+"hike_25": 0.3731,
+"hike_50": 0.6135,
+"hold": 0.0094
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 },
 "fa4ce022936157bc": {
+"blind": true,
 "date": "2016-01-20",
-"ev": 0.0,
-"focus": 0.41,
+"ev": 0.0801,
+"focus": 0.687,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.0225,
+"cut_50": 0.0035,
+"hike_25": 0.0873,
+"hike_50": 0.0112,
+"hold": 0.8756
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "fa5f8506967ceb6d": {
+"blind": true,
 "date": "2018-09-05",
-"ev": 0.92,
-"focus": 0.54,
+"ev": 0.8925,
+"focus": 0.697,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.92,
-"hike_50": 0.0,
-"hold": 0.08
+"cut_25": 0.0052,
+"cut_50": 0.0016,
+"hike_25": 0.8684,
+"hike_50": 0.0162,
+"hold": 0.1085
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
 "fb4dc73a3a51de64": {
+"blind": true,
 "date": "2016-03-30",
-"ev": -0.03,
-"focus": 0.29,
+"ev": -0.0335,
+"focus": 0.338,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.03,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0751,
+"cut_50": 0.0092,
+"hike_25": 0.0457,
+"hike_50": 0.0072,
+"hold": 0.8629
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lynn Patterson",
 "type": "speech"
 },
 "fc2adeeffe17a9c8": {
+"blind": true,
 "date": "2024-02-01",
-"ev": 0.03,
-"focus": 0.233,
+"ev": 0.5475,
+"focus": 0.336,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.03,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.0482,
+"cut_50": 0.0195,
+"hike_25": 0.3856,
+"hike_50": 0.1245,
+"hold": 0.4221
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "fc974d1fded0f139": {
+"blind": true,
 "date": "2017-01-31",
-"ev": -0.41,
-"focus": 0.347,
+"ev": -0.2181,
+"focus": 0.316,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.28,
-"cut_50": 0.07,
-"hike_25": 0.01,
-"hike_50": 0.0,
-"hold": 0.64
+"cut_25": 0.2204,
+"cut_50": 0.0345,
+"hike_25": 0.0543,
+"hike_50": 0.0085,
+"hold": 0.6824
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Stephen S. Poloz",
 "type": "speech"
 },
 "fe4d8b3d71ba4fbd": {
+"blind": true,
 "date": "2023-04-12",
-"ev": 0.43,
-"focus": 0.743,
+"ev": 0.3931,
+"focus": 0.84,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.41,
-"hike_50": 0.01,
-"hold": 0.58
+"cut_25": 0.0104,
+"cut_50": 0.0032,
+"hike_25": 0.3772,
+"hike_50": 0.0163,
+"hold": 0.5929
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "fe7103c753dba7eb": {
+"blind": true,
 "date": "2018-02-15",
-"ev": 0.01,
-"focus": 0.228,
+"ev": -0.0423,
+"focus": 0.267,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.01,
-"cut_50": 0.0,
-"hike_25": 0.02,
-"hike_50": 0.0,
-"hold": 0.97
+"cut_25": 0.1093,
+"cut_50": 0.024,
+"hike_25": 0.0912,
+"hike_50": 0.0119,
+"hold": 0.7636
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Lawrence L. Schembri",
 "type": "speech"
 },
 "ff2dca4950e10f4b": {
+"blind": true,
 "date": "2024-10-29",
-"ev": -1.27,
-"focus": 0.703,
+"ev": -1.372,
+"focus": 0.804,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.69,
-"cut_50": 0.29,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.02
+"cut_25": 0.5605,
+"cut_50": 0.4085,
+"hike_25": 0.0024,
+"hike_50": 0.0015,
+"hold": 0.0271
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Tiff Macklem",
 "type": "testimony"
 },
 "ff7d9a397fdf9355": {
+"blind": true,
 "date": "2024-07-24",
-"ev": -0.93,
-"focus": 0.665,
+"ev": -0.9752,
+"focus": 0.828,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.93,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 0.07
+"cut_25": 0.9276,
+"cut_50": 0.0261,
+"hike_25": 0.0022,
+"hike_50": 0.0012,
+"hold": 0.0429
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "BoC Governing Council",
 "type": "mp_account"
 },
 "ffe5eb79fef1a481": {
+"blind": true,
 "date": "2023-02-16",
-"ev": 0.08,
-"focus": 0.44,
+"ev": -0.0046,
+"focus": 0.418,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.06,
-"hike_50": 0.01,
-"hold": 0.93
+"cut_25": 0.1293,
+"cut_50": 0.0158,
+"hike_25": 0.1129,
+"hike_50": 0.0217,
+"hold": 0.7204
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Carolyn Rogers",
 "type": "testimony"
 },
 "fff03a7b9b598865": {
+"blind": true,
 "date": "2021-03-23",
-"ev": 0.0,
-"focus": 0.49,
+"ev": 0.0191,
+"focus": 0.627,
+"model": "nace-ai/drex-max-finance",
 "p": {
-"cut_25": 0.0,
-"cut_50": 0.0,
-"hike_25": 0.0,
-"hike_50": 0.0,
-"hold": 1.0
+"cut_25": 0.007,
+"cut_50": 0.002,
+"hike_25": 0.0237,
+"hike_50": 0.0032,
+"hold": 0.9641
 },
+"served_model": "nace-ai/drex-max-finance-20261110",
 "speaker": "Toni Gravelle",
 "type": "speech"
 }

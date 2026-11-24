@@ -1,0 +1,5392 @@
+{
+"001431fbe2cfeb49": {
+"date": "2023-06-08",
+"ev": 0.67,
+"focus": 0.465,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.59,
+"hike_50": 0.04,
+"hold": 0.37
+},
+"speaker": "Paul Beaudry",
+"type": "speech"
+},
+"0065aaba4af754ac": {
+"date": "2023-10-30",
+"ev": -0.01,
+"focus": 0.613,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"00e3b7f8acf5f6c7": {
+"date": "2024-03-06",
+"ev": 0.0,
+"focus": 0.757,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"0322e18f904fac48": {
+"date": "2018-10-24",
+"ev": 0.93,
+"focus": 0.655,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.91,
+"hike_50": 0.01,
+"hold": 0.08
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"047268d4a288948a": {
+"date": "2023-07-12",
+"ev": 0.7,
+"focus": 0.708,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.7,
+"hike_50": 0.0,
+"hold": 0.3
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"050c5991dcb15f3d": {
+"date": "2020-07-15",
+"ev": 0.0,
+"focus": 0.705,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"060985f7048b9275": {
+"date": "2023-10-03",
+"ev": 0.14,
+"focus": 0.31,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.1,
+"hike_50": 0.02,
+"hold": 0.88
+},
+"speaker": "Nicolas Vincent",
+"type": "speech"
+},
+"06e98c15ba071dbf": {
+"date": "2024-09-04",
+"ev": -0.97,
+"focus": 0.62,
+"p": {
+"cut_25": 0.97,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.03
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"07265d0fa822121e": {
+"date": "2024-09-04",
+"ev": -0.97,
+"focus": 0.708,
+"p": {
+"cut_25": 0.97,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.03
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"072dd93e28f42032": {
+"date": "2023-09-19",
+"ev": 0.66,
+"focus": 0.525,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.64,
+"hike_50": 0.01,
+"hold": 0.35
+},
+"speaker": "Sharon Kozicki",
+"type": "speech"
+},
+"082f3659f819fe5f": {
+"date": "2020-03-04",
+"ev": -1.09,
+"focus": 0.445,
+"p": {
+"cut_25": 0.41,
+"cut_50": 0.34,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.25
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"0869e74aa649a5c4": {
+"date": "2016-09-26",
+"ev": 0.0,
+"focus": 0.175,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"08746ec7e48b7aa4": {
+"date": "2019-01-09",
+"ev": 0.38,
+"focus": 0.487,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.38,
+"hike_50": 0.0,
+"hold": 0.62
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"0956b003da5791c5": {
+"date": "2018-05-31",
+"ev": 0.75,
+"focus": 0.61,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.75,
+"hike_50": 0.0,
+"hold": 0.25
+},
+"speaker": "Sylvain Leduc",
+"type": "speech"
+},
+"0ab79b26c4cd78ff": {
+"date": "2022-09-20",
+"ev": 1.15,
+"focus": 0.355,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.47,
+"hike_50": 0.34,
+"hold": 0.19
+},
+"speaker": "Paul Beaudry",
+"type": "speech"
+},
+"0ce668895bc52136": {
+"date": "2026-09-02",
+"ev": 0.23,
+"focus": 0.487,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.24,
+"hike_50": 0.0,
+"hold": 0.75
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"0d60996b84607c48": {
+"date": "2017-10-25",
+"ev": 0.09,
+"focus": 0.52,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.09,
+"hike_50": 0.0,
+"hold": 0.91
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"0dd84809c2cce3e4": {
+"date": "2020-09-09",
+"ev": 0.0,
+"focus": 0.647,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"0ed337e79c454f26": {
+"date": "2016-09-14",
+"ev": -0.03,
+"focus": 0.333,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.01,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.94
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"0f4caf582578f234": {
+"date": "2024-02-06",
+"ev": 0.0,
+"focus": 0.52,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"116f693dd615a873": {
+"date": "2018-10-24",
+"ev": 0.78,
+"focus": 0.512,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.76,
+"hike_50": 0.01,
+"hold": 0.23
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"11dcfd925bbd09a1": {
+"date": "2016-07-13",
+"ev": 0.0,
+"focus": 0.417,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"1377cc346b13d604": {
+"date": "2020-08-25",
+"ev": -0.03,
+"focus": 0.23,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"138140c1e5ddd408": {
+"date": "2016-10-06",
+"ev": -0.08,
+"focus": 0.507,
+"p": {
+"cut_25": 0.06,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.93
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"150e592f94151ef8": {
+"date": "2026-10-28",
+"ev": 0.53,
+"focus": 0.61,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.53,
+"hike_50": 0.0,
+"hold": 0.47
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"1514ad31e61e6b12": {
+"date": "2019-05-30",
+"ev": -0.02,
+"focus": 0.45,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"155aa0ee30d48fe8": {
+"date": "2026-06-10",
+"ev": -0.14,
+"focus": 0.44,
+"p": {
+"cut_25": 0.14,
+"cut_50": 0.01,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.83
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"15937e0be464ef17": {
+"date": "2024-03-06",
+"ev": -0.02,
+"focus": 0.465,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"16bcf763c49dd24c": {
+"date": "2024-09-19",
+"ev": -0.44,
+"focus": 0.27,
+"p": {
+"cut_25": 0.44,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.56
+},
+"speaker": "Nicolas Vincent",
+"type": "speech"
+},
+"176098cce6bde470": {
+"date": "2021-07-14",
+"ev": 0.0,
+"focus": 0.682,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"17709cebcd2a8793": {
+"date": "2018-04-18",
+"ev": 0.67,
+"focus": 0.797,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.65,
+"hike_50": 0.01,
+"hold": 0.34
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"18bfc7e61de569af": {
+"date": "2020-06-04",
+"ev": 0.0,
+"focus": 0.547,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+},
+"1a3de129450fab66": {
+"date": "2022-07-13",
+"ev": 1.86,
+"focus": 0.55,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.1,
+"hike_50": 0.88,
+"hold": 0.02
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"1aa126cae7e9ae31": {
+"date": "2017-09-06",
+"ev": 0.55,
+"focus": 0.502,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.53,
+"hike_50": 0.01,
+"hold": 0.46
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"1aebe130c8d1fd67": {
+"date": "2020-04-15",
+"ev": 0.0,
+"focus": 0.378,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"1afbc32720baa823": {
+"date": "2022-09-07",
+"ev": 1.36,
+"focus": 0.605,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.62,
+"hike_50": 0.37,
+"hold": 0.01
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"1b3f7b6437c73da0": {
+"date": "2020-05-14",
+"ev": 0.0,
+"focus": 0.275,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"1b446be773792fa0": {
+"date": "2017-11-28",
+"ev": 0.3,
+"focus": 0.225,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.28,
+"hike_50": 0.01,
+"hold": 0.71
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"1bddbb03217904ea": {
+"date": "2018-07-11",
+"ev": 0.85,
+"focus": 0.502,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.85,
+"hike_50": 0.0,
+"hold": 0.15
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"1c25d1e3708dc4c6": {
+"date": "2020-04-16",
+"ev": 0.0,
+"focus": 0.39,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"1c57353fd3803a59": {
+"date": "2024-10-29",
+"ev": -1.11,
+"focus": 0.583,
+"p": {
+"cut_25": 0.83,
+"cut_50": 0.14,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.03
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"1c6b76f2f1fa1010": {
+"date": "2021-01-20",
+"ev": 0.0,
+"focus": 0.73,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"1d4b65e794658097": {
+"date": "2023-10-25",
+"ev": 0.67,
+"focus": 0.507,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.65,
+"hike_50": 0.01,
+"hold": 0.34
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"1d57b803764029bd": {
+"date": "2017-04-12",
+"ev": 0.13,
+"focus": 0.415,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.11,
+"hike_50": 0.01,
+"hold": 0.88
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"1de58ba38e9d7f04": {
+"date": "2024-12-11",
+"ev": -1.09,
+"focus": 0.65,
+"p": {
+"cut_25": 0.89,
+"cut_50": 0.1,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.01
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"1e0b3675022868cf": {
+"date": "2023-02-16",
+"ev": 0.02,
+"focus": 0.805,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"1effa790e07beb47": {
+"date": "2018-09-27",
+"ev": 0.9,
+"focus": 0.59,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.9,
+"hike_50": 0.0,
+"hold": 0.1
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"2091326d8ea97101": {
+"date": "2024-10-23",
+"ev": -1.16,
+"focus": 0.552,
+"p": {
+"cut_25": 0.78,
+"cut_50": 0.19,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.03
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"20f36900d6f69251": {
+"date": "2020-10-28",
+"ev": 0.0,
+"focus": 0.682,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"217544c5f2d853e4": {
+"date": "2026-03-18",
+"ev": -0.01,
+"focus": 0.63,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"21ebcc60c297d8f6": {
+"date": "2023-12-07",
+"ev": 0.18,
+"focus": 0.465,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.16,
+"hike_50": 0.01,
+"hold": 0.83
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+},
+"231c72def89250cc": {
+"date": "2021-12-15",
+"ev": 0.14,
+"focus": 0.448,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.11,
+"hike_50": 0.02,
+"hold": 0.86
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"24d170ca49ad1182": {
+"date": "2024-05-02",
+"ev": -0.05,
+"focus": 0.195,
+"p": {
+"cut_25": 0.05,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.95
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"24fa5f0b6fb80e2e": {
+"date": "2018-09-08",
+"ev": 0.0,
+"focus": 0.135,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"252765042a002e78": {
+"date": "2022-11-23",
+"ev": 0.62,
+"focus": 0.318,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.4,
+"hike_50": 0.11,
+"hold": 0.49
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"26907160375767bd": {
+"date": "2020-04-15",
+"ev": -0.01,
+"focus": 0.453,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"284b991e707131b9": {
+"date": "2020-03-18",
+"ev": -0.39,
+"focus": 0.203,
+"p": {
+"cut_25": 0.07,
+"cut_50": 0.16,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.77
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"288c5129a4ec0f6c": {
+"date": "2023-07-12",
+"ev": 0.62,
+"focus": 0.64,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.62,
+"hike_50": 0.0,
+"hold": 0.38
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"28a1fdb0c64891e7": {
+"date": "2025-01-29",
+"ev": -0.57,
+"focus": 0.52,
+"p": {
+"cut_25": 0.57,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.43
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"291e195f60a2e665": {
+"date": "2018-03-01",
+"ev": 0.01,
+"focus": 0.258,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"2928a2f9ddb5bc88": {
+"date": "2026-05-06",
+"ev": 0.0,
+"focus": 0.165,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"2a25d657e5546a4a": {
+"date": "2025-08-26",
+"ev": -0.12,
+"focus": 0.247,
+"p": {
+"cut_25": 0.09,
+"cut_50": 0.02,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.88
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"2ae05b67f3d9e030": {
+"date": "2022-10-06",
+"ev": 1.51,
+"focus": 0.62,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.49,
+"hike_50": 0.51,
+"hold": 0.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"2b0d5f12e13879d4": {
+"date": "2026-07-15",
+"ev": -0.02,
+"focus": 0.43,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"2cdff691c25de4b0": {
+"date": "2020-08-26",
+"ev": 0.0,
+"focus": 0.223,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"2cea4cbd905524a8": {
+"date": "2016-04-19",
+"ev": -0.02,
+"focus": 0.335,
+"p": {
+"cut_25": 0.04,
+"cut_50": 0.01,
+"hike_25": 0.04,
+"hike_50": 0.0,
+"hold": 0.91
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"2d0f7fb9e7881124": {
+"date": "2018-04-18",
+"ev": 0.39,
+"focus": 0.517,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.39,
+"hike_50": 0.0,
+"hold": 0.61
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"2e4657a00fac4715": {
+"date": "2023-10-25",
+"ev": 0.19,
+"focus": 0.605,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.19,
+"hike_50": 0.0,
+"hold": 0.81
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"2e9b667c32f20645": {
+"date": "2019-04-08",
+"ev": 0.0,
+"focus": 0.193,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"2f6a33aab8d37186": {
+"date": "2019-04-01",
+"ev": -0.02,
+"focus": 0.307,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"30965fb28f01497c": {
+"date": "2023-11-09",
+"ev": -0.01,
+"focus": 0.24,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Carolyn Rogers",
+"type": "speech"
+},
+"3252f2b93eb90d74": {
+"date": "2025-12-10",
+"ev": 0.0,
+"focus": 0.48,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"33a11cf7ac5a2ba9": {
+"date": "2017-01-18",
+"ev": 0.01,
+"focus": 0.472,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"33cf75163eb8f97c": {
+"date": "2023-11-01",
+"ev": 0.37,
+"focus": 0.59,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.37,
+"hike_50": 0.0,
+"hold": 0.63
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"33ec8e03fc1ffadc": {
+"date": "2023-04-18",
+"ev": 0.42,
+"focus": 0.69,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.4,
+"hike_50": 0.01,
+"hold": 0.59
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"35521382fdee50df": {
+"date": "2018-06-27",
+"ev": 0.72,
+"focus": 0.403,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.7,
+"hike_50": 0.01,
+"hold": 0.29
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"35b8d32275f312c8": {
+"date": "2018-11-05",
+"ev": 0.93,
+"focus": 0.412,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.91,
+"hike_50": 0.01,
+"hold": 0.08
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"364d10e68a5740c7": {
+"date": "2026-09-21",
+"ev": 0.1,
+"focus": 0.547,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.11,
+"hike_50": 0.0,
+"hold": 0.88
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"365abc299eee5651": {
+"date": "2025-04-16",
+"ev": -0.16,
+"focus": 0.555,
+"p": {
+"cut_25": 0.16,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.84
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"36b51870c3f8972b": {
+"date": "2026-02-05",
+"ev": -0.07,
+"focus": 0.395,
+"p": {
+"cut_25": 0.07,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.93
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"36c4b5b06bc6101f": {
+"date": "2024-09-24",
+"ev": -1.0,
+"focus": 0.618,
+"p": {
+"cut_25": 0.96,
+"cut_50": 0.02,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.02
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"36f6d89dc1f4a1d5": {
+"date": "2025-06-04",
+"ev": -0.66,
+"focus": 0.502,
+"p": {
+"cut_25": 0.66,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.34
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"3756845f656138c2": {
+"date": "2023-04-20",
+"ev": 0.39,
+"focus": 0.69,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.37,
+"hike_50": 0.01,
+"hold": 0.62
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"387eec25b5a0d6e8": {
+"date": "2025-09-17",
+"ev": -0.47,
+"focus": 0.468,
+"p": {
+"cut_25": 0.47,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.53
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"388400245e12c965": {
+"date": "2020-05-01",
+"ev": -0.06,
+"focus": 0.185,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.02,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"38f37e81fc5444fd": {
+"date": "2019-03-14",
+"ev": 0.04,
+"focus": 0.21,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.05,
+"hike_50": 0.0,
+"hold": 0.94
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"3aa348a9306b1cf1": {
+"date": "2020-06-22",
+"ev": 0.0,
+"focus": 0.492,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"3eee10bec4cef9fe": {
+"date": "2022-04-25",
+"ev": 1.94,
+"focus": 0.72,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.06,
+"hike_50": 0.94,
+"hold": 0.0
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"3f8792870f5c5870": {
+"date": "2020-03-13",
+"ev": -1.14,
+"focus": 0.477,
+"p": {
+"cut_25": 0.26,
+"cut_50": 0.44,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.3
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"3f98da00c32b0749": {
+"date": "2017-09-14",
+"ev": 0.0,
+"focus": 0.182,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"404b70ee4f8c569e": {
+"date": "2026-11-03",
+"ev": 0.48,
+"focus": 0.53,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.48,
+"hike_50": 0.0,
+"hold": 0.52
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"40bae407ba9dd9e2": {
+"date": "2022-05-03",
+"ev": 1.17,
+"focus": 0.472,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.77,
+"hike_50": 0.2,
+"hold": 0.03
+},
+"speaker": "Carolyn Rogers",
+"type": "speech"
+},
+"40bf0c1593b8f124": {
+"date": "2018-05-16",
+"ev": 0.25,
+"focus": 0.33,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.23,
+"hike_50": 0.01,
+"hold": 0.76
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"412404eacbaeb02a": {
+"date": "2017-10-31",
+"ev": 0.06,
+"focus": 0.67,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.06,
+"hike_50": 0.0,
+"hold": 0.94
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"41eda589a62b8fa9": {
+"date": "2021-07-14",
+"ev": 0.0,
+"focus": 0.682,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"423a89d681e3d242": {
+"date": "2018-04-23",
+"ev": 0.33,
+"focus": 0.28,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.31,
+"hike_50": 0.01,
+"hold": 0.68
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"4335dd681c6bd782": {
+"date": "2023-04-12",
+"ev": 0.37,
+"focus": 0.682,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.35,
+"hike_50": 0.01,
+"hold": 0.64
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"449ed76697634c13": {
+"date": "2023-01-25",
+"ev": 0.03,
+"focus": 0.728,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.03,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"44c286eca9775715": {
+"date": "2017-11-01",
+"ev": 0.12,
+"focus": 0.525,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.12,
+"hike_50": 0.0,
+"hold": 0.88
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"45ed2f1dd8822e6c": {
+"date": "2017-06-12",
+"ev": 0.04,
+"focus": 0.568,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.04,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"45fb3b5473130e42": {
+"date": "2017-04-18",
+"ev": 0.01,
+"focus": 0.225,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"4684da0a5c149f36": {
+"date": "2022-04-13",
+"ev": 1.41,
+"focus": 0.552,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.57,
+"hike_50": 0.42,
+"hold": 0.01
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"46d00ee0907c8703": {
+"date": "2021-09-08",
+"ev": 0.0,
+"focus": 0.705,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"4704d358c8c431db": {
+"date": "2026-11-24",
+"ev": 0.18,
+"focus": 0.39,
+"p": {
+"cut_25": 0.06,
+"cut_50": 0.0,
+"hike_25": 0.22,
+"hike_50": 0.01,
+"hold": 0.71
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"486097f1887caf6f": {
+"date": "2025-04-16",
+"ev": -0.14,
+"focus": 0.405,
+"p": {
+"cut_25": 0.13,
+"cut_50": 0.01,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.85
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"4b11febd63985772": {
+"date": "2023-10-25",
+"ev": 0.13,
+"focus": 0.748,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.13,
+"hike_50": 0.0,
+"hold": 0.87
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"4c0dd21853a164bf": {
+"date": "2021-05-13",
+"ev": 0.0,
+"focus": 0.383,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"4c9f41b37e9d5e55": {
+"date": "2017-03-21",
+"ev": 0.01,
+"focus": 0.32,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"4cb6be84c11f92d8": {
+"date": "2026-09-02",
+"ev": 0.15,
+"focus": 0.5,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.18,
+"hike_50": 0.0,
+"hold": 0.79
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"4d165d429f0fc05f": {
+"date": "2021-10-27",
+"ev": 0.0,
+"focus": 0.647,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"4d8010c56b667ef7": {
+"date": "2023-03-08",
+"ev": 0.29,
+"focus": 0.565,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.29,
+"hike_50": 0.0,
+"hold": 0.71
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"4e156ea86872c228": {
+"date": "2022-03-02",
+"ev": 1.26,
+"focus": 0.645,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.7,
+"hike_50": 0.28,
+"hold": 0.02
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"4ff9b25d6e1f21a1": {
+"date": "2021-12-13",
+"ev": 0.08,
+"focus": 0.275,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.06,
+"hike_50": 0.01,
+"hold": 0.93
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"50264745e69be84b": {
+"date": "2016-10-24",
+"ev": -0.05,
+"focus": 0.465,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.02,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.93
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"5182dbc391674f96": {
+"date": "2020-09-10",
+"ev": 0.0,
+"focus": 0.583,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"521c61772515cbcb": {
+"date": "2016-06-04",
+"ev": -0.05,
+"focus": 0.172,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"529a61924f91f8d2": {
+"date": "2019-09-04",
+"ev": -0.1,
+"focus": 0.405,
+"p": {
+"cut_25": 0.1,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.9
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"52bc2f9a7c6979f7": {
+"date": "2020-12-15",
+"ev": 0.0,
+"focus": 0.228,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"52d0ef75a6118500": {
+"date": "2020-04-16",
+"ev": -0.05,
+"focus": 0.287,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"55f3f710b669ed0d": {
+"date": "2025-04-16",
+"ev": -0.1,
+"focus": 0.635,
+"p": {
+"cut_25": 0.1,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.9
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"566ac0b9c02ce7a1": {
+"date": "2022-11-22",
+"ev": 1.08,
+"focus": 0.35,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.52,
+"hike_50": 0.28,
+"hold": 0.2
+},
+"speaker": "Carolyn Rogers",
+"type": "speech"
+},
+"569a1c81ad805c48": {
+"date": "2025-06-04",
+"ev": -0.75,
+"focus": 0.67,
+"p": {
+"cut_25": 0.75,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.25
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"56d79089be74c644": {
+"date": "2023-09-06",
+"ev": 0.47,
+"focus": 0.557,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.47,
+"hike_50": 0.0,
+"hold": 0.53
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"56f8789815f8cc02": {
+"date": "2026-10-28",
+"ev": 0.53,
+"focus": 0.568,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.53,
+"hike_50": 0.0,
+"hold": 0.47
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"5762ae7cfdcb74d5": {
+"date": "2026-09-02",
+"ev": 0.15,
+"focus": 0.53,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.15,
+"hike_50": 0.0,
+"hold": 0.85
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"57df2e63a4a5cc6f": {
+"date": "2023-03-29",
+"ev": 0.29,
+"focus": 0.315,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.25,
+"hike_50": 0.02,
+"hold": 0.73
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+},
+"58d598d6feda6c7f": {
+"date": "2022-12-08",
+"ev": 1.18,
+"focus": 0.61,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.38,
+"hike_50": 0.4,
+"hold": 0.22
+},
+"speaker": "Sharon Kozicki",
+"type": "speech"
+},
+"58d6edcc892cebb7": {
+"date": "2024-03-06",
+"ev": -0.17,
+"focus": 0.75,
+"p": {
+"cut_25": 0.17,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.83
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"59b8f6abc342d467": {
+"date": "2021-04-21",
+"ev": 0.0,
+"focus": 0.685,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"5a4188012f291750": {
+"date": "2024-04-10",
+"ev": -0.07,
+"focus": 0.458,
+"p": {
+"cut_25": 0.07,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.93
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"5a6c90d92d34e860": {
+"date": "2017-07-12",
+"ev": 0.65,
+"focus": 0.667,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.65,
+"hike_50": 0.0,
+"hold": 0.35
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"5c2f366306b50043": {
+"date": "2016-01-20",
+"ev": -0.26,
+"focus": 0.522,
+"p": {
+"cut_25": 0.24,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.75
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"5c4a14ee7c6525a2": {
+"date": "2017-11-15",
+"ev": 0.13,
+"focus": 0.48,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.11,
+"hike_50": 0.01,
+"hold": 0.88
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"5c6f5d7a1cbc6d83": {
+"date": "2017-05-24",
+"ev": 0.01,
+"focus": 0.393,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"5de1b352c018c241": {
+"date": "2020-06-16",
+"ev": 0.0,
+"focus": 0.583,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"5f8777bc1fae76e2": {
+"date": "2019-04-30",
+"ev": 0.0,
+"focus": 0.502,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"639ecf6d97545a17": {
+"date": "2026-03-26",
+"ev": 0.01,
+"focus": 0.34,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Carolyn Rogers",
+"type": "speech"
+},
+"656c11b1b0c5999f": {
+"date": "2022-11-01",
+"ev": 1.8,
+"focus": 0.642,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.2,
+"hike_50": 0.8,
+"hold": 0.0
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"656e006b9a374170": {
+"date": "2023-06-07",
+"ev": 0.77,
+"focus": 0.445,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.71,
+"hike_50": 0.03,
+"hold": 0.26
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"657c547fea50c313": {
+"date": "2017-12-06",
+"ev": 0.14,
+"focus": 0.535,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.14,
+"hike_50": 0.0,
+"hold": 0.86
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"67162fb05ef4daa5": {
+"date": "2020-06-03",
+"ev": 0.0,
+"focus": 0.5,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"67b3409c4c8602ad": {
+"date": "2017-12-14",
+"ev": 0.12,
+"focus": 0.468,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.12,
+"hike_50": 0.0,
+"hold": 0.88
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"67c87c722726be34": {
+"date": "2019-12-12",
+"ev": -0.07,
+"focus": 0.347,
+"p": {
+"cut_25": 0.05,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.94
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"684e2dc5e3f9e908": {
+"date": "2021-02-23",
+"ev": 0.0,
+"focus": 0.395,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"68909e4ed3e45d32": {
+"date": "2026-01-28",
+"ev": -0.04,
+"focus": 0.568,
+"p": {
+"cut_25": 0.04,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"695c8d295b1ce546": {
+"date": "2025-03-12",
+"ev": -0.21,
+"focus": 0.552,
+"p": {
+"cut_25": 0.21,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.79
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"695e5bb2cd4a7e61": {
+"date": "2018-01-17",
+"ev": 0.65,
+"focus": 0.532,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.65,
+"hike_50": 0.0,
+"hold": 0.35
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"69d0c866141b81ee": {
+"date": "2025-10-29",
+"ev": -0.05,
+"focus": 0.487,
+"p": {
+"cut_25": 0.05,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.95
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"69d649f3a0056118": {
+"date": "2021-10-27",
+"ev": 0.0,
+"focus": 0.667,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"6aa1b9111cdb775c": {
+"date": "2025-10-02",
+"ev": -0.47,
+"focus": 0.292,
+"p": {
+"cut_25": 0.42,
+"cut_50": 0.03,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.54
+},
+"speaker": "Rhys R. Mendes",
+"type": "speech"
+},
+"6b4a0fce86996f17": {
+"date": "2025-10-29",
+"ev": -0.16,
+"focus": 0.71,
+"p": {
+"cut_25": 0.16,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.84
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"6c62e8ecc7658aea": {
+"date": "2017-02-09",
+"ev": -0.04,
+"focus": 0.223,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.01,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.95
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"6c70fea2d35513fb": {
+"date": "2023-07-12",
+"ev": 0.39,
+"focus": 0.455,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.37,
+"hike_50": 0.01,
+"hold": 0.62
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"6cda494eb4f6d747": {
+"date": "2025-03-12",
+"ev": -0.25,
+"focus": 0.412,
+"p": {
+"cut_25": 0.26,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.73
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"6ce31b455d82e143": {
+"date": "2023-01-25",
+"ev": 0.05,
+"focus": 0.792,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.05,
+"hike_50": 0.0,
+"hold": 0.95
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"6db9f87e04682f18": {
+"date": "2024-01-24",
+"ev": -0.02,
+"focus": 0.458,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"6df87af10579d2ca": {
+"date": "2023-12-06",
+"ev": 0.45,
+"focus": 0.688,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.45,
+"hike_50": 0.0,
+"hold": 0.55
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"6e258d0022da2742": {
+"date": "2025-09-23",
+"ev": -0.46,
+"focus": 0.28,
+"p": {
+"cut_25": 0.42,
+"cut_50": 0.02,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.56
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"6ea377c445aa3265": {
+"date": "2017-10-25",
+"ev": 0.12,
+"focus": 0.688,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.12,
+"hike_50": 0.0,
+"hold": 0.88
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"6ee853333faaa799": {
+"date": "2020-06-16",
+"ev": 0.0,
+"focus": 0.217,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"6eeee7dfa150966e": {
+"date": "2018-04-25",
+"ev": 0.41,
+"focus": 0.535,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.41,
+"hike_50": 0.0,
+"hold": 0.59
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"700d58eff3168345": {
+"date": "2016-11-08",
+"ev": -0.06,
+"focus": 0.17,
+"p": {
+"cut_25": 0.04,
+"cut_50": 0.02,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.92
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"704183affadc9724": {
+"date": "2018-09-06",
+"ev": 0.7,
+"focus": 0.708,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.7,
+"hike_50": 0.0,
+"hold": 0.3
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"714983922e76a743": {
+"date": "2024-06-24",
+"ev": -0.74,
+"focus": 0.383,
+"p": {
+"cut_25": 0.72,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.27
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"72a41a6d1b5dd486": {
+"date": "2023-01-25",
+"ev": 0.08,
+"focus": 0.575,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.08,
+"hike_50": 0.0,
+"hold": 0.92
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"72c468e3d63c4ffe": {
+"date": "2021-09-09",
+"ev": 0.0,
+"focus": 0.693,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"7365a58b92d3a2ac": {
+"date": "2019-04-24",
+"ev": -0.03,
+"focus": 0.532,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"7376c41dd39d067e": {
+"date": "2017-01-18",
+"ev": 0.03,
+"focus": 0.388,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.03,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"7424428eeff50251": {
+"date": "2026-05-04",
+"ev": 0.08,
+"focus": 0.237,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.07,
+"hike_50": 0.01,
+"hold": 0.91
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"74a8958f1d217761": {
+"date": "2020-05-26",
+"ev": -0.01,
+"focus": 0.338,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"74ef9f606ba833a2": {
+"date": "2019-01-31",
+"ev": 0.02,
+"focus": 0.355,
+"p": {
+"cut_25": 0.05,
+"cut_50": 0.01,
+"hike_25": 0.09,
+"hike_50": 0.0,
+"hold": 0.85
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"74fdcba44463d0ed": {
+"date": "2020-03-27",
+"ev": -0.03,
+"focus": 0.362,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"7516b41c4a3f8385": {
+"date": "2024-04-10",
+"ev": -0.21,
+"focus": 0.73,
+"p": {
+"cut_25": 0.21,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.79
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"7630a1fe7d1c1ccb": {
+"date": "2018-12-06",
+"ev": 0.61,
+"focus": 0.59,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.59,
+"hike_50": 0.01,
+"hold": 0.4
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"7713ad7a88c8c767": {
+"date": "2026-05-26",
+"ev": -0.12,
+"focus": 0.287,
+"p": {
+"cut_25": 0.1,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.89
+},
+"speaker": "Nicolas Vincent",
+"type": "speech"
+},
+"779b841fe9ad39fc": {
+"date": "2017-05-04",
+"ev": -0.02,
+"focus": 0.425,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"77bacf4dc9047377": {
+"date": "2023-11-22",
+"ev": 0.54,
+"focus": 0.542,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.4,
+"hike_50": 0.07,
+"hold": 0.53
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"77bd4fc2448eb393": {
+"date": "2023-04-12",
+"ev": 0.38,
+"focus": 0.492,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.36,
+"hike_50": 0.01,
+"hold": 0.63
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"783c3d6f02198052": {
+"date": "2018-10-31",
+"ev": 0.77,
+"focus": 0.54,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.75,
+"hike_50": 0.01,
+"hold": 0.24
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"787f4ebf142d057d": {
+"date": "2023-09-06",
+"ev": 0.51,
+"focus": 0.73,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.51,
+"hike_50": 0.0,
+"hold": 0.49
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"7941c2565ccecd13": {
+"date": "2026-01-28",
+"ev": -0.03,
+"focus": 0.417,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"7a8d5704acd02ccf": {
+"date": "2024-06-13",
+"ev": -0.81,
+"focus": 0.35,
+"p": {
+"cut_25": 0.79,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.2
+},
+"speaker": "Sharon Kozicki",
+"type": "speech"
+},
+"7af0aabb35a0da45": {
+"date": "2022-09-08",
+"ev": 1.85,
+"focus": 0.682,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.15,
+"hike_50": 0.85,
+"hold": 0.0
+},
+"speaker": "Carolyn Rogers",
+"type": "speech"
+},
+"7b7a92d11b164384": {
+"date": "2018-12-05",
+"ev": 0.55,
+"focus": 0.603,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.55,
+"hike_50": 0.0,
+"hold": 0.45
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"7be21c549391e86c": {
+"date": "2022-10-26",
+"ev": 1.44,
+"focus": 0.565,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.54,
+"hike_50": 0.45,
+"hold": 0.01
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"7c6abe33a2a53125": {
+"date": "2018-05-01",
+"ev": 0.77,
+"focus": 0.705,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.75,
+"hike_50": 0.01,
+"hold": 0.24
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"7c830c74a641db3d": {
+"date": "2020-04-30",
+"ev": 0.0,
+"focus": 0.497,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"7ea63e1318d1cea9": {
+"date": "2020-01-22",
+"ev": -0.2,
+"focus": 0.468,
+"p": {
+"cut_25": 0.18,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.81
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"7f0b7a24385dda07": {
+"date": "2018-03-13",
+"ev": 0.44,
+"focus": 0.455,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.42,
+"hike_50": 0.01,
+"hold": 0.57
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"80d18d40c8c16d5c": {
+"date": "2016-03-09",
+"ev": 0.0,
+"focus": 0.458,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"80fc3e15e443c97c": {
+"date": "2024-01-24",
+"ev": 0.0,
+"focus": 0.752,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"8151f092d868db37": {
+"date": "2023-09-07",
+"ev": 0.56,
+"focus": 0.613,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.54,
+"hike_50": 0.01,
+"hold": 0.45
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"817d122f509a48f5": {
+"date": "2021-11-16",
+"ev": 0.01,
+"focus": 0.38,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"81d1fc2b132f50a8": {
+"date": "2016-01-07",
+"ev": -0.26,
+"focus": 0.355,
+"p": {
+"cut_25": 0.21,
+"cut_50": 0.03,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.75
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"81d256ef1c4a6925": {
+"date": "2024-01-24",
+"ev": 0.0,
+"focus": 0.705,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"838c6d91b2556220": {
+"date": "2017-04-13",
+"ev": 0.0,
+"focus": 0.31,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"83c274169379bf5c": {
+"date": "2017-10-03",
+"ev": 0.06,
+"focus": 0.235,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.07,
+"hike_50": 0.0,
+"hold": 0.92
+},
+"speaker": "Sylvain Leduc",
+"type": "speech"
+},
+"8541ffbf96c5bbc9": {
+"date": "2025-07-30",
+"ev": -0.44,
+"focus": 0.492,
+"p": {
+"cut_25": 0.44,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.56
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"85549636e47c94f2": {
+"date": "2025-09-17",
+"ev": -0.34,
+"focus": 0.445,
+"p": {
+"cut_25": 0.34,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.66
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"85fc474448477ebb": {
+"date": "2022-12-07",
+"ev": 0.92,
+"focus": 0.562,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.78,
+"hike_50": 0.07,
+"hold": 0.15
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"8632b228a87ee044": {
+"date": "2026-07-15",
+"ev": -0.1,
+"focus": 0.552,
+"p": {
+"cut_25": 0.08,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.91
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"86966ae901c47983": {
+"date": "2024-07-24",
+"ev": -0.52,
+"focus": 0.445,
+"p": {
+"cut_25": 0.52,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.48
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"86efadc76064174b": {
+"date": "2026-03-18",
+"ev": -0.09,
+"focus": 0.443,
+"p": {
+"cut_25": 0.12,
+"cut_50": 0.0,
+"hike_25": 0.03,
+"hike_50": 0.0,
+"hold": 0.85
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"880a22fbbe11e6d9": {
+"date": "2020-11-26",
+"ev": 0.0,
+"focus": 0.74,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"8811e7ecbf2f0287": {
+"date": "2016-12-07",
+"ev": 0.01,
+"focus": 0.412,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"887351f27f55da5d": {
+"date": "2025-10-29",
+"ev": -0.02,
+"focus": 0.453,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"8a003fbbe9abbeba": {
+"date": "2018-08-25",
+"ev": 0.55,
+"focus": 0.51,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.55,
+"hike_50": 0.0,
+"hold": 0.45
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"8a54f4477d14c6e9": {
+"date": "2025-01-29",
+"ev": -0.45,
+"focus": 0.455,
+"p": {
+"cut_25": 0.45,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.55
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"8df839855fd653b2": {
+"date": "2025-12-16",
+"ev": 0.0,
+"focus": 0.352,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"8ec84416a3127a39": {
+"date": "2026-01-28",
+"ev": -0.05,
+"focus": 0.525,
+"p": {
+"cut_25": 0.05,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.95
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"8fb8538bbdf58ecc": {
+"date": "2024-09-20",
+"ev": 0.0,
+"focus": 0.25,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"8ff5f307a9e530c0": {
+"date": "2022-07-13",
+"ev": 1.59,
+"focus": 0.698,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.39,
+"hike_50": 0.6,
+"hold": 0.01
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"90375f7a61e68d43": {
+"date": "2016-09-08",
+"ev": -0.11,
+"focus": 0.233,
+"p": {
+"cut_25": 0.09,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.9
+},
+"speaker": "Timothy Lane",
+"type": "speech"
+},
+"90549064b8354eee": {
+"date": "2016-09-20",
+"ev": -0.1,
+"focus": 0.435,
+"p": {
+"cut_25": 0.08,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.91
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"90ff93364d7a0846": {
+"date": "2020-01-22",
+"ev": -0.05,
+"focus": 0.725,
+"p": {
+"cut_25": 0.05,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.95
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"92111974366fadbd": {
+"date": "2020-03-15",
+"ev": -1.21,
+"focus": 0.53,
+"p": {
+"cut_25": 0.27,
+"cut_50": 0.47,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.26
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"92adc00f60ffeb83": {
+"date": "2016-09-07",
+"ev": -0.01,
+"focus": 0.425,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"936a1925681da19e": {
+"date": "2026-06-23",
+"ev": 0.0,
+"focus": 0.01,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"93a35be97ea52496": {
+"date": "2025-06-05",
+"ev": -0.21,
+"focus": 0.297,
+"p": {
+"cut_25": 0.21,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.79
+},
+"speaker": "Sharon Kozicki",
+"type": "speech"
+},
+"93b598b9ad1ff16c": {
+"date": "2020-11-12",
+"ev": -0.01,
+"focus": 0.27,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"9450e91de7253d08": {
+"date": "2026-06-10",
+"ev": 0.01,
+"focus": 0.69,
+"p": {
+"cut_25": 0.04,
+"cut_50": 0.0,
+"hike_25": 0.05,
+"hike_50": 0.0,
+"hold": 0.91
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"9465c8af3c6cc8ce": {
+"date": "2019-05-29",
+"ev": 0.0,
+"focus": 0.495,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"9477f73fe9f9a8d9": {
+"date": "2025-12-10",
+"ev": -0.01,
+"focus": 0.598,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"95ddba1a7aa64298": {
+"date": "2022-01-26",
+"ev": 0.75,
+"focus": 0.863,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.71,
+"hike_50": 0.02,
+"hold": 0.27
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"96425b9a40423d4c": {
+"date": "2016-07-13",
+"ev": -0.01,
+"focus": 0.323,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"978c7259c546873f": {
+"date": "2016-10-24",
+"ev": -0.01,
+"focus": 0.675,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"97db3d7e4007be87": {
+"date": "2022-01-26",
+"ev": 0.68,
+"focus": 0.64,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.64,
+"hike_50": 0.02,
+"hold": 0.34
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"988f326110503435": {
+"date": "2021-12-09",
+"ev": 0.0,
+"focus": 0.568,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+},
+"98ae73df0f15c635": {
+"date": "2025-03-12",
+"ev": -0.33,
+"focus": 0.635,
+"p": {
+"cut_25": 0.33,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.67
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"98eacb48bb3ef6d4": {
+"date": "2026-04-29",
+"ev": 0.0,
+"focus": 0.73,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"99164bd9a73ff3d1": {
+"date": "2022-03-03",
+"ev": 0.31,
+"focus": 0.223,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.21,
+"hike_50": 0.05,
+"hold": 0.74
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"998f4a305165966a": {
+"date": "2017-07-12",
+"ev": 0.49,
+"focus": 0.517,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.49,
+"hike_50": 0.0,
+"hold": 0.51
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"9b20ee1561ad0898": {
+"date": "2025-02-06",
+"ev": -0.01,
+"focus": 0.275,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"9be46c095a53cf88": {
+"date": "2018-10-25",
+"ev": 0.0,
+"focus": 0.13,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"9beb6caee3ce541f": {
+"date": "2025-03-20",
+"ev": -0.17,
+"focus": 0.47,
+"p": {
+"cut_25": 0.19,
+"cut_50": 0.02,
+"hike_25": 0.04,
+"hike_50": 0.01,
+"hold": 0.74
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"9c06636c884d90cb": {
+"date": "2022-04-25",
+"ev": 0.94,
+"focus": 0.403,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.64,
+"hike_50": 0.15,
+"hold": 0.21
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"9d0e9832a09041ea": {
+"date": "2021-04-27",
+"ev": 0.0,
+"focus": 0.765,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"9d1adfde4b42c44e": {
+"date": "2022-06-01",
+"ev": 1.62,
+"focus": 0.598,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.38,
+"hike_50": 0.62,
+"hold": 0.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"9d8f94b539a45809": {
+"date": "2026-06-10",
+"ev": 0.06,
+"focus": 0.71,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.07,
+"hike_50": 0.0,
+"hold": 0.92
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"9e0c591f32b0c222": {
+"date": "2024-03-21",
+"ev": -0.07,
+"focus": 0.295,
+"p": {
+"cut_25": 0.07,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.93
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+},
+"9ebdf6744124e0d9": {
+"date": "2020-12-10",
+"ev": 0.0,
+"focus": 0.618,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Paul Beaudry",
+"type": "speech"
+},
+"9f97ade9fe9e5295": {
+"date": "2023-05-04",
+"ev": 0.37,
+"focus": 0.575,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.35,
+"hike_50": 0.01,
+"hold": 0.64
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"9faa6d11779f7788": {
+"date": "2022-12-12",
+"ev": 1.35,
+"focus": 0.62,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.37,
+"hike_50": 0.49,
+"hold": 0.14
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"a0fae09b0117f492": {
+"date": "2025-09-17",
+"ev": -0.35,
+"focus": 0.55,
+"p": {
+"cut_25": 0.35,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.65
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"a21b5a2720b8a29b": {
+"date": "2016-11-01",
+"ev": 0.0,
+"focus": 0.198,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"a2764e9945dd8afc": {
+"date": "2017-09-14",
+"ev": 0.0,
+"focus": 0.17,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"a382adb19f92d13f": {
+"date": "2025-02-21",
+"ev": -0.08,
+"focus": 0.403,
+"p": {
+"cut_25": 0.14,
+"cut_50": 0.02,
+"hike_25": 0.08,
+"hike_50": 0.01,
+"hold": 0.75
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"a465e2e4de51c323": {
+"date": "2023-03-09",
+"ev": 0.09,
+"focus": 0.627,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.09,
+"hike_50": 0.0,
+"hold": 0.91
+},
+"speaker": "Carolyn Rogers",
+"type": "speech"
+},
+"a535fb4c76359d5b": {
+"date": "2026-09-29",
+"ev": 0.0,
+"focus": 0.16,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+},
+"a74aca86e7c5121d": {
+"date": "2026-11-18",
+"ev": 0.28,
+"focus": 0.365,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.23,
+"hike_50": 0.03,
+"hold": 0.73
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+},
+"a7908342889bfd47": {
+"date": "2025-11-05",
+"ev": -0.06,
+"focus": 0.26,
+"p": {
+"cut_25": 0.04,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.95
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"a86b5db9a931c9e4": {
+"date": "2026-05-04",
+"ev": 0.02,
+"focus": 0.713,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.03,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"a96f9a6f96b83e88": {
+"date": "2019-04-30",
+"ev": 0.21,
+"focus": 0.265,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.19,
+"hike_50": 0.01,
+"hold": 0.8
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"aa3dd15dbbf66185": {
+"date": "2024-12-16",
+"ev": -0.59,
+"focus": 0.56,
+"p": {
+"cut_25": 0.45,
+"cut_50": 0.07,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.48
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"ab64b8a0c75ddb11": {
+"date": "2019-02-21",
+"ev": 0.23,
+"focus": 0.492,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.21,
+"hike_50": 0.01,
+"hold": 0.78
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"ab8b2021464454d9": {
+"date": "2024-07-24",
+"ev": -0.9,
+"focus": 0.642,
+"p": {
+"cut_25": 0.9,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.1
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"abc5f84f3cf2f75d": {
+"date": "2019-10-30",
+"ev": -0.08,
+"focus": 0.487,
+"p": {
+"cut_25": 0.08,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.92
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"ac32c91cb98cadf8": {
+"date": "2017-04-12",
+"ev": 0.02,
+"focus": 0.407,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"acad60dd22166db5": {
+"date": "2025-06-18",
+"ev": -0.61,
+"focus": 0.51,
+"p": {
+"cut_25": 0.61,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.39
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"acafa69eb871e5b9": {
+"date": "2020-03-05",
+"ev": -0.64,
+"focus": 0.595,
+"p": {
+"cut_25": 0.38,
+"cut_50": 0.13,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.49
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"adf2d031b3a9438b": {
+"date": "2016-11-16",
+"ev": -0.04,
+"focus": 0.25,
+"p": {
+"cut_25": 0.04,
+"cut_50": 0.01,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.93
+},
+"speaker": "Timothy Lane",
+"type": "speech"
+},
+"ae1b58ef6848dcb1": {
+"date": "2017-11-07",
+"ev": 0.01,
+"focus": 0.352,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.03,
+"hike_50": 0.0,
+"hold": 0.95
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"afafaac0910ad77f": {
+"date": "2020-03-13",
+"ev": -0.75,
+"focus": 0.302,
+"p": {
+"cut_25": 0.13,
+"cut_50": 0.31,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.56
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"b090ce3e2c5cc07e": {
+"date": "2024-06-12",
+"ev": -0.82,
+"focus": 0.468,
+"p": {
+"cut_25": 0.82,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.18
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"b287a9dda2e54037": {
+"date": "2025-07-30",
+"ev": -0.52,
+"focus": 0.52,
+"p": {
+"cut_25": 0.52,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.48
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"b2b770a02a99c475": {
+"date": "2016-11-28",
+"ev": -0.02,
+"focus": 0.275,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"b3a6ad0139eb7ac3": {
+"date": "2022-02-02",
+"ev": 0.78,
+"focus": 0.855,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.74,
+"hike_50": 0.02,
+"hold": 0.24
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"b419262b2c49db0e": {
+"date": "2022-02-16",
+"ev": 0.97,
+"focus": 0.545,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.77,
+"hike_50": 0.1,
+"hold": 0.13
+},
+"speaker": "Timothy Lane",
+"type": "speech"
+},
+"b41aa097e6904f3e": {
+"date": "2022-11-10",
+"ev": 1.3,
+"focus": 0.5,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.56,
+"hike_50": 0.37,
+"hold": 0.07
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"b46857d91d6e6a04": {
+"date": "2026-03-18",
+"ev": 0.02,
+"focus": 0.5,
+"p": {
+"cut_25": 0.05,
+"cut_50": 0.0,
+"hike_25": 0.07,
+"hike_50": 0.0,
+"hold": 0.88
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"b468fe2f55b9e6c9": {
+"date": "2016-04-13",
+"ev": 0.0,
+"focus": 0.325,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"b47a366dafc42a5f": {
+"date": "2022-04-13",
+"ev": 1.66,
+"focus": 0.77,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.34,
+"hike_50": 0.66,
+"hold": 0.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"b533c12b5ffdd762": {
+"date": "2016-06-15",
+"ev": -0.08,
+"focus": 0.343,
+"p": {
+"cut_25": 0.06,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.93
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"b5964a997df6298a": {
+"date": "2021-06-16",
+"ev": 0.0,
+"focus": 0.677,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"b5a6e3c866f9608d": {
+"date": "2022-11-14",
+"ev": 1.21,
+"focus": 0.365,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.41,
+"hike_50": 0.4,
+"hold": 0.19
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"b6a47665cf2a7452": {
+"date": "2024-12-11",
+"ev": -0.64,
+"focus": 0.555,
+"p": {
+"cut_25": 0.28,
+"cut_50": 0.18,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.54
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"b6cbb5ebc52f78b0": {
+"date": "2021-06-10",
+"ev": 0.0,
+"focus": 0.665,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Timothy Lane",
+"type": "speech"
+},
+"b7b1f0b01f66adaa": {
+"date": "2026-05-13",
+"ev": 0.0,
+"focus": 0.228,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Michelle Alexopoulos",
+"type": "speech"
+},
+"b8373962fde11fe3": {
+"date": "2023-12-06",
+"ev": 0.15,
+"focus": 0.5,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.17,
+"hike_50": 0.0,
+"hold": 0.81
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"b83aa17ac189e2ec": {
+"date": "2018-07-11",
+"ev": 0.89,
+"focus": 0.635,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.87,
+"hike_50": 0.01,
+"hold": 0.12
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"b8930e641423271a": {
+"date": "2019-03-07",
+"ev": 0.01,
+"focus": 0.495,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Lynn Patterson",
+"type": "speech"
+},
+"b91c0e65a4b83e6e": {
+"date": "2026-04-29",
+"ev": 0.0,
+"focus": 0.743,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"b9a14674da2b9a4e": {
+"date": "2022-10-26",
+"ev": 1.81,
+"focus": 0.593,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.17,
+"hike_50": 0.82,
+"hold": 0.01
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"ba21774b55eba9d0": {
+"date": "2023-06-07",
+"ev": 0.68,
+"focus": 0.632,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.64,
+"hike_50": 0.02,
+"hold": 0.34
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"bb0abb26c421a899": {
+"date": "2023-10-30",
+"ev": 0.11,
+"focus": 0.703,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.11,
+"hike_50": 0.0,
+"hold": 0.89
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"bbf753735a1c3648": {
+"date": "2019-07-10",
+"ev": -0.01,
+"focus": 0.398,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"bc0594c4b99734c1": {
+"date": "2018-03-08",
+"ev": 0.33,
+"focus": 0.675,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.33,
+"hike_50": 0.0,
+"hold": 0.67
+},
+"speaker": "Timothy Lane",
+"type": "speech"
+},
+"bdd5fec844f98f63": {
+"date": "2025-07-30",
+"ev": -0.6,
+"focus": 0.708,
+"p": {
+"cut_25": 0.6,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.4
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"bf34694aff929098": {
+"date": "2024-11-06",
+"ev": -0.91,
+"focus": 0.263,
+"p": {
+"cut_25": 0.89,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.1
+},
+"speaker": "Carolyn Rogers",
+"type": "speech"
+},
+"bfe38832656ee75f": {
+"date": "2020-01-30",
+"ev": -0.01,
+"focus": 0.27,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "Paul Beaudry",
+"type": "speech"
+},
+"c156530f928bb717": {
+"date": "2020-05-25",
+"ev": -0.02,
+"focus": 0.34,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.01,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"c1ae8f788efdbac4": {
+"date": "2017-04-12",
+"ev": 0.01,
+"focus": 0.427,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"c1dbdc71ef9ad3d5": {
+"date": "2023-02-07",
+"ev": 0.02,
+"focus": 0.667,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"c23850f5fba5a2ba": {
+"date": "2018-10-30",
+"ev": 0.83,
+"focus": 0.738,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.83,
+"hike_50": 0.0,
+"hold": 0.17
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"c2eaccb259d1a9ca": {
+"date": "2026-11-05",
+"ev": 0.51,
+"focus": 0.52,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.51,
+"hike_50": 0.0,
+"hold": 0.49
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"c526ae3c2cc9bff8": {
+"date": "2020-05-20",
+"ev": -0.01,
+"focus": 0.5,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Timothy Lane",
+"type": "speech"
+},
+"c5839362336f70e6": {
+"date": "2016-10-19",
+"ev": -0.02,
+"focus": 0.24,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"c5869e2e700c8d2d": {
+"date": "2025-06-04",
+"ev": -0.12,
+"focus": 0.48,
+"p": {
+"cut_25": 0.12,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.88
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"c5cd9cdaa3a8eceb": {
+"date": "2018-04-23",
+"ev": 0.39,
+"focus": 0.635,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.37,
+"hike_50": 0.01,
+"hold": 0.62
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"c64317abdc331de6": {
+"date": "2020-08-26",
+"ev": 0.0,
+"focus": 0.237,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"c6c747ba944df6d9": {
+"date": "2019-07-10",
+"ev": -0.02,
+"focus": 0.372,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"c71349d631a4b464": {
+"date": "2019-04-24",
+"ev": -0.03,
+"focus": 0.422,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"c89d443bf68f92a4": {
+"date": "2019-05-01",
+"ev": -0.01,
+"focus": 0.343,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"c91976c0a51a436c": {
+"date": "2024-10-30",
+"ev": -1.03,
+"focus": 0.6,
+"p": {
+"cut_25": 0.93,
+"cut_50": 0.05,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.02
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"ca03ea459a047066": {
+"date": "2018-01-17",
+"ev": 0.61,
+"focus": 0.718,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.61,
+"hike_50": 0.0,
+"hold": 0.39
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"cabc955c628c3b9a": {
+"date": "2019-12-04",
+"ev": -0.02,
+"focus": 0.505,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"cb937c23df90b192": {
+"date": "2016-10-19",
+"ev": -0.28,
+"focus": 0.603,
+"p": {
+"cut_25": 0.28,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.72
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"ccce423286fc944b": {
+"date": "2023-12-15",
+"ev": 0.01,
+"focus": 0.695,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"cd0d87c876a576d9": {
+"date": "2020-01-09",
+"ev": 0.03,
+"focus": 0.255,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.06,
+"hike_50": 0.0,
+"hold": 0.91
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"cd0ddc29afb32330": {
+"date": "2019-09-05",
+"ev": -0.05,
+"focus": 0.468,
+"p": {
+"cut_25": 0.04,
+"cut_50": 0.01,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.94
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"cd5d8817d0e01e13": {
+"date": "2024-06-05",
+"ev": -0.7,
+"focus": 0.73,
+"p": {
+"cut_25": 0.7,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.3
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"ce680c17959a6ae3": {
+"date": "2021-03-11",
+"ev": 0.0,
+"focus": 0.578,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"cec24c8364469e79": {
+"date": "2026-05-06",
+"ev": 0.07,
+"focus": 0.66,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.06,
+"hike_50": 0.01,
+"hold": 0.92
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"cf3f278b4746d1f6": {
+"date": "2022-06-09",
+"ev": 1.4,
+"focus": 0.28,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.52,
+"hike_50": 0.44,
+"hold": 0.04
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"cfc74338123d91ba": {
+"date": "2017-04-12",
+"ev": 0.0,
+"focus": 0.557,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"d10c553b90f1a617": {
+"date": "2018-05-30",
+"ev": 0.9,
+"focus": 0.55,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.9,
+"hike_50": 0.0,
+"hold": 0.1
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"d2cf7bee408078f5": {
+"date": "2016-06-02",
+"ev": -0.11,
+"focus": 0.27,
+"p": {
+"cut_25": 0.09,
+"cut_50": 0.02,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.87
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"d2fb2cdb952758ff": {
+"date": "2021-10-07",
+"ev": 0.0,
+"focus": 0.077,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"d41ec654a018999a": {
+"date": "2020-11-26",
+"ev": 0.0,
+"focus": 0.645,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"d5e0e468002b6adc": {
+"date": "2022-06-02",
+"ev": 1.91,
+"focus": 0.728,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.07,
+"hike_50": 0.92,
+"hold": 0.01
+},
+"speaker": "Paul Beaudry",
+"type": "speech"
+},
+"d6859a4f1588c31e": {
+"date": "2024-12-11",
+"ev": -0.51,
+"focus": 0.63,
+"p": {
+"cut_25": 0.43,
+"cut_50": 0.04,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.53
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"d6c7140a85bc7140": {
+"date": "2025-01-29",
+"ev": -0.24,
+"focus": 0.525,
+"p": {
+"cut_25": 0.24,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.76
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"d7d42a52d2139ccb": {
+"date": "2024-05-01",
+"ev": -0.32,
+"focus": 0.657,
+"p": {
+"cut_25": 0.32,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.68
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"d7e87625de34cba0": {
+"date": "2017-10-31",
+"ev": 0.06,
+"focus": 0.273,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.07,
+"hike_50": 0.0,
+"hold": 0.92
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"d858ba630b039e42": {
+"date": "2025-11-05",
+"ev": -0.01,
+"focus": 0.532,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"d99a08bef2ce3877": {
+"date": "2022-04-27",
+"ev": 1.65,
+"focus": 0.755,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.35,
+"hike_50": 0.65,
+"hold": 0.0
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"da49edd71bb1c551": {
+"date": "2026-10-28",
+"ev": 0.65,
+"focus": 0.475,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.65,
+"hike_50": 0.0,
+"hold": 0.35
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"da6e2754df50d0f7": {
+"date": "2026-07-15",
+"ev": -0.04,
+"focus": 0.393,
+"p": {
+"cut_25": 0.04,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"dc4ce3b543e31920": {
+"date": "2017-03-01",
+"ev": 0.0,
+"focus": 0.487,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"dc51272fd13c9bad": {
+"date": "2022-11-23",
+"ev": 1.85,
+"focus": 0.662,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.13,
+"hike_50": 0.86,
+"hold": 0.01
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"dc858b8ef948c08b": {
+"date": "2026-10-01",
+"ev": -0.01,
+"focus": 0.19,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Carolyn Rogers",
+"type": "speech"
+},
+"ddf5d34737091416": {
+"date": "2016-04-20",
+"ev": -0.36,
+"focus": 0.455,
+"p": {
+"cut_25": 0.31,
+"cut_50": 0.03,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.65
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"dfef61a39285f54c": {
+"date": "2019-12-05",
+"ev": 0.0,
+"focus": 0.585,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Timothy Lane",
+"type": "speech"
+},
+"dff72f67dadc09c3": {
+"date": "2017-09-27",
+"ev": 0.58,
+"focus": 0.69,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.58,
+"hike_50": 0.0,
+"hold": 0.42
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"e00c1110cf354d72": {
+"date": "2019-01-09",
+"ev": 0.43,
+"focus": 0.507,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.43,
+"hike_50": 0.0,
+"hold": 0.57
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"e0663c83d096b1bd": {
+"date": "2024-10-23",
+"ev": -1.2,
+"focus": 0.603,
+"p": {
+"cut_25": 0.74,
+"cut_50": 0.23,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.03
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"e0a229b0d8334d8b": {
+"date": "2024-09-04",
+"ev": -0.56,
+"focus": 0.417,
+"p": {
+"cut_25": 0.56,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.44
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"e10e4ddf7d8e630d": {
+"date": "2022-03-25",
+"ev": 1.22,
+"focus": 0.547,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.76,
+"hike_50": 0.23,
+"hold": 0.01
+},
+"speaker": "Sharon Kozicki",
+"type": "speech"
+},
+"e2523efb111f3a91": {
+"date": "2016-04-26",
+"ev": -0.01,
+"focus": 0.233,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"e29a1dc4355355f2": {
+"date": "2020-06-18",
+"ev": -0.03,
+"focus": 0.28,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"e373dd2db8be1377": {
+"date": "2020-02-05",
+"ev": 0.07,
+"focus": 0.285,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.06,
+"hike_50": 0.01,
+"hold": 0.92
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"e40204460eccace4": {
+"date": "2016-10-19",
+"ev": 0.0,
+"focus": 0.465,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"e49b8f840925a386": {
+"date": "2024-03-26",
+"ev": -0.08,
+"focus": 0.237,
+"p": {
+"cut_25": 0.07,
+"cut_50": 0.01,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.91
+},
+"speaker": "Carolyn Rogers",
+"type": "speech"
+},
+"e50c303337caf507": {
+"date": "2022-03-03",
+"ev": 0.95,
+"focus": 0.675,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.91,
+"hike_50": 0.02,
+"hold": 0.07
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"e66c242c607d19e8": {
+"date": "2024-02-01",
+"ev": -0.01,
+"focus": 0.79,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"e7e1e13457e5f728": {
+"date": "2019-10-30",
+"ev": 0.01,
+"focus": 0.545,
+"p": {
+"cut_25": 0.02,
+"cut_50": 0.0,
+"hike_25": 0.03,
+"hike_50": 0.0,
+"hold": 0.95
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"e8877743876b35ff": {
+"date": "2019-06-17",
+"ev": 0.0,
+"focus": 0.155,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"e8a51df6b9c1a164": {
+"date": "2018-11-20",
+"ev": 0.09,
+"focus": 0.255,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.07,
+"hike_50": 0.01,
+"hold": 0.92
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"e8eb36dd34751933": {
+"date": "2024-06-05",
+"ev": -0.53,
+"focus": 0.405,
+"p": {
+"cut_25": 0.53,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.47
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"eab49659723ff84b": {
+"date": "2025-12-10",
+"ev": -0.01,
+"focus": 0.585,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"eaf59f7f09de51c9": {
+"date": "2019-03-06",
+"ev": -0.03,
+"focus": 0.562,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"ebc40a820ebb6f7e": {
+"date": "2018-03-07",
+"ev": 0.24,
+"focus": 0.605,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.24,
+"hike_50": 0.0,
+"hold": 0.76
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"ecc09349eee64a73": {
+"date": "2024-11-26",
+"ev": -1.12,
+"focus": 0.475,
+"p": {
+"cut_25": 0.84,
+"cut_50": 0.14,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.02
+},
+"speaker": "Rhys R. Mendes",
+"type": "speech"
+},
+"ee5648415b7bcf88": {
+"date": "2023-02-16",
+"ev": 0.31,
+"focus": 0.345,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.25,
+"hike_50": 0.03,
+"hold": 0.72
+},
+"speaker": "Paul Beaudry",
+"type": "speech"
+},
+"efbbd83ceadda5e5": {
+"date": "2016-04-05",
+"ev": -0.04,
+"focus": 0.247,
+"p": {
+"cut_25": 0.04,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.96
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"f0aba5e807135a66": {
+"date": "2023-03-08",
+"ev": 0.5,
+"focus": 0.703,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.48,
+"hike_50": 0.01,
+"hold": 0.51
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"f0ad7c8d00a68087": {
+"date": "2024-06-05",
+"ev": -0.8,
+"focus": 0.618,
+"p": {
+"cut_25": 0.8,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.2
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"f0d86dceec708608": {
+"date": "2024-04-10",
+"ev": -0.14,
+"focus": 0.718,
+"p": {
+"cut_25": 0.14,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.86
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"f1476fe819fde580": {
+"date": "2020-05-04",
+"ev": -0.01,
+"focus": 0.378,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.99
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "speech"
+},
+"f25c9f5ac87ffafe": {
+"date": "2016-02-08",
+"ev": -0.13,
+"focus": 0.24,
+"p": {
+"cut_25": 0.1,
+"cut_50": 0.02,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.87
+},
+"speaker": "Timothy Lane",
+"type": "speech"
+},
+"f2cd986ff42bc7be": {
+"date": "2025-01-16",
+"ev": 0.0,
+"focus": 0.225,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+},
+"f327b3652a8ffb79": {
+"date": "2026-04-29",
+"ev": -0.07,
+"focus": 0.39,
+"p": {
+"cut_25": 0.07,
+"cut_50": 0.01,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.9
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"f34812870646216d": {
+"date": "2024-05-02",
+"ev": -0.39,
+"focus": 0.812,
+"p": {
+"cut_25": 0.39,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.61
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"f3e3e86d16a6607b": {
+"date": "2022-02-09",
+"ev": 1.03,
+"focus": 0.482,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.83,
+"hike_50": 0.1,
+"hold": 0.07
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
+"f515274ee57f79d8": {
+"date": "2020-03-27",
+"ev": -0.03,
+"focus": 0.415,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.01,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "BoC Governing Council",
+"type": "mp_statement"
+},
+"f557f96ca41ee69a": {
+"date": "2021-12-08",
+"ev": 0.0,
+"focus": 0.615,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"f5fba5a77576b5b8": {
+"date": "2018-10-30",
+"ev": 0.76,
+"focus": 0.63,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.76,
+"hike_50": 0.0,
+"hold": 0.24
+},
+"speaker": "Carolyn A. Wilkins",
+"type": "testimony"
+},
+"f6b2438cc2dfc62c": {
+"date": "2016-05-25",
+"ev": 0.0,
+"focus": 0.417,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.98
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"f73dfc228974c8d9": {
+"date": "2016-04-13",
+"ev": 0.0,
+"focus": 0.357,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"f97172f07452f37e": {
+"date": "2016-04-19",
+"ev": -0.12,
+"focus": 0.477,
+"p": {
+"cut_25": 0.08,
+"cut_50": 0.02,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.9
+},
+"speaker": "Stephen S. Poloz",
+"type": "testimony"
+},
+"f97ed5205c1187fc": {
+"date": "2024-10-23",
+"ev": -1.07,
+"focus": 0.66,
+"p": {
+"cut_25": 0.89,
+"cut_50": 0.09,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.02
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"f9f4a1f44f460223": {
+"date": "2022-03-03",
+"ev": 0.95,
+"focus": 0.708,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.91,
+"hike_50": 0.02,
+"hold": 0.07
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"fa0558a92c43cc00": {
+"date": "2025-11-06",
+"ev": -0.06,
+"focus": 0.637,
+"p": {
+"cut_25": 0.06,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.94
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"fa49e9cb018f7073": {
+"date": "2022-05-12",
+"ev": 1.67,
+"focus": 0.72,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.33,
+"hike_50": 0.67,
+"hold": 0.0
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+},
+"fa4ce022936157bc": {
+"date": "2016-01-20",
+"ev": 0.0,
+"focus": 0.41,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"fa5f8506967ceb6d": {
+"date": "2018-09-05",
+"ev": 0.92,
+"focus": 0.54,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.92,
+"hike_50": 0.0,
+"hold": 0.08
+},
+"speaker": "BoC Governing Council",
+"type": "mp_announce"
+},
+"fb4dc73a3a51de64": {
+"date": "2016-03-30",
+"ev": -0.03,
+"focus": 0.29,
+"p": {
+"cut_25": 0.03,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "Lynn Patterson",
+"type": "speech"
+},
+"fc2adeeffe17a9c8": {
+"date": "2024-02-01",
+"ev": 0.03,
+"focus": 0.233,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.03,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"fc974d1fded0f139": {
+"date": "2017-01-31",
+"ev": -0.41,
+"focus": 0.347,
+"p": {
+"cut_25": 0.28,
+"cut_50": 0.07,
+"hike_25": 0.01,
+"hike_50": 0.0,
+"hold": 0.64
+},
+"speaker": "Stephen S. Poloz",
+"type": "speech"
+},
+"fe4d8b3d71ba4fbd": {
+"date": "2023-04-12",
+"ev": 0.43,
+"focus": 0.743,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.41,
+"hike_50": 0.01,
+"hold": 0.58
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"fe7103c753dba7eb": {
+"date": "2018-02-15",
+"ev": 0.01,
+"focus": 0.228,
+"p": {
+"cut_25": 0.01,
+"cut_50": 0.0,
+"hike_25": 0.02,
+"hike_50": 0.0,
+"hold": 0.97
+},
+"speaker": "Lawrence L. Schembri",
+"type": "speech"
+},
+"ff2dca4950e10f4b": {
+"date": "2024-10-29",
+"ev": -1.27,
+"focus": 0.703,
+"p": {
+"cut_25": 0.69,
+"cut_50": 0.29,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.02
+},
+"speaker": "Tiff Macklem",
+"type": "testimony"
+},
+"ff7d9a397fdf9355": {
+"date": "2024-07-24",
+"ev": -0.93,
+"focus": 0.665,
+"p": {
+"cut_25": 0.93,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 0.07
+},
+"speaker": "BoC Governing Council",
+"type": "mp_account"
+},
+"ffe5eb79fef1a481": {
+"date": "2023-02-16",
+"ev": 0.08,
+"focus": 0.44,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.06,
+"hike_50": 0.01,
+"hold": 0.93
+},
+"speaker": "Carolyn Rogers",
+"type": "testimony"
+},
+"fff03a7b9b598865": {
+"date": "2021-03-23",
+"ev": 0.0,
+"focus": 0.49,
+"p": {
+"cut_25": 0.0,
+"cut_50": 0.0,
+"hike_25": 0.0,
+"hike_50": 0.0,
+"hold": 1.0
+},
+"speaker": "Toni Gravelle",
+"type": "speech"
+}
+}
