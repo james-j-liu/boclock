@@ -176,14 +176,14 @@
   "selected": "2026-11-23",
   "method": "core structure kept as a bundle if significantly better than 'repeat the last decision'; each other input group kept only if it significantly lowers log loss on its own. Leave-one-year-out; paired bootstrap over announcements, 2000 draws, 95% interval."
  },
- "generated": "2026-11-23 18:56 UTC",
+ "generated": "2026-11-24 18:34 UTC",
  "last": {
   "date": "2026-10-28",
   "decision_bp": 25,
   "rate": 2.5
  },
  "next": "2026-12-09",
- "as_of": "2026-11-23",
+ "as_of": "2026-11-24",
  "probs": {
   "-25": 0.0406,
   "0": 0.4268,
@@ -202,7 +202,7 @@
  "features": {
   "council_level": 0.557,
   "council_gap": -0.443,
-  "member_level": 0.4,
+  "member_level": 0.34,
   "pace": 0.5,
   "moved_last": 1.0,
   "mpr_x_pace": -0.5,
@@ -210,11 +210,11 @@
   "run_len": 1.0,
   "paused_after_move": 0.0,
   "surprise": -1.25,
-  "oil": -1.838,
+  "oil": -1.963,
   "fed": 0.0,
-  "fx": 1.116,
-  "tone_council": 1.33,
-  "tone_members": 0.932
+  "fx": 1.072,
+  "tone_council": 1.335,
+  "tone_members": 1.091
  },
  "inputs": {
   "cpi_detail": [
@@ -227,8 +227,8 @@
    }
   ],
   "core_change_pp": -0.05,
-  "oil_pct": -18.4,
-  "usdcad_pct": 2.2,
+  "oil_pct": -19.6,
+  "usdcad_pct": 2.1,
   "fed_bp": 0,
   "mpr_meeting": false
  },
@@ -267,6 +267,12 @@
    "type": "speech",
    "speaker": "Toni Gravelle",
    "signal": 0.28
+  },
+  {
+   "date": "2026-11-24",
+   "type": "speech",
+   "speaker": "Tiff Macklem",
+   "signal": 0.18
   }
  ],
  "model": {
@@ -289,7 +295,7 @@
  },
  "backtest": {
   "since": "2001-01-01",
-  "recent_since": "2021-11-23",
+  "recent_since": "2021-11-24",
   "ladder": [
    {
     "model": "last decision only",

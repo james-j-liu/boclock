@@ -1441,6 +1441,20 @@
 "speaker": "BoC Governing Council",
 "type": "mp_announce"
 },
+"4704d358c8c431db": {
+"date": "2026-11-24",
+"ev": 0.18,
+"focus": 0.39,
+"p": {
+"cut_25": 0.06,
+"cut_50": 0.0,
+"hike_25": 0.22,
+"hike_50": 0.01,
+"hold": 0.71
+},
+"speaker": "Tiff Macklem",
+"type": "speech"
+},
 "486097f1887caf6f": {
 "date": "2025-04-16",
 "ev": -0.14,
